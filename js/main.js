@@ -1,7 +1,7 @@
 (function() {
     'use strict';
     angular
-        .module('starter', ['ui.router'])
+        .module('portfolio', ['ui.router'])
         .config(function($stateProvider, $urlRouterProvider) {
 
 	  	$urlRouterProvider.otherwise("/");
@@ -14,9 +14,9 @@
 		        templateUrl: '../views/home.html',
 		        controller: 'MainController',
 		        controllerAs: 'controller'
-		      }
+		      },
 		  },
-	    })
+	    });
 	});
 })();
 

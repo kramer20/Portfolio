@@ -1,8 +1,8 @@
 <!DOCTYPE html>
-<html lang='en' ng-app="starter">
+<html lang='en' ng-app="portfolio">
 <head>
      <meta charset='utf-8'>
-     <title>Starter Angular Site</title>
+     <title>Malorie Kramer Portfolio</title>
 
     <meta name='description' content='Starter Angular App'>
     <meta name='author' content='Jake Boyles'>
@@ -20,15 +20,110 @@
 </head>
 
 <body id="body">
-       
-    <div ui-view="main">
-    </div>
+
+        <div class="container-fluid">
+
+            <div class="row nav">
+                <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 logoCol">
+                    <img class="logo">
+                </div>
+
+                <div class="col-md-8 col-lg-8 navCol">
+                    
+                </div>
+            </div> 
+
+                <!--Work-->
+
+            <section id="work">
+                <div class="row work">
+                    <h1 class="workIntro">Hi! I'm Malorie, feel free to check out some of my work work work work work...</h1>
+                        <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                            <div class="image of work"></div>
+                                <div class="moreInfo">View More</div>
+                        </div>
+                         <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                            <div class="image of work"></div>
+                                <div class="moreInfo">View More</div>
+                        </div>
+                         <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                            <div class="image of work"></div>
+                                <div class="moreInfo">View More</div>
+                        </div>
+                </div>
+            </section> 
+
+                <!-- About -->
+
+            <section id="about">
+                <div class="row about">
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 aboutCol">
+                        <h1 class="aboutIntro">A little blurb about myself</h1>
+                    </div>
+                </div>
+            </section>  
+
+                <!-- Skills -->
+
+            <section id="skills">
+                <div class="row skills">
+                    <h1 class="skillsIntro">My Skills</h1>
+                        <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 socialSkills">
+                            <h2 class="socialSkillsTitle">Social</h2>
+                                <ul class="socialList">
+                                    <li class="socialItem">Friendly</li>
+                                    <li class="socialItem">Athleticism</li>
+                                    <li class="socialItem">Coordination</li>
+                                    <li class="socialItem">Works Well with Others</li>
+                                    <li class="socialItem">Energetic</li>
+                                    <li class="socialItem">Sense of Humor</li>
+                                </ul>
+                        </div> 
+                        <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 technicalSkills">
+                            <h2 class="technicalSkillsTitle">Technical</h2>
+                                <ul class="technicalList">
+                                    <li class="technicalItem">HTML 5</li>
+                                    <li class="technicalItem">CSS 3</li>
+                                    <li class="technicalItem">Bootstrap</li>
+                                    <li class="technicalItem">Javascript</li>
+                                    <li class="technicalItem">AngularJS</li>
+                                    <li class="technicalItem">Photoshop</li>
+                                </ul>
+                        </div> 
+                </div>
+            </section>  
+
+            <!-- Contact -->
+
+            <section id="contact">
+                <div class="row contact">
+                    <h1 class="contactIntro">Let's Connect</h1>
+                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 contactCol">
+                            <div class="contactLinks">
+                                <ul class="contactList">
+                                    <li class="emailItem">Email</li>
+                                    <li class="phoneItem">Phone</li>
+                                    <li class="twitterItem">Twitter</li>
+                                    <li class="linkedInItem">LinkedIn</li>
+                                    <li class="facebookItem">Facebook</li>
+                                </ul>
+                            </div>    
+                        </div> 
+                        
+                </div>
+            </section>    
 
 
-<!--link to JS file-->
-<script src="js/main.js"></script>
-<script src="js/factories/api.js"></script>
-<script src="js/directives/directive.js"></script>
-<script src="js/controllers/mainControl.js"></script>
+            <div class="row footer">
+              <div class="col-lg-12 col-md-12 col-sm-12 hidden-xs Foot">
+               
+              </div>
+            </div>
+      
+        </div>  
+    <!--link to JS file-->
+    <script src="js/main.js"></script>
+    <script src="js/factories/api.js"></script>
+    <script src="js/controllers/mainControl.js"></script>
 </body>
 </html>
