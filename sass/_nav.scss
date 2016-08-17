@@ -1,0 +1,18 @@
+ul.navList{
+	padding-top:6px;
+	text-align: center;
+	li.page-scroll{
+		display:inline;
+		padding:10px;
+		
+		a{
+		text-decoration: none;
+		color:$mainpurple;
+		font-size: 25px;
+		font-family: $fontOne;
+		&:focus {
+			outline:none;
+		}
+		}
+	}
+}

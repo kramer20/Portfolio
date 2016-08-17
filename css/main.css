@@ -1,0 +1,55 @@
+ul.navList {
+  padding-top: 6px;
+  text-align: center; }
+  ul.navList li.page-scroll {
+    display: inline;
+    padding: 10px; }
+    ul.navList li.page-scroll a {
+      text-decoration: none;
+      color: #6A2CB4;
+      font-size: 25px;
+      font-family: "Shadows Into Light", cursive; }
+      ul.navList li.page-scroll a:focus {
+        outline: none; }
+
+h1.workIntro {
+  position: relative;
+  width: 234px;
+  height: 200px;
+  text-align: center;
+  line-height: 100px;
+  background-color: #fff;
+  border: 8px solid #666;
+  border-radius: 145px;
+  box-shadow: 2px 2px 4px #888;
+  margin-left: 40px; }
+
+h1.workIntro:before, h1.workIntro:after {
+  content: ' ';
+  margin-left: 102px;
+  margin-top: 140px;
+  width: 81px;
+  height: 81px;
+  background-color: #fff;
+  border: 8px solid #666;
+  border-radius: 58px;
+  position: absolute; }
+
+h1.workIntro:after {
+  width: 52px;
+  height: 52px;
+  margin-left: -76px;
+  margin-top: 181px;
+  border-radius: 58px;
+  position: absolute; }
+
+body {
+  background-color: #F2F4F7; }
+
+.nav {
+  border-bottom: 1px solid #d2d9e4; }
+
+h1 {
+  color: #6A2CB4;
+  font-family: "Shadows Into Light", cursive;
+  font-size: 10px; }

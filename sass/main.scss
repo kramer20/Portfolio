@@ -1,3 +1,27 @@
 $mainpurple: #6A2CB4;
+$lightgray: #F2F4F7;
+$fontOne:'Shadows Into Light', cursive;
 
 @import 'nav';
+@import 'work';
+@import 'skills';
+@import 'about';
+@import 'contact';
+@import 'thoughtBubbles';
+
+body {
+	background-color:$lightgray;
+}
+
+.nav{
+	border-bottom:1px solid darken($lightgray,10);
+}
+
+h1{
+	color:$mainpurple;
+	// text-align:center;
+	font-family:$fontOne;
+	font-size:10px;
+	// padding:20px;
+}
+
