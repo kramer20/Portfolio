@@ -25,12 +25,13 @@ ul.navList {
   border-radius: 145px;
   box-shadow: 2px 2px 4px #888;
   margin-left: 154px;
+  margin: 0 auto;
   margin-top: 30px;
   margin-bottom: 30px; }
 
 .workBubble:before, .workBubble:after {
   content: ' ';
-  margin-left: 70px;
+  margin-left: -153px;
   margin-top: 140px;
   width: 81px;
   height: 81px;
@@ -42,7 +43,7 @@ ul.navList {
 .workBubble:after {
   width: 52px;
   height: 52px;
-  margin-left: 132px;
+  margin-left: -176px;
   margin-top: 14px;
   border-radius: 58px;
   position: absolute; }
