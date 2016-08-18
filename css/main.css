@@ -1,40 +1,36 @@
 ul.navList {
   padding-top: 6px;
-  text-align: center; }
+  text-align: right; }
   ul.navList li.page-scroll {
     display: inline;
     padding: 10px; }
     ul.navList li.page-scroll a {
       text-decoration: none;
-      color: #6A2CB4;
+      color: #666666;
       font-size: 25px;
       font-family: "Shadows Into Light", cursive; }
       ul.navList li.page-scroll a:focus {
         outline: none; }
+      ul.navList li.page-scroll a:hover {
+        border-bottom: 2px solid #6A2CB4; }
 
-h1.workIntro:after {
-  width: 52px;
-  height: 52px;
-  margin-left: -76px;
-  margin-top: 181px;
-  border-radius: 58px;
-  position: absolute; }
-
-h1.aboutIntro {
+.workBubble {
   position: relative;
-  width: 234px;
-  height: 200px;
+  width: 285px;
+  height: 217px;
   text-align: center;
   line-height: 100px;
   background-color: #fff;
   border: 8px solid #666;
   border-radius: 145px;
   box-shadow: 2px 2px 4px #888;
-  margin-left: 40px; }
+  margin-left: 154px;
+  margin-top: 30px;
+  margin-bottom: 30px; }
 
-h1.aboutIntro:before, h1.aboutIntro:after {
+.workBubble:before, .workBubble:after {
   content: ' ';
-  margin-left: 102px;
+  margin-left: 70px;
   margin-top: 140px;
   width: 81px;
   height: 81px;
@@ -43,83 +39,24 @@ h1.aboutIntro:before, h1.aboutIntro:after {
   border-radius: 58px;
   position: absolute; }
 
-h1.aboutIntro:after {
+.workBubble:after {
   width: 52px;
   height: 52px;
-  margin-left: -76px;
-  margin-top: 181px;
+  margin-left: 132px;
+  margin-top: 14px;
   border-radius: 58px;
   position: absolute; }
 
-h1.skillsIntro {
-  position: relative;
-  width: 234px;
-  height: 200px;
-  text-align: center;
-  line-height: 100px;
-  background-color: #fff;
-  border: 8px solid #666;
-  border-radius: 145px;
-  box-shadow: 2px 2px 4px #888;
-  margin-left: 40px; }
-
-h1.skillsIntro:before, h1.skillsIntro:after {
-  content: ' ';
-  margin-left: 102px;
-  margin-top: 140px;
-  width: 81px;
-  height: 81px;
-  background-color: #fff;
-  border: 8px solid #666;
-  border-radius: 58px;
-  position: absolute; }
-
-h1.skillsIntro:after {
-  width: 52px;
-  height: 52px;
-  margin-left: -76px;
-  margin-top: 181px;
-  border-radius: 58px;
-  position: absolute; }
-
-h1.contactIntro {
-  position: relative;
-  width: 234px;
-  height: 200px;
-  text-align: center;
-  line-height: 100px;
-  background-color: #fff;
-  border: 8px solid #666;
-  border-radius: 145px;
-  box-shadow: 2px 2px 4px #888;
-  margin-left: 40px; }
-
-h1.contactIntro:before, h1.contactIntro:after {
-  content: ' ';
-  margin-left: 102px;
-  margin-top: 140px;
-  width: 81px;
-  height: 81px;
-  background-color: #fff;
-  border: 8px solid #666;
-  border-radius: 58px;
-  position: absolute; }
-
-h1.contactIntro:after {
-  width: 52px;
-  height: 52px;
-  margin-left: -76px;
-  margin-top: 181px;
-  border-radius: 58px;
-  position: absolute; }
+img.logo {
+  width: 170px;
+  padding: 10px;
+  margin: 0 auto;
+  display: block; }
 
 body {
   background-color: #F2F4F7; }
 
-.nav {
-  border-bottom: 1px solid #d2d9e4; }
-
-h1 {
+h1.workIntro {
   color: #6A2CB4;
   font-family: "Shadows Into Light", cursive;
-  font-size: 10px; }
+  font-size: 37px; }

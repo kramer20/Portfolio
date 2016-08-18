@@ -1,17 +1,20 @@
 ul.navList{
 	padding-top:6px;
-	text-align: center;
+	text-align: right;
 	li.page-scroll{
 		display:inline;
 		padding:10px;
 		
 		a{
 		text-decoration: none;
-		color:$mainpurple;
+		color:$bubblegray;
 		font-size: 25px;
 		font-family: $fontOne;
 		&:focus {
 			outline:none;
+		}
+		&:hover {
+			border-bottom:2px solid $mainpurple;
 		}
 		}
 	}

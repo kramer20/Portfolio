@@ -1,6 +1,7 @@
 $mainpurple: #6A2CB4;
 $lightgray: #F2F4F7;
 $fontOne:'Shadows Into Light', cursive;
+$bubblegray:#666666;
 
 @import 'nav';
 @import 'work';
@@ -8,20 +9,21 @@ $fontOne:'Shadows Into Light', cursive;
 @import 'about';
 @import 'contact';
 @import 'thoughtBubbles';
+@import 'images';
 
 body {
 	background-color:$lightgray;
 }
 
-.nav{
-	border-bottom:1px solid darken($lightgray,10);
-}
+// .nav{
+// 	border-bottom:1px solid darken($lightgray,10);
+// }
 
-h1{
+h1.workIntro{
 	color:$mainpurple;
 	// text-align:center;
 	font-family:$fontOne;
-	font-size:10px;
+	font-size:37px;
+	
 	// padding:20px;
 }
-
