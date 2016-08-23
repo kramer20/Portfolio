@@ -1,20 +1,36 @@
+#navigation{
+	position:fixed;
+	width:100%;
+	background-color:$lightgray;
+	z-index:9999999;
+	
+	height:118px;
+}
+
+.logoCol{
+	margin-bottom:40px;
+}
 ul.navList{
-	padding-top:6px;
-	text-align: right;
+	
+	z-index:99999;
+	padding-top:64px;
+	text-align: center;
 	li.page-scroll{
 		display:inline;
-		padding:10px;
+		padding-left:40px;
 		
 		a{
 		text-decoration: none;
 		color:$bubblegray;
 		font-size: 25px;
 		font-family: $fontOne;
+		border-bottom:2px solid rgba(106,44,180,0);
 		&:focus {
 			outline:none;
 		}
 		&:hover {
-			border-bottom:2px solid $mainpurple;
+			border-bottom:2px solid rgba(106,44,180,1);
+			transition:border 2000ms ease;
 		}
 		}
 	}

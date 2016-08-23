@@ -1,18 +1,73 @@
+#navigation {
+  position: fixed;
+  width: 100%;
+  background-color: #F2F4F7;
+  z-index: 9999999;
+  height: 118px; }
+
+.logoCol {
+  margin-bottom: 40px; }
+
 ul.navList {
-  padding-top: 6px;
-  text-align: right; }
+  z-index: 99999;
+  padding-top: 64px;
+  text-align: center; }
   ul.navList li.page-scroll {
     display: inline;
-    padding: 10px; }
+    padding-left: 40px; }
     ul.navList li.page-scroll a {
       text-decoration: none;
       color: #666666;
       font-size: 25px;
-      font-family: "Shadows Into Light", cursive; }
+      font-family: "Shadows Into Light", cursive;
+      border-bottom: 2px solid rgba(106, 44, 180, 0); }
       ul.navList li.page-scroll a:focus {
         outline: none; }
       ul.navList li.page-scroll a:hover {
-        border-bottom: 2px solid #6A2CB4; }
+        border-bottom: 2px solid #6a2cb4;
+        transition: border 2000ms ease; }
+
+#work {
+  margin-top: 130px; }
+
+h1.workIntro {
+  color: #6A2CB4;
+  font-family: "Shadows Into Light", cursive;
+  font-size: 40px;
+  margin-top: 20px; }
+
+#contact {
+  margin-top: 130px; }
+
+h1.contactIntro {
+  color: #6A2CB4;
+  font-family: "Shadows Into Light", cursive;
+  font-size: 45px;
+  margin-top: 20px; }
+
+.contactLinks {
+  margin: 0 auto;
+  display: block;
+  width: 300px; }
+
+ul.contactList {
+  margin-top: 15px; }
+  ul.contactList li {
+    display: inline-block; }
+
+.emailItem, .phoneItem {
+  margin-top: 15px;
+  text-align: center;
+  font-family: "Shadows Into Light", cursive;
+  font-size: 30px; }
+  .emailItem a, .phoneItem a {
+    text-decoration: none;
+    color: #666666; }
+    .emailItem a:focus, .phoneItem a:focus {
+      outline: none; }
+    .emailItem a:hover, .phoneItem a:hover {
+      color: #6a2cb4;
+      transition: color 2000ms ease; }
 
 .workBubble {
   position: relative;
@@ -48,16 +103,50 @@ ul.navList {
   border-radius: 58px;
   position: absolute; }
 
+.contactBubble {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  position: relative;
+  width: 262px;
+  height: 174px;
+  text-align: center;
+  line-height: 100px;
+  background-color: #fff;
+  border: 8px solid #666;
+  border-radius: 145px;
+  box-shadow: 2px 2px 4px #888;
+  margin-left: 162px; }
+
+.contactBubble:before, .contactBubble:after {
+  content: ' ';
+  margin-left: 58px;
+  margin-top: 110px;
+  width: 68px;
+  height: 68px;
+  background-color: #fff;
+  border: 8px solid #666;
+  border-radius: 58px;
+  position: absolute; }
+
+.contactBubble:after {
+  width: 44px;
+  height: 44px;
+  margin-left: 108px;
+  margin-top: 6px;
+  border-radius: 58px;
+  position: absolute; }
+
 img.logo {
-  width: 170px;
-  padding: 10px;
+  width: 193px;
+  padding: 10px; }
+
+a:focus {
+  outline: none; }
+
+li img {
   margin: 0 auto;
-  display: block; }
+  width: 71px;
+  padding: 10px; }
 
 body {
   background-color: #F2F4F7; }
-
-h1.workIntro {
-  color: #6A2CB4;
-  font-family: "Shadows Into Light", cursive;
-  font-size: 37px; }
