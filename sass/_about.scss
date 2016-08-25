@@ -1,3 +1,13 @@
 .about {
+	margin-top:130px;
 	// background-color:darken($lightgray,10);
+}
+
+h1.aboutIntro{
+	color:$mainpurple;
+	text-align:center;
+	font-family:$fontOne;
+	font-size:20px;
+	margin-top:25px;
+	padding:25px;
 }

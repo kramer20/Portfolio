@@ -3,22 +3,22 @@
   width: 100%;
   background-color: #F2F4F7;
   z-index: 9999999;
-  height: 118px; }
+  height: 91px; }
 
 .logoCol {
   margin-bottom: 40px; }
 
 ul.navList {
   z-index: 99999;
-  padding-top: 64px;
+  padding-top: 30px;
   text-align: center; }
   ul.navList li.page-scroll {
     display: inline;
-    padding-left: 40px; }
+    padding-left: 30px; }
     ul.navList li.page-scroll a {
       text-decoration: none;
       color: #666666;
-      font-size: 25px;
+      font-size: 20px;
       font-family: "Shadows Into Light", cursive;
       border-bottom: 2px solid rgba(106, 44, 180, 0); }
       ul.navList li.page-scroll a:focus {
@@ -27,14 +27,46 @@ ul.navList {
         border-bottom: 2px solid #6a2cb4;
         transition: border 2000ms ease; }
 
+li.page-scroll img {
+  width: 52px;
+  margin-left: 50px; }
+  li.page-scroll img:hover {
+    transform: scale(1.7);
+    transition: 500ms ease; }
+
+ul.navList li.page-scroll:nth-child(5) a {
+  border-bottom: hidden; }
+  ul.navList li.page-scroll:nth-child(5) a:hover {
+    border-bottom: hidden; }
+
 #work {
   margin-top: 130px; }
 
 h1.workIntro {
   color: #6A2CB4;
   font-family: "Shadows Into Light", cursive;
-  font-size: 40px;
-  margin-top: 20px; }
+  font-size: 35px;
+  margin-top: 44px; }
+
+.skills {
+  margin-top: 130px; }
+
+h1.skillsIntro {
+  color: #6A2CB4;
+  font-family: "Shadows Into Light", cursive;
+  font-size: 45px;
+  margin-top: 30px; }
+
+.about {
+  margin-top: 130px; }
+
+h1.aboutIntro {
+  color: #6A2CB4;
+  text-align: center;
+  font-family: "Shadows Into Light", cursive;
+  font-size: 20px;
+  margin-top: 25px;
+  padding: 25px; }
 
 #contact {
   margin-top: 130px; }
@@ -69,10 +101,14 @@ ul.contactList {
       color: #6a2cb4;
       transition: color 2000ms ease; }
 
-.workBubble {
+.contactList img:hover {
+  transform: scale(1.2);
+  transition: 500ms ease; }
+
+.helloBubble {
   position: relative;
-  width: 285px;
-  height: 217px;
+  width: 453px;
+  height: 261px;
   text-align: center;
   line-height: 100px;
   background-color: #fff;
@@ -81,25 +117,124 @@ ul.contactList {
   box-shadow: 2px 2px 4px #888;
   margin-left: 154px;
   margin: 0 auto;
-  margin-top: 30px;
-  margin-bottom: 30px; }
+  margin-top: 130px; }
+
+.helloBubble:before, .helloBubble:after {
+  content: ' ';
+  margin-left: -187px;
+  margin-top: 211px;
+  width: 88px;
+  height: 88px;
+  background-color: #fff;
+  border: 8px solid #666;
+  border-radius: 58px;
+  position: absolute; }
+
+.helloBubble:after {
+  width: 52px;
+  height: 52px;
+  margin-left: -140px;
+  margin-top: 84px;
+  border-radius: 58px;
+  position: absolute; }
+
+.workBubble {
+  position: relative;
+  width: 299px;
+  height: 152px;
+  text-align: center;
+  line-height: 100px;
+  background-color: #fff;
+  border: 8px solid #666;
+  border-radius: 145px;
+  box-shadow: 2px 2px 4px #888;
+  float: right;
+  margin-right: 217px;
+  margin-top: 40px;
+  margin-bottom: 40px; }
 
 .workBubble:before, .workBubble:after {
   content: ' ';
-  margin-left: -153px;
-  margin-top: 140px;
-  width: 81px;
-  height: 81px;
+  margin-left: -166px;
+  margin-top: 95px;
+  width: 67px;
+  height: 67px;
   background-color: #fff;
   border: 8px solid #666;
   border-radius: 58px;
   position: absolute; }
 
 .workBubble:after {
-  width: 52px;
-  height: 52px;
-  margin-left: -176px;
-  margin-top: 14px;
+  width: 47px;
+  height: 47px;
+  margin-left: -181px;
+  margin-top: 40px;
+  border-radius: 58px;
+  position: absolute; }
+
+.aboutBubble {
+  position: relative;
+  width: 468px;
+  height: 265px;
+  text-align: center;
+  line-height: 100px;
+  background-color: #fff;
+  border: 8px solid #666;
+  border-radius: 145px;
+  box-shadow: 2px 2px 4px #888;
+  margin-left: 144px;
+  margin-top: 40px; }
+
+.aboutBubble:before, .aboutBubble:after {
+  content: ' ';
+  margin-left: 131px;
+  margin-top: 179px;
+  width: 110px;
+  height: 110px;
+  background-color: #fff;
+  border: 8px solid #666;
+  border-radius: 58px;
+  position: absolute; }
+
+.aboutBubble:after {
+  width: 60px;
+  height: 60px;
+  margin-left: 233px;
+  margin-top: 56px;
+  border-radius: 58px;
+  position: absolute; }
+
+.skillsBubble {
+  position: relative;
+  width: 246px;
+  height: 154px;
+  text-align: center;
+  line-height: 100px;
+  background-color: #fff;
+  border: 8px solid #666;
+  border-radius: 145px;
+  box-shadow: 2px 2px 4px #888;
+  margin-right: 250px;
+  float: right;
+  margin-bottom: 40px;
+  margin-top: 40px; }
+
+.skillsBubble:before, .skillsBubble:after {
+  content: ' ';
+  margin-left: -91px;
+  margin-top: 111px;
+  width: 66px;
+  height: 66px;
+  background-color: #fff;
+  border: 8px solid #666;
+  border-radius: 58px;
+  position: absolute; }
+
+.skillsBubble:after {
+  width: 36px;
+  height: 36px;
+  margin-left: -94px;
+  margin-top: 70px;
   border-radius: 58px;
   position: absolute; }
 
@@ -131,14 +266,16 @@ ul.contactList {
 .contactBubble:after {
   width: 44px;
   height: 44px;
-  margin-left: 108px;
-  margin-top: 6px;
+  margin-left: 128px;
+  margin-top: 30px;
   border-radius: 58px;
   position: absolute; }
 
 img.logo {
-  width: 193px;
-  padding: 10px; }
+  width: 150px;
+  padding: 10px;
+  margin: 0 auto;
+  display: block; }
 
 a:focus {
   outline: none; }
@@ -148,5 +285,20 @@ li img {
   width: 71px;
   padding: 10px; }
 
+img.me {
+  width: 212px;
+  float: right;
+  margin-right: 156px;
+  margin-top: 90px; }
+
 body {
   background-color: #F2F4F7; }
+
+h1.helloIntro {
+  color: #6A2CB4;
+  font-family: "Shadows Into Light", cursive;
+  font-size: 33px;
+  margin-top: 34px; }
+
+h2 {
+  text-align: center; }

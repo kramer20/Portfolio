@@ -1,7 +1,8 @@
 img.logo{
-
-	width:193px;
+	width:150px;
 	padding:10px;
+	margin:0 auto;
+	display:block;
 }
 
 a:focus{
@@ -13,4 +14,11 @@ li img {
 	width:71px;
 	padding:10px;
 	
+}
+
+img.me{
+	width:212px;
+	float:right;
+	margin-right:156px;
+	margin-top:90px;
 }

@@ -3,8 +3,7 @@
 	width:100%;
 	background-color:$lightgray;
 	z-index:9999999;
-	
-	height:118px;
+	height:91px;
 }
 
 .logoCol{
@@ -13,16 +12,16 @@
 ul.navList{
 	
 	z-index:99999;
-	padding-top:64px;
+	padding-top:30px;
 	text-align: center;
 	li.page-scroll{
 		display:inline;
-		padding-left:40px;
+		padding-left:30px;
 		
 		a{
 		text-decoration: none;
 		color:$bubblegray;
-		font-size: 25px;
+		font-size: 20px;
 		font-family: $fontOne;
 		border-bottom:2px solid rgba(106,44,180,0);
 		&:focus {
@@ -35,3 +34,20 @@ ul.navList{
 		}
 	}
 }
+
+li.page-scroll img{
+		width:52px;
+		margin-left:50px;
+		&:hover {
+			transform:scale(1.7);
+  			transition:500ms ease;
+		}
+}
+
+ul.navList li.page-scroll:nth-child(5) a{
+	border-bottom:hidden;
+	&:hover{
+		border-bottom:hidden;
+	}
+}
+
