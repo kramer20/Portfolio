@@ -10,3 +10,29 @@ h1.skillsIntro{
 	font-size:45px;
 	margin-top:30px;
 }
+
+ul.technicalList{
+	margin-top:48px;
+	//float:right;
+	text-align:center;
+	
+	li.technicalItem{
+		display:block;
+		font-family: $fontOne;
+		color:$mainpurple;
+		font-size: 30px;
+		margin-top: 10px;
+	}
+}
+
+ul.rateList{
+	margin-top:48px;
+
+	li.rateItem{
+		display:block;
+		color:$mainpurple;
+		font-size: 30px;
+		margin-top: 10px;
+
+	}
+}

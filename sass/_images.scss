@@ -3,6 +3,10 @@ img.logo{
 	padding:10px;
 	margin:0 auto;
 	display:block;
+	&:hover{
+		transform:scale(1.2);
+  		transition:500ms ease;
+	}
 }
 
 a:focus{
@@ -15,10 +19,44 @@ li img {
 	padding:10px;
 	
 }
-
+// about blob
 img.me{
-	width:212px;
+	width:263px;
 	float:right;
 	margin-right:156px;
 	margin-top:90px;
+}
+// hello blob
+img.meHello{
+	width:146px;
+	 -ms-transform: rotate(180deg); /* IE 9 */
+    -webkit-transform: rotate(180deg); /* Chrome, Safari, Opera */
+	transform:rotate(180deg);
+	margin-top:94px;
+	margin-left:30px;
+}
+// work blob
+img.meWork{
+	-ms-transform: rotate(90deg); /* IE 9 */
+    -webkit-transform: rotate(90deg); /* Chrome, Safari, Opera */
+	transform:rotate(90deg);
+	width:100px;
+	margin-top:296px;
+	//margin-left:60px;
+}
+
+// contact blob
+img.meContact{
+	width:125px;
+	margin:0 auto;
+	display:block;
+}
+
+//skills blob
+img.meSkills{
+	width:200px;
+	float:right;
+	-ms-transform: rotate(45deg); /* IE 9 */
+    -webkit-transform: rotate(45deg); /* Chrome, Safari, Opera */
+	transform:rotate(45deg);
 }

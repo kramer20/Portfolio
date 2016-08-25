@@ -3,7 +3,7 @@
     
     angular
     .module('portfolio')
-    .controller('MainController', function(API) {
+    .controller('MainController', function() {
        var vm = this;
       
     });

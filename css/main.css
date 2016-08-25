@@ -57,6 +57,24 @@ h1.skillsIntro {
   font-size: 45px;
   margin-top: 30px; }
 
+ul.technicalList {
+  margin-top: 48px;
+  text-align: center; }
+  ul.technicalList li.technicalItem {
+    display: block;
+    font-family: "Shadows Into Light", cursive;
+    color: #6A2CB4;
+    font-size: 30px;
+    margin-top: 10px; }
+
+ul.rateList {
+  margin-top: 48px; }
+  ul.rateList li.rateItem {
+    display: block;
+    color: #6A2CB4;
+    font-size: 30px;
+    margin-top: 10px; }
+
 .about {
   margin-top: 130px; }
 
@@ -101,6 +119,9 @@ ul.contactList {
       color: #6a2cb4;
       transition: color 2000ms ease; }
 
+.emailItem {
+  margin-top: 0px; }
+
 .contactList img:hover {
   transform: scale(1.2);
   transition: 500ms ease; }
@@ -113,11 +134,15 @@ ul.contactList {
   line-height: 100px;
   background-color: #fff;
   border: 8px solid #666;
+  -webkit-border-radius: 145px;
+  -moz-border-radius: 145px;
   border-radius: 145px;
+  -webkit-box-shadow: 2px 2px 4px #888;
+  -moz-box-shadow: 2px 2px 4px #888;
   box-shadow: 2px 2px 4px #888;
   margin-left: 154px;
   margin: 0 auto;
-  margin-top: 130px; }
+  margin-top: 30px; }
 
 .helloBubble:before, .helloBubble:after {
   content: ' ';
@@ -127,6 +152,8 @@ ul.contactList {
   height: 88px;
   background-color: #fff;
   border: 8px solid #666;
+  -webkit-border-radius: 58px;
+  -moz-border-radius: 58px;
   border-radius: 58px;
   position: absolute; }
 
@@ -135,6 +162,8 @@ ul.contactList {
   height: 52px;
   margin-left: -140px;
   margin-top: 84px;
+  -webkit-border-radius: 58px;
+  -moz-border-radius: 58px;
   border-radius: 58px;
   position: absolute; }
 
@@ -146,7 +175,11 @@ ul.contactList {
   line-height: 100px;
   background-color: #fff;
   border: 8px solid #666;
+  -webkit-border-radius: 145px;
+  -moz-border-radius: 145px;
   border-radius: 145px;
+  -webkit-box-shadow: 2px 2px 4px #888;
+  -moz-box-shadow: 2px 2px 4px #888;
   box-shadow: 2px 2px 4px #888;
   float: right;
   margin-right: 217px;
@@ -161,6 +194,8 @@ ul.contactList {
   height: 67px;
   background-color: #fff;
   border: 8px solid #666;
+  -webkit-border-radius: 58px;
+  -moz-border-radius: 58px;
   border-radius: 58px;
   position: absolute; }
 
@@ -169,6 +204,8 @@ ul.contactList {
   height: 47px;
   margin-left: -181px;
   margin-top: 40px;
+  -webkit-border-radius: 58px;
+  -moz-border-radius: 58px;
   border-radius: 58px;
   position: absolute; }
 
@@ -180,7 +217,11 @@ ul.contactList {
   line-height: 100px;
   background-color: #fff;
   border: 8px solid #666;
+  -webkit-border-radius: 145px;
+  -moz-border-radius: 145px;
   border-radius: 145px;
+  -webkit-box-shadow: 2px 2px 4px #888;
+  -moz-box-shadow: 2px 2px 4px #888;
   box-shadow: 2px 2px 4px #888;
   margin-left: 144px;
   margin-top: 40px; }
@@ -193,6 +234,8 @@ ul.contactList {
   height: 110px;
   background-color: #fff;
   border: 8px solid #666;
+  -webkit-border-radius: 58px;
+  -moz-border-radius: 58px;
   border-radius: 58px;
   position: absolute; }
 
@@ -201,18 +244,24 @@ ul.contactList {
   height: 60px;
   margin-left: 233px;
   margin-top: 56px;
+  -webkit-border-radius: 58px;
+  -moz-border-radius: 58px;
   border-radius: 58px;
   position: absolute; }
 
 .skillsBubble {
   position: relative;
-  width: 246px;
+  width: 250px;
   height: 154px;
   text-align: center;
   line-height: 100px;
   background-color: #fff;
   border: 8px solid #666;
+  -webkit-border-radius: 145px;
+  -moz-border-radius: 145px;
   border-radius: 145px;
+  -webkit-box-shadow: 2px 2px 4px #888;
+  -moz-box-shadow: 2px 2px 4px #888;
   box-shadow: 2px 2px 4px #888;
   margin-right: 250px;
   float: right;
@@ -227,6 +276,8 @@ ul.contactList {
   height: 66px;
   background-color: #fff;
   border: 8px solid #666;
+  -webkit-border-radius: 58px;
+  -moz-border-radius: 58px;
   border-radius: 58px;
   position: absolute; }
 
@@ -235,6 +286,8 @@ ul.contactList {
   height: 36px;
   margin-left: -94px;
   margin-top: 70px;
+  -webkit-border-radius: 58px;
+  -moz-border-radius: 58px;
   border-radius: 58px;
   position: absolute; }
 
@@ -248,7 +301,11 @@ ul.contactList {
   line-height: 100px;
   background-color: #fff;
   border: 8px solid #666;
+  -webkit-border-radius: 145px;
+  -moz-border-radius: 145px;
   border-radius: 145px;
+  -webkit-box-shadow: 2px 2px 4px #888;
+  -moz-box-shadow: 2px 2px 4px #888;
   box-shadow: 2px 2px 4px #888;
   margin-left: 162px; }
 
@@ -260,6 +317,8 @@ ul.contactList {
   height: 68px;
   background-color: #fff;
   border: 8px solid #666;
+  -webkit-border-radius: 58px;
+  -moz-border-radius: 58px;
   border-radius: 58px;
   position: absolute; }
 
@@ -268,6 +327,8 @@ ul.contactList {
   height: 44px;
   margin-left: 128px;
   margin-top: 30px;
+  -webkit-border-radius: 58px;
+  -moz-border-radius: 58px;
   border-radius: 58px;
   position: absolute; }
 
@@ -276,6 +337,9 @@ img.logo {
   padding: 10px;
   margin: 0 auto;
   display: block; }
+  img.logo:hover {
+    transform: scale(1.2);
+    transition: 500ms ease; }
 
 a:focus {
   outline: none; }
@@ -286,10 +350,43 @@ li img {
   padding: 10px; }
 
 img.me {
-  width: 212px;
+  width: 263px;
   float: right;
   margin-right: 156px;
   margin-top: 90px; }
+
+img.meHello {
+  width: 146px;
+  -ms-transform: rotate(180deg);
+  /* IE 9 */
+  -webkit-transform: rotate(180deg);
+  /* Chrome, Safari, Opera */
+  transform: rotate(180deg);
+  margin-top: 94px;
+  margin-left: 30px; }
+
+img.meWork {
+  -ms-transform: rotate(90deg);
+  /* IE 9 */
+  -webkit-transform: rotate(90deg);
+  /* Chrome, Safari, Opera */
+  transform: rotate(90deg);
+  width: 100px;
+  margin-top: 296px; }
+
+img.meContact {
+  width: 125px;
+  margin: 0 auto;
+  display: block; }
+
+img.meSkills {
+  width: 200px;
+  float: right;
+  -ms-transform: rotate(45deg);
+  /* IE 9 */
+  -webkit-transform: rotate(45deg);
+  /* Chrome, Safari, Opera */
+  transform: rotate(45deg); }
 
 body {
   background-color: #F2F4F7; }
