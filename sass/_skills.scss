@@ -1,4 +1,6 @@
-.skills {
+#skills .skills {
+	opacity:0;
+
 	margin-top:130px;
 	// background-color:darken($lightgray,15);
 }
@@ -21,7 +23,7 @@ ul.technicalList{
 		font-family: $fontOne;
 		color:$mainpurple;
 		font-size: 30px;
-		margin-top: 10px;
+		margin-top: 15px;
 	}
 }
 
@@ -32,7 +34,98 @@ ul.rateList{
 		display:block;
 		color:$mainpurple;
 		font-size: 30px;
-		margin-top: 10px;
+		margin-top: 15px;
 
 	}
+}
+
+.rateItem i{
+	text-shadow:2px 2px #888;
+}
+
+//animation for about bubbles
+@-webkit-keyframes smallSkillsFade{
+	from { opacity:0; } to { opacity:1; } 
+}
+@-moz-keyframes smallSkillsFade{
+	from { opacity:0; } to { opacity:1; } 
+}
+@keyframes smallSkillsFade { 
+		from { opacity:0; } to { opacity:1; } 
+}
+.smallSkillsAnimation{
+	opacity:0;
+	-webkit-animation:smallSkillsFade ease-in 1;
+	-moz-animation:smallSkillsFade ease-in 1;
+	animation:smallSkillsFade ease-in 1;
+
+	-webkit-animation-duration:.25s;
+	-moz-animation-duration:.25s;
+	animation-duration:.25s;
+
+	-webkit-animation-fill-mode:forwards;  
+    -moz-animation-fill-mode:forwards;
+	animation-fill-mode:forwards;
+
+	-webkit-animation-delay:2s;
+	-moz-animation-delay:2s;
+	animation-delay:2s;
+}
+
+@-webkit-keyframes medSkillsFade{
+	from { opacity:0; } to { opacity:1; } 
+}
+@-moz-keyframes medSkillsFade{
+	from { opacity:0; } to { opacity:1; } 
+}
+@keyframes medSkillsFade { 
+		from { opacity:0; } to { opacity:1; } 
+}
+
+.medSkillsAnimation{
+	opacity:0;
+	-webkit-animation:medSkillsFade ease-in 1;
+	-moz-animation:medSkillsFade ease-in 1;
+	animation:medSkillsFade ease-in 1;
+
+	-webkit-animation-duration:.5s;
+	-moz-animation-duration:.5s;
+	animation-duration:.5s;
+
+	-webkit-animation-fill-mode:forwards;  
+    -moz-animation-fill-mode:forwards;
+	animation-fill-mode:forwards;
+
+	-webkit-animation-delay:3s;
+	-moz-animation-delat:3s;
+	animation-delay:3s;
+}
+
+@-webkit-keyframes lgSkillsFade{
+	from { opacity:0; } to { opacity:1; }
+
+}
+@-moz-keyframes lgSkillsFade{
+	from { opacity:0; } to { opacity:1; } 
+}
+@keyframes lgSkillsFade { 
+		from { opacity:0; } to { opacity:1; } 
+}
+.skillsBubbleAnimation{
+	opacity:0;
+	-webkit-animation:lgSkillsFade ease-in 1;
+	-moz-animation:lgSkillsFade ease-in 1;
+	animation:lgSkillsFade ease-in 1;
+
+	-webkit-animation-duration:1s;
+	-moz-animation-duration:1s;
+	animation-duration:1s;
+
+	-webkit-animation-fill-mode:forwards;  
+    -moz-animation-fill-mode:forwards;
+	animation-fill-mode:forwards;
+
+	-webkit-animation-delay:4s;
+	-moz-animation-delay:4s;
+	animation-delay:4s;
 }

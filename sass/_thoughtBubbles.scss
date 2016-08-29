@@ -19,10 +19,10 @@
   
 }
 
-.helloBubble:before, .helloBubble:after{
+.medHello{
   content: ' ';	
-  margin-left: -187px;
-  margin-top: 211px;
+  margin-left: 437px;
+  margin-top: -45px;
   width: 88px;
   height: 88px;
   background-color: #fff;
@@ -33,11 +33,13 @@
   position:absolute;
 }
 
-.helloBubble:after {
+.smallHello{
+  background-color: #fff;
+  border: 8px solid #666;
   width: 52px;
   height: 52px;
-  margin-left: -140px;
-  margin-top: 84px;
+  margin-left: 473px;
+  margin-top: 15px;
   -webkit-border-radius: 58px;
   -moz-border-radius: 58px;
   border-radius: 58px;
@@ -61,15 +63,15 @@
   box-shadow: 2px 2px 4px #888;
   float:right;
   margin-right: 217px;
-  margin-top: 40px;
+  margin-top: 98px;
   margin-bottom: 40px;
   
 }
 
-.workBubble:before, .workBubble:after{
+.medWork{
   content: ' '; 
-  margin-left: -166px;
-  margin-top: 95px;
+  margin-left: 697px;
+  margin-top: 212px;
   width: 67px;
   height: 67px;
   background-color: #fff;
@@ -80,11 +82,13 @@
   position:absolute;
 }
 
-.workBubble:after {
+.smallWork {
+  background-color: #fff;
+  border: 8px solid #666;
   width: 47px;
   height: 47px;
-  margin-left: -181px;
-  margin-top: 40px;
+  margin-left: 684px;
+  margin-top:243px;
   -webkit-border-radius: 58px;
   -moz-border-radius: 58px;
   border-radius: 58px;
@@ -107,13 +111,13 @@
   -moz-box-shadow:2px 2px 4px #888;
   box-shadow: 2px 2px 4px #888;
   margin-left:144px;
-  margin-top:40px;
+  margin-top:98px;
 }
 
-.aboutBubble:before, .aboutBubble:after{
+.medAbout{
   content: ' '; 
-  margin-left: 131px;
-  margin-top: 179px;
+  margin-left: 494px;
+  margin-top: -55px;
   width: 110px;
   height: 110px;
   background-color: #fff;
@@ -124,10 +128,12 @@
   position:absolute;
 }
 
-.aboutBubble:after {
+.smallAbout{
+  background-color: #fff;
+  border: 8px solid #666;
   width: 60px;
   height: 60px;
-  margin-left: 233px;
+  margin-left: 633px;
   margin-top: 56px;
   -webkit-border-radius: 58px;
   -moz-border-radius: 58px;
@@ -153,13 +159,13 @@
   margin-right:250px;
   float:right;
   margin-bottom: 40px;
-  margin-top: 40px;
+  margin-top: 98px;
 }
 
-.skillsBubble:before, .skillsBubble:after{
+.medSkills{
   content: ' '; 
-  margin-left: -91px;
-  margin-top: 111px;
+  margin-left: 700px;
+  margin-top: 207px;
   width: 66px;
   height: 66px;
   background-color: #fff;
@@ -170,11 +176,13 @@
   position:absolute;
 }
 
-.skillsBubble:after {
+.smallSkills {
+  background-color: #fff;
+  border: 8px solid #666;
   width: 36px;
   height: 36px;
-  margin-left: -94px;
-  margin-top: 70px;
+  margin-left: 686px;
+  margin-top: 243px;
   -webkit-border-radius: 58px;
   -moz-border-radius: 58px;
   border-radius: 58px;

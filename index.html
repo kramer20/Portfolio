@@ -22,7 +22,6 @@
 
 <body id="body" ng-controller="MainController as controller">
 
-        <div class="container-fluid">
                 <!-- Navigation -->
             <section id="navigation">    
                 <div class="row nav">
@@ -53,14 +52,22 @@
                 </div>
             </section>
 
+
+        <div class="container-fluid">
                 <!-- Intro -->
             <section id="intro"> 
 
-                <img class="meHello" src="images/meIcon.png">
-   
+                <div class="leftRight">
+                    <img id="meHello" src="images/meIcon.png">
+                </div>   
+
                 <div class="helloBubble">
                     <h1 class="helloIntro">Hi!<br>I'm Malorie, I love coding and creating aesthetically pleasing<br>interfaces that users can enjoy!</h1>
                 </div> 
+                    <div class="medHello">
+                    </div>
+                        <div class="smallHello">
+                        </div>
             </section>   
 
                 <!--Work-->
@@ -70,13 +77,17 @@
                     <div class="workBubble">
                         <h1 class="workIntro">Check out my work...</h1>
                     </div>  
+                        <div class="medWork"></div>
+                            <div class="smallWork"></div>
                     
                         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
                             <h2>Carosuel of Work</h2>
                         </div>
 
-                    <img class="meWork" src="images/meIcon.png">    
-                        
+                    <div class="topBottom">        
+                        <img id="meWork" src="images/meIcon.png">    
+                    </div>
+
                 </div>
             </section> 
 
@@ -88,9 +99,13 @@
                         <div class="aboutBubble">
                             <h1 class="aboutIntro">My name is Malorie Kramer and no, I'm not a purple blob. While in college, I obtained a Bachelors Degree in Fine Arts with a concentration in Photography from Wright State University. I have always had a desire to create and design so I furthered my education through earning a Ceritficate in Front-End Web Development at The Iron Yard.</h1>
                         </div> 
+                            <div class="medAbout">
+                            </div>
+                                <div class="smallAbout">
+                                </div>
 
-                            <img class="me" src="images/meIcon.png">
-
+                                <img id="me" src="images/meIcon.png">
+                                
                     </div>
                 </div>
             </section>  
@@ -102,13 +117,14 @@
 
                     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 skillsCol">
                         <div class="skillsBubble">
-                            <h1 class="skillsIntro">My Skillzzz</h1>
+                            <h1 class="skillsIntro">My Skills</h1>
                         </div> 
                     </div>      
-
+                        <div class="medSkills"></div>
+                            <div class="smallSkills"></div>
 
                     <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 meSkillsCol">
-                        <img class="meSkills" src="images/meIcon.png">
+                        <img id="meSkills" src="images/meIcon.png">
                     </div>    
 
                     <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 listSkillsCol">
@@ -175,7 +191,7 @@
                                         <i class="fa fa-comment" aria-hidden="true"></i>
                                         <i class="fa fa-comment" aria-hidden="true"></i>
                                         <i class="fa fa-comment" aria-hidden="true"></i>
-                                        <i class="fa fa-comment-o" aria-hidden="true"></i>
+                                        <i class="fa fa-comment" aria-hidden="true"></i>
                                         <i class="fa fa-comment-o" aria-hidden="true"></i>
                                     </li>
                                 </ul>
@@ -219,6 +235,7 @@
         </div> 
     <script src="/node_modules/waypoints/lib/noframework.waypoints.min.js"></script>     
     <!--link to JS file-->
+    <script   src="https://code.jquery.com/jquery-1.12.4.min.js"   integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="   crossorigin="anonymous"></script>
     <script src="js/controllers/mainControl.js"></script>
 </body>
 </html>

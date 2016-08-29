@@ -20,28 +20,28 @@ li img {
 	
 }
 // about blob
-img.me{
+img#me{
 	width:263px;
 	float:right;
 	margin-right:156px;
 	margin-top:90px;
 }
 // hello blob
-img.meHello{
+img#meHello{
 	width:146px;
 	 -ms-transform: rotate(180deg); /* IE 9 */
     -webkit-transform: rotate(180deg); /* Chrome, Safari, Opera */
 	transform:rotate(180deg);
-	margin-top:94px;
+	margin-top:68px;
 	margin-left:30px;
 }
 // work blob
-img.meWork{
+img#meWork{
 	-ms-transform: rotate(90deg); /* IE 9 */
     -webkit-transform: rotate(90deg); /* Chrome, Safari, Opera */
 	transform:rotate(90deg);
 	width:100px;
-	margin-top:296px;
+	margin-top:226px;
 	//margin-left:60px;
 }
 
@@ -53,7 +53,7 @@ img.meContact{
 }
 
 //skills blob
-img.meSkills{
+img#meSkills{
 	width:200px;
 	float:right;
 	-ms-transform: rotate(45deg); /* IE 9 */

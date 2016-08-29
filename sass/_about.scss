@@ -1,3 +1,6 @@
+#about .about {
+	opacity:0;
+}
 .about {
 	margin-top:130px;
 	// background-color:darken($lightgray,10);
@@ -10,4 +13,119 @@ h1.aboutIntro{
 	font-size:20px;
 	margin-top:25px;
 	padding:25px;
+}
+
+//animation for me blob to appear
+.meAnimation{
+	opacity:0;
+	-webkit-animation:fadeMeIn ease-in 1;
+	-moz-animation:fadeMeIn ease-in 1;
+	animation:fadeMeIn ease-in 1;
+
+	-webkit-animation-duration:.5s;
+	-moz-animation-duration:.5s;
+	animation-duration:.5s;
+
+	-webkit-animation-fill-mode:forwards;  
+    -moz-animation-fill-mode:forwards;
+	animation-fill-mode:forwards;
+}
+
+@-webkit-keyframes fadeMeIn{
+	from { opacity:0; } to { opacity:1; } 
+}
+
+@-moz-keyframes fadeMeIn{
+	from { opacity:0; } to { opacity:1; } 
+}
+
+@keyframes fadeMeIn { 
+		from { opacity:0; } to { opacity:1; } 
+}
+
+//animation for about bubbles
+@-webkit-keyframes smallAboutFade{
+	from { opacity:0; } to { opacity:1; } 
+}
+@-moz-keyframes smallAboutFade{
+	from { opacity:0; } to { opacity:1; } 
+}
+@keyframes smallAboutFade { 
+		from { opacity:0; } to { opacity:1; } 
+}
+.smallAboutAnimation{
+	opacity:0;
+	-webkit-animation:smallAboutFade ease-in 1;
+	-moz-animation:smallAboutFade ease-in 1;
+	animation:smallAboutFade ease-in 1;
+
+	-webkit-animation-duration:.25s;
+	-moz-animation-duration:.25s;
+	animation-duration:.25s;
+
+	-webkit-animation-fill-mode:forwards;  
+    -moz-animation-fill-mode:forwards;
+	animation-fill-mode:forwards;
+
+	-webkit-animation-delay:2s;
+	-moz-animation-delay:2s;
+	animation-delay:2s;
+}
+
+@-webkit-keyframes medAboutFade{
+	from { opacity:0; } to { opacity:1; } 
+}
+@-moz-keyframes medAboutFade{
+	from { opacity:0; } to { opacity:1; } 
+}
+@keyframes medAboutFade { 
+		from { opacity:0; } to { opacity:1; } 
+}
+
+.medAboutAnimation{
+	opacity:0;
+	-webkit-animation:medAboutFade ease-in 1;
+	-moz-animation:medAboutFade ease-in 1;
+	animation:medAboutFade ease-in 1;
+
+	-webkit-animation-duration:.5s;
+	-moz-animation-duration:.5s;
+	animation-duration:.5s;
+
+	-webkit-animation-fill-mode:forwards;  
+    -moz-animation-fill-mode:forwards;
+	animation-fill-mode:forwards;
+
+	-webkit-animation-delay:3s;
+	-moz-animation-delat:3s;
+	animation-delay:3s;
+}
+
+@-webkit-keyframes lgAboutFade{
+	from { opacity:0; } to { opacity:1; }
+
+}
+@-moz-keyframes lgAboutFade{
+	from { opacity:0; } to { opacity:1; } 
+}
+@keyframes lgAboutFade { 
+		from { opacity:0; } to { opacity:1; } 
+}
+.aboutBubbleAnimation{
+	opacity:0;
+	-webkit-animation:lgAboutFade ease-in 1;
+	-moz-animation:lgAboutFade ease-in 1;
+	animation:lgAboutFade ease-in 1;
+
+	-webkit-animation-duration:1s;
+	-moz-animation-duration:1s;
+	animation-duration:1s;
+
+	-webkit-animation-fill-mode:forwards;  
+    -moz-animation-fill-mode:forwards;
+	animation-fill-mode:forwards;
+
+	-webkit-animation-delay:4s;
+	-moz-animation-delay:4s;
+	animation-delay:4s;
 }

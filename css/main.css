@@ -3,7 +3,8 @@
   width: 100%;
   background-color: #F2F4F7;
   z-index: 9999999;
-  height: 91px; }
+  height: 91px;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1); }
 
 .logoCol {
   margin-bottom: 40px; }
@@ -39,7 +40,8 @@ ul.navList li.page-scroll:nth-child(5) a {
   ul.navList li.page-scroll:nth-child(5) a:hover {
     border-bottom: hidden; }
 
-#work {
+#work .work {
+  opacity: 0;
   margin-top: 130px; }
 
 h1.workIntro {
@@ -48,7 +50,107 @@ h1.workIntro {
   font-size: 35px;
   margin-top: 44px; }
 
-.skills {
+@-webkit-keyframes smallWorkFade {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
+
+@-moz-keyframes smallWorkFade {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
+
+@keyframes smallWorkFade {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
+
+.smallWorkAnimation {
+  opacity: 0;
+  -webkit-animation: smallWorkFade ease-in 1;
+  -moz-animation: smallWorkFade ease-in 1;
+  animation: smallWorkFade ease-in 1;
+  -webkit-animation-duration: .25s;
+  -moz-animation-duration: .25s;
+  animation-duration: .25s;
+  -webkit-animation-fill-mode: forwards;
+  -moz-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+  -webkit-animation-delay: 2s;
+  -moz-animation-delay: 2s;
+  animation-delay: 2s; }
+
+@-webkit-keyframes medWorkFade {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
+
+@-moz-keyframes medWorkFade {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
+
+@keyframes medWorkFade {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
+
+.medWorkAnimation {
+  opacity: 0;
+  -webkit-animation: medWorkFade ease-in 1;
+  -moz-animation: medWorkFade ease-in 1;
+  animation: medWorkFade ease-in 1;
+  -webkit-animation-duration: .5s;
+  -moz-animation-duration: .5s;
+  animation-duration: .5s;
+  -webkit-animation-fill-mode: forwards;
+  -moz-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+  -webkit-animation-delay: 3s;
+  -moz-animation-delat: 3s;
+  animation-delay: 3s; }
+
+@-webkit-keyframes lgWorkFade {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
+
+@-moz-keyframes lgWorkFade {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
+
+@keyframes lgWorkFade {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
+
+.workBubbleAnimation {
+  opacity: 0;
+  -webkit-animation: lgWorkFade ease-in 1;
+  -moz-animation: lgWorkFade ease-in 1;
+  animation: lgWorkFade ease-in 1;
+  -webkit-animation-duration: 1s;
+  -moz-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: forwards;
+  -moz-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+  -webkit-animation-delay: 4s;
+  -moz-animation-delay: 4s;
+  animation-delay: 4s; }
+
+#skills .skills {
+  opacity: 0;
   margin-top: 130px; }
 
 h1.skillsIntro {
@@ -65,7 +167,7 @@ ul.technicalList {
     font-family: "Shadows Into Light", cursive;
     color: #6A2CB4;
     font-size: 30px;
-    margin-top: 10px; }
+    margin-top: 15px; }
 
 ul.rateList {
   margin-top: 48px; }
@@ -73,7 +175,112 @@ ul.rateList {
     display: block;
     color: #6A2CB4;
     font-size: 30px;
-    margin-top: 10px; }
+    margin-top: 15px; }
+
+.rateItem i {
+  text-shadow: 2px 2px #888; }
+
+@-webkit-keyframes smallSkillsFade {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
+
+@-moz-keyframes smallSkillsFade {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
+
+@keyframes smallSkillsFade {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
+
+.smallSkillsAnimation {
+  opacity: 0;
+  -webkit-animation: smallSkillsFade ease-in 1;
+  -moz-animation: smallSkillsFade ease-in 1;
+  animation: smallSkillsFade ease-in 1;
+  -webkit-animation-duration: .25s;
+  -moz-animation-duration: .25s;
+  animation-duration: .25s;
+  -webkit-animation-fill-mode: forwards;
+  -moz-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+  -webkit-animation-delay: 2s;
+  -moz-animation-delay: 2s;
+  animation-delay: 2s; }
+
+@-webkit-keyframes medSkillsFade {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
+
+@-moz-keyframes medSkillsFade {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
+
+@keyframes medSkillsFade {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
+
+.medSkillsAnimation {
+  opacity: 0;
+  -webkit-animation: medSkillsFade ease-in 1;
+  -moz-animation: medSkillsFade ease-in 1;
+  animation: medSkillsFade ease-in 1;
+  -webkit-animation-duration: .5s;
+  -moz-animation-duration: .5s;
+  animation-duration: .5s;
+  -webkit-animation-fill-mode: forwards;
+  -moz-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+  -webkit-animation-delay: 3s;
+  -moz-animation-delat: 3s;
+  animation-delay: 3s; }
+
+@-webkit-keyframes lgSkillsFade {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
+
+@-moz-keyframes lgSkillsFade {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
+
+@keyframes lgSkillsFade {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
+
+.skillsBubbleAnimation {
+  opacity: 0;
+  -webkit-animation: lgSkillsFade ease-in 1;
+  -moz-animation: lgSkillsFade ease-in 1;
+  animation: lgSkillsFade ease-in 1;
+  -webkit-animation-duration: 1s;
+  -moz-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: forwards;
+  -moz-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+  -webkit-animation-delay: 4s;
+  -moz-animation-delay: 4s;
+  animation-delay: 4s; }
+
+#about .about {
+  opacity: 0; }
 
 .about {
   margin-top: 130px; }
@@ -85,6 +292,135 @@ h1.aboutIntro {
   font-size: 20px;
   margin-top: 25px;
   padding: 25px; }
+
+.meAnimation {
+  opacity: 0;
+  -webkit-animation: fadeMeIn ease-in 1;
+  -moz-animation: fadeMeIn ease-in 1;
+  animation: fadeMeIn ease-in 1;
+  -webkit-animation-duration: .5s;
+  -moz-animation-duration: .5s;
+  animation-duration: .5s;
+  -webkit-animation-fill-mode: forwards;
+  -moz-animation-fill-mode: forwards;
+  animation-fill-mode: forwards; }
+
+@-webkit-keyframes fadeMeIn {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
+
+@-moz-keyframes fadeMeIn {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
+
+@keyframes fadeMeIn {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
+
+@-webkit-keyframes smallAboutFade {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
+
+@-moz-keyframes smallAboutFade {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
+
+@keyframes smallAboutFade {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
+
+.smallAboutAnimation {
+  opacity: 0;
+  -webkit-animation: smallAboutFade ease-in 1;
+  -moz-animation: smallAboutFade ease-in 1;
+  animation: smallAboutFade ease-in 1;
+  -webkit-animation-duration: .25s;
+  -moz-animation-duration: .25s;
+  animation-duration: .25s;
+  -webkit-animation-fill-mode: forwards;
+  -moz-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+  -webkit-animation-delay: 2s;
+  -moz-animation-delay: 2s;
+  animation-delay: 2s; }
+
+@-webkit-keyframes medAboutFade {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
+
+@-moz-keyframes medAboutFade {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
+
+@keyframes medAboutFade {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
+
+.medAboutAnimation {
+  opacity: 0;
+  -webkit-animation: medAboutFade ease-in 1;
+  -moz-animation: medAboutFade ease-in 1;
+  animation: medAboutFade ease-in 1;
+  -webkit-animation-duration: .5s;
+  -moz-animation-duration: .5s;
+  animation-duration: .5s;
+  -webkit-animation-fill-mode: forwards;
+  -moz-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+  -webkit-animation-delay: 3s;
+  -moz-animation-delat: 3s;
+  animation-delay: 3s; }
+
+@-webkit-keyframes lgAboutFade {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
+
+@-moz-keyframes lgAboutFade {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
+
+@keyframes lgAboutFade {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
+
+.aboutBubbleAnimation {
+  opacity: 0;
+  -webkit-animation: lgAboutFade ease-in 1;
+  -moz-animation: lgAboutFade ease-in 1;
+  animation: lgAboutFade ease-in 1;
+  -webkit-animation-duration: 1s;
+  -moz-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: forwards;
+  -moz-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+  -webkit-animation-delay: 4s;
+  -moz-animation-delay: 4s;
+  animation-delay: 4s; }
 
 #contact {
   margin-top: 130px; }
@@ -144,10 +480,10 @@ ul.contactList {
   margin: 0 auto;
   margin-top: 30px; }
 
-.helloBubble:before, .helloBubble:after {
+.medHello {
   content: ' ';
-  margin-left: -187px;
-  margin-top: 211px;
+  margin-left: 437px;
+  margin-top: -45px;
   width: 88px;
   height: 88px;
   background-color: #fff;
@@ -157,11 +493,13 @@ ul.contactList {
   border-radius: 58px;
   position: absolute; }
 
-.helloBubble:after {
+.smallHello {
+  background-color: #fff;
+  border: 8px solid #666;
   width: 52px;
   height: 52px;
-  margin-left: -140px;
-  margin-top: 84px;
+  margin-left: 473px;
+  margin-top: 15px;
   -webkit-border-radius: 58px;
   -moz-border-radius: 58px;
   border-radius: 58px;
@@ -183,13 +521,13 @@ ul.contactList {
   box-shadow: 2px 2px 4px #888;
   float: right;
   margin-right: 217px;
-  margin-top: 40px;
+  margin-top: 98px;
   margin-bottom: 40px; }
 
-.workBubble:before, .workBubble:after {
+.medWork {
   content: ' ';
-  margin-left: -166px;
-  margin-top: 95px;
+  margin-left: 697px;
+  margin-top: 212px;
   width: 67px;
   height: 67px;
   background-color: #fff;
@@ -199,11 +537,13 @@ ul.contactList {
   border-radius: 58px;
   position: absolute; }
 
-.workBubble:after {
+.smallWork {
+  background-color: #fff;
+  border: 8px solid #666;
   width: 47px;
   height: 47px;
-  margin-left: -181px;
-  margin-top: 40px;
+  margin-left: 684px;
+  margin-top: 243px;
   -webkit-border-radius: 58px;
   -moz-border-radius: 58px;
   border-radius: 58px;
@@ -224,12 +564,12 @@ ul.contactList {
   -moz-box-shadow: 2px 2px 4px #888;
   box-shadow: 2px 2px 4px #888;
   margin-left: 144px;
-  margin-top: 40px; }
+  margin-top: 98px; }
 
-.aboutBubble:before, .aboutBubble:after {
+.medAbout {
   content: ' ';
-  margin-left: 131px;
-  margin-top: 179px;
+  margin-left: 494px;
+  margin-top: -55px;
   width: 110px;
   height: 110px;
   background-color: #fff;
@@ -239,10 +579,12 @@ ul.contactList {
   border-radius: 58px;
   position: absolute; }
 
-.aboutBubble:after {
+.smallAbout {
+  background-color: #fff;
+  border: 8px solid #666;
   width: 60px;
   height: 60px;
-  margin-left: 233px;
+  margin-left: 633px;
   margin-top: 56px;
   -webkit-border-radius: 58px;
   -moz-border-radius: 58px;
@@ -266,12 +608,12 @@ ul.contactList {
   margin-right: 250px;
   float: right;
   margin-bottom: 40px;
-  margin-top: 40px; }
+  margin-top: 98px; }
 
-.skillsBubble:before, .skillsBubble:after {
+.medSkills {
   content: ' ';
-  margin-left: -91px;
-  margin-top: 111px;
+  margin-left: 700px;
+  margin-top: 207px;
   width: 66px;
   height: 66px;
   background-color: #fff;
@@ -281,11 +623,13 @@ ul.contactList {
   border-radius: 58px;
   position: absolute; }
 
-.skillsBubble:after {
+.smallSkills {
+  background-color: #fff;
+  border: 8px solid #666;
   width: 36px;
   height: 36px;
-  margin-left: -94px;
-  margin-top: 70px;
+  margin-left: 686px;
+  margin-top: 243px;
   -webkit-border-radius: 58px;
   -moz-border-radius: 58px;
   border-radius: 58px;
@@ -349,37 +693,37 @@ li img {
   width: 71px;
   padding: 10px; }
 
-img.me {
+img#me {
   width: 263px;
   float: right;
   margin-right: 156px;
   margin-top: 90px; }
 
-img.meHello {
+img#meHello {
   width: 146px;
   -ms-transform: rotate(180deg);
   /* IE 9 */
   -webkit-transform: rotate(180deg);
   /* Chrome, Safari, Opera */
   transform: rotate(180deg);
-  margin-top: 94px;
+  margin-top: 68px;
   margin-left: 30px; }
 
-img.meWork {
+img#meWork {
   -ms-transform: rotate(90deg);
   /* IE 9 */
   -webkit-transform: rotate(90deg);
   /* Chrome, Safari, Opera */
   transform: rotate(90deg);
   width: 100px;
-  margin-top: 296px; }
+  margin-top: 226px; }
 
 img.meContact {
   width: 125px;
   margin: 0 auto;
   display: block; }
 
-img.meSkills {
+img#meSkills {
   width: 200px;
   float: right;
   -ms-transform: rotate(45deg);
@@ -399,3 +743,200 @@ h1.helloIntro {
 
 h2 {
   text-align: center; }
+
+.leftRight {
+  opacity: 0;
+  -webkit-animation: fadeIn ease-in 1;
+  -moz-animation: fadeIn ease-in 1;
+  animation: fadeIn ease-in 1;
+  -webkit-animation-duration: 2s;
+  -moz-animation-duration: 2s;
+  animation-duration: 2s;
+  -webkit-animation-fill-mode: forwards;
+  -moz-animation-fill-mode: forwards;
+  animation-fill-mode: forwards; }
+
+#meHello {
+  -webkit-animation-name: slide;
+  -moz-animation-name: slide;
+  animation-name: slide;
+  -webkit-animation-duration: 8s;
+  -moz-animation-duration: 8s;
+  animation-duration: 8s;
+  -webkit-animation-timing-function: linear;
+  -moz-animation-timing-function: linear;
+  animation-timing-function: linear;
+  -webkit-animation-delay: 2s;
+  -moz-animation-delat: 2s;
+  animation-delay: 2s;
+  -webkit-animation-iteration-count: 1;
+  -moz-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+  -webkit-animation-fill-mode: forwards;
+  -moz-animation-fill-mode: forwards;
+  animation-fill-mode: forwards; }
+
+@-webkit-keyframes fadeIn {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
+
+@-moz-keyframes fadeIn {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
+
+@keyframes fadeIn {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
+
+@-webkit-keyframes slide {
+  0% {
+    margin-left: 30px;
+    opacity: 1; }
+  25% {
+    margin-left: 250px;
+    opacity: 1; }
+  50% {
+    margin-left: 500px;
+    opacity: 1; }
+  75% {
+    margin-left: 750px; }
+  100% {
+    margin-left: 1000px;
+    opacity: 0; } }
+
+@-moz-keyframes slide {
+  0% {
+    margin-left: 30px;
+    opacity: 1; }
+  25% {
+    margin-left: 250px;
+    opacity: 1; }
+  50% {
+    margin-left: 500px;
+    opacity: 1; }
+  75% {
+    margin-left: 750px; }
+  100% {
+    margin-left: 1000px;
+    opacity: 0; } }
+
+@keyframes slide {
+  0% {
+    margin-left: 30px;
+    opacity: 1; }
+  25% {
+    margin-left: 250px;
+    opacity: 1; }
+  50% {
+    margin-left: 500px;
+    opacity: 1; }
+  75% {
+    margin-left: 750px; }
+  100% {
+    margin-left: 1000px;
+    opacity: 0; } }
+
+@-webkit-keyframes smallBubbleFade {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
+
+@-moz-keyframes smallBubbleFade {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
+
+@keyframes smallBubbleFade {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
+
+.smallHello {
+  opacity: 0;
+  -webkit-animation: smallBubbleFade ease-in 1;
+  -moz-animation: smallBubbleFade ease-in 1;
+  animation: smallBubbleFade ease-in 1;
+  -webkit-animation-duration: .25s;
+  -moz-animation-duration: .25s;
+  animation-duration: .25s;
+  -webkit-animation-fill-mode: forwards;
+  -moz-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+  -webkit-animation-delay: 2s;
+  -moz-animation-delay: 2s;
+  animation-delay: 2s; }
+
+@-webkit-keyframes medBubbleFade {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
+
+@-moz-keyframes medBubbleFade {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
+
+@keyframes medBubbleFade {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
+
+.medHello {
+  opacity: 0;
+  -webkit-animation: medBubbleFade ease-in 1;
+  -moz-animation: medBubbleFade ease-in 1;
+  animation: medBubbleFade ease-in 1;
+  -webkit-animation-duration: .5s;
+  -moz-animation-duration: .5s;
+  animation-duration: .5s;
+  -webkit-animation-fill-mode: forwards;
+  -moz-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+  -webkit-animation-delay: 3s;
+  -moz-animation-delat: 3s;
+  animation-delay: 3s; }
+
+@-webkit-keyframes lgBubbleFade {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
+
+@-moz-keyframes lgBubbleFade {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
+
+@keyframes lgBubbleFade {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
+
+.helloBubble {
+  opacity: 0;
+  -webkit-animation: lgBubbleFade ease-in 1;
+  -moz-animation: lgBubbleFade ease-in 1;
+  animation: lgBubbleFade ease-in 1;
+  -webkit-animation-duration: 1s;
+  -moz-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: forwards;
+  -moz-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+  -webkit-animation-delay: 4s;
+  -moz-animation-delay: 4s;
+  animation-delay: 4s; }

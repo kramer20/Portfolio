@@ -1,4 +1,5 @@
-#work{
+#work .work{
+	opacity:0;
 	margin-top:130px;
 	// background-color:darken($lightgray, 5);
 }
@@ -10,4 +11,215 @@ h1.workIntro{
 	font-size:35px;
 	margin-top:44px;	
 	// padding:20px;
+}
+
+// //animation for blob
+// .meWorkFadeAnimation{
+// 	opacity:0;
+// 	-webkit-animation:popIn ease-in 1;
+// 	-moz-animation:popIn ease-in 1;
+// 	animation:popIn ease-in 1;
+
+// 	-webkit-animation-duration:2s;
+// 	-moz-animation-duration:2s;
+// 	animation-duration:2s;
+
+// 	-webkit-animation-fill-mode:forwards;  
+//     -moz-animation-fill-mode:forwards;
+// 	animation-fill-mode:forwards;
+// }
+// .meWorkAnimation{
+// 	-webkit-animation-name:slideUp;
+// 	-moz-animation-name:slideUp;
+// 	animation-name:slideUp;
+
+// 	-webkit-animation-duration:6s;
+// 	-moz-animation-duration:6s;
+// 	animation-duration:6s;
+
+// 	-webkit-animation-timing-function:linear;
+// 	-moz-animation-timing-function:linear;
+// 	animation-timing-function:linear;
+
+// 	-webkit-animation-iteration-count:1;
+// 	-moz-animation-iteration-count:1;
+// 	animation-iteration-count:1;
+
+// 	-webkit-animation-delay:2s;
+// 	-moz-animation-delay:2s;
+// 	animation-delay:2s;
+
+// 	-webkit-animation-fill-mode:forwards;  
+//     -moz-animation-fill-mode:forwards;
+// 	animation-fill-mode:forwards;
+// }
+
+// @-webkit-keyframes popIn{
+// 	from { opacity:0; } to { opacity:1; } 
+// }
+
+// @-moz-keyframes popIn{
+// 	from { opacity:0; } to { opacity:1; } 
+// }
+
+// @keyframes popIn { 
+// 		from { opacity:0; } to { opacity:1; } 
+// }
+
+// @-webkit-keyframes slideUp {
+// 	0% {
+// 		margin-top:296px;
+// 		opacity:0;
+// 	}
+// 	25% {
+// 		margin-top:222px;
+// 		opacity:0;
+// 	}
+// 	50% {
+// 		margin-top:148px;
+// 		opacity:0;
+// 	}
+// 	75% {
+// 		margin-top:74px;
+// 		opacity:0;
+// 	}
+// 	100% {
+// 		margin-left:0px;
+// 		opacity:1;
+// 	}
+// }
+
+// @-moz-keyframes slideUp {
+// 	0% {
+// 		margin-top:296px;
+// 		opacity:0;
+// 	}
+// 	25% {
+// 		margin-top:222px;
+// 		opacity:0;
+// 	}
+// 	50% {
+// 		margin-top:148px;
+// 		opacity:0;
+// 	}
+// 	75% {
+// 		margin-top:74px;
+// 		opacity:0;
+// 	}
+// 	100% {
+// 		margin-left:0px;
+// 		opacity: 1;
+// 	}
+// }
+
+// @keyframes slideUp {
+// 	0% {
+// 		margin-top:226px;
+// 		opacity:0;
+// 	}
+// 	25% {
+// 		margin-top:169px;
+// 		opacity:0;
+// 	}
+// 	50% {
+// 		margin-top:112px;
+// 		opacity:0;
+// 	}
+// 	75% {
+// 		margin-top:56px;
+// 		opacity:0;
+// 	}
+// 	100% {
+// 		margin-left:0px;
+// 		opacity:1
+// 	}
+// }
+
+//animation for about bubbles
+@-webkit-keyframes smallWorkFade{
+	from { opacity:0; } to { opacity:1; } 
+}
+@-moz-keyframes smallWorkFade{
+	from { opacity:0; } to { opacity:1; } 
+}
+@keyframes smallWorkFade { 
+		from { opacity:0; } to { opacity:1; } 
+}
+
+.smallWorkAnimation{
+	opacity:0;
+	-webkit-animation:smallWorkFade ease-in 1;
+	-moz-animation:smallWorkFade ease-in 1;
+	animation:smallWorkFade ease-in 1;
+
+	-webkit-animation-duration:.25s;
+	-moz-animation-duration:.25s;
+	animation-duration:.25s;
+
+	-webkit-animation-fill-mode:forwards;  
+    -moz-animation-fill-mode:forwards;
+	animation-fill-mode:forwards;
+
+	-webkit-animation-delay:2s;
+	-moz-animation-delay:2s;
+	animation-delay:2s;
+}
+
+@-webkit-keyframes medWorkFade{
+	from { opacity:0; } to { opacity:1; } 
+}
+@-moz-keyframes medWorkFade{
+	from { opacity:0; } to { opacity:1; } 
+}
+@keyframes medWorkFade { 
+		from { opacity:0; } to { opacity:1; } 
+}
+
+.medWorkAnimation{
+	opacity:0;
+	-webkit-animation:medWorkFade ease-in 1;
+	-moz-animation:medWorkFade ease-in 1;
+	animation:medWorkFade ease-in 1;
+
+	-webkit-animation-duration:.5s;
+	-moz-animation-duration:.5s;
+	animation-duration:.5s;
+
+	-webkit-animation-fill-mode:forwards;  
+    -moz-animation-fill-mode:forwards;
+	animation-fill-mode:forwards;
+
+	-webkit-animation-delay:3s;
+	-moz-animation-delat:3s;
+	animation-delay:3s;
+}
+
+@-webkit-keyframes lgWorkFade{
+	from { opacity:0; } to { opacity:1; }
+
+}
+@-moz-keyframes lgWorkFade{
+	from { opacity:0; } to { opacity:1; } 
+}
+@keyframes lgWorkFade { 
+		from { opacity:0; } to { opacity:1; } 
+}
+
+.workBubbleAnimation{
+	opacity:0;
+	-webkit-animation:lgWorkFade ease-in 1;
+	-moz-animation:lgWorkFade ease-in 1;
+	animation:lgWorkFade ease-in 1;
+
+	-webkit-animation-duration:1s;
+	-moz-animation-duration:1s;
+	animation-duration:1s;
+
+	-webkit-animation-fill-mode:forwards;  
+    -moz-animation-fill-mode:forwards;
+	animation-fill-mode:forwards;
+
+	-webkit-animation-delay:4s;
+	-moz-animation-delay:4s;
+	animation-delay:4s;
 }
