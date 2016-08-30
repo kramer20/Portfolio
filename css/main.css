@@ -209,9 +209,9 @@ ul.rateList {
   -webkit-animation-fill-mode: forwards;
   -moz-animation-fill-mode: forwards;
   animation-fill-mode: forwards;
-  -webkit-animation-delay: 2s;
-  -moz-animation-delay: 2s;
-  animation-delay: 2s; }
+  -webkit-animation-delay: .5s;
+  -moz-animation-delay: .5s;
+  animation-delay: .5s; }
 
 @-webkit-keyframes medSkillsFade {
   from {
@@ -242,9 +242,9 @@ ul.rateList {
   -webkit-animation-fill-mode: forwards;
   -moz-animation-fill-mode: forwards;
   animation-fill-mode: forwards;
-  -webkit-animation-delay: 3s;
-  -moz-animation-delat: 3s;
-  animation-delay: 3s; }
+  -webkit-animation-delay: 1s;
+  -moz-animation-delat: 1s;
+  animation-delay: 1s; }
 
 @-webkit-keyframes lgSkillsFade {
   from {
@@ -275,9 +275,9 @@ ul.rateList {
   -webkit-animation-fill-mode: forwards;
   -moz-animation-fill-mode: forwards;
   animation-fill-mode: forwards;
-  -webkit-animation-delay: 4s;
-  -moz-animation-delay: 4s;
-  animation-delay: 4s; }
+  -webkit-animation-delay: 1.5s;
+  -moz-animation-delay: 1.5s;
+  animation-delay: 1.5s; }
 
 #about .about {
   opacity: 0; }
@@ -739,9 +739,9 @@ img#meSkills {
   -webkit-animation-fill-mode: forwards;
   -moz-animation-fill-mode: forwards;
   animation-fill-mode: forwards;
-  -webkit-animation-delay: 4s;
-  -moz-animation-delay: 4s;
-  animation-delay: 4s; }
+  -webkit-animation-delay: 2s;
+  -moz-animation-delay: 2s;
+  animation-delay: 2s; }
 
 @-webkit-keyframes listSkillsFade {
   from {
@@ -772,9 +772,9 @@ img#meSkills {
   -webkit-animation-fill-mode: forwards;
   -moz-animation-fill-mode: forwards;
   animation-fill-mode: forwards;
-  -webkit-animation-delay: 5s;
-  -moz-animation-delay: 5s;
-  animation-delay: 5s; }
+  -webkit-animation-delay: 3s;
+  -moz-animation-delay: 3s;
+  animation-delay: 3s; }
 
 @-webkit-keyframes htmlOneFade {
   from {
@@ -805,9 +805,9 @@ img#meSkills {
   -webkit-animation-fill-mode: forwards;
   -moz-animation-fill-mode: forwards;
   animation-fill-mode: forwards;
-  -webkit-animation-delay: 6s;
-  -moz-animation-delay: 6s;
-  animation-delay: 6s; }
+  -webkit-animation-delay: 3.5s;
+  -moz-animation-delay: 3.5s;
+  animation-delay: 3.5s; }
 
 @-webkit-keyframes htmlTwoFade {
   from {
@@ -838,9 +838,9 @@ img#meSkills {
   -webkit-animation-fill-mode: forwards;
   -moz-animation-fill-mode: forwards;
   animation-fill-mode: forwards;
-  -webkit-animation-delay: 7s;
-  -moz-animation-delay: 7s;
-  animation-delay: 7s; }
+  -webkit-animation-delay: 4s;
+  -moz-animation-delay: 4s;
+  animation-delay: 4s; }
 
 @-webkit-keyframes htmlThreeFade {
   from {
@@ -871,9 +871,9 @@ img#meSkills {
   -webkit-animation-fill-mode: forwards;
   -moz-animation-fill-mode: forwards;
   animation-fill-mode: forwards;
-  -webkit-animation-delay: 8s;
-  -moz-animation-delay: 8s;
-  animation-delay: 8s; }
+  -webkit-animation-delay: 4.5s;
+  -moz-animation-delay: 4.5s;
+  animation-delay: 4.5s; }
 
 @-webkit-keyframes htmlFourFade {
   from {
@@ -904,9 +904,9 @@ img#meSkills {
   -webkit-animation-fill-mode: forwards;
   -moz-animation-fill-mode: forwards;
   animation-fill-mode: forwards;
-  -webkit-animation-delay: 9s;
-  -moz-animation-delay: 9s;
-  animation-delay: 9s; }
+  -webkit-animation-delay: 5s;
+  -moz-animation-delay: 5s;
+  animation-delay: 5s; }
 
 @-webkit-keyframes htmlFiveFade {
   from {
@@ -926,72 +926,6 @@ img#meSkills {
   to {
     opacity: 1; } }
 
-.htmlSixAnimation {
-  opacity: 0;
-  -webkit-animation: htmlSixFade ease 1;
-  -moz-animation: htmlSixFade ease 1;
-  animation: htmlSixFade ease 1;
-  -webkit-animation-duration: .25s;
-  -moz-animation-duration: .25s;
-  animation-duration: .25s;
-  -webkit-animation-fill-mode: forwards;
-  -moz-animation-fill-mode: forwards;
-  animation-fill-mode: forwards;
-  -webkit-animation-delay: 10s;
-  -moz-animation-delay: 10s;
-  animation-delay: 10s; }
-
-@-webkit-keyframes htmlSixFade {
-  from {
-    opacity: 0; }
-  to {
-    opacity: 1; } }
-
-@-moz-keyframes htmlSixFade {
-  from {
-    opacity: 0; }
-  to {
-    opacity: 1; } }
-
-@keyframes htmlSixFade {
-  from {
-    opacity: 0; }
-  to {
-    opacity: 1; } }
-
-.htmlSevenAnimation {
-  opacity: 0;
-  -webkit-animation: htmlSevenFade ease 1;
-  -moz-animation: htmlSevenFade ease 1;
-  animation: htmlSevenFade ease 1;
-  -webkit-animation-duration: .25s;
-  -moz-animation-duration: .25s;
-  animation-duration: .25s;
-  -webkit-animation-fill-mode: forwards;
-  -moz-animation-fill-mode: forwards;
-  animation-fill-mode: forwards;
-  -webkit-animation-delay: 11s;
-  -moz-animation-delay: 11s;
-  animation-delay: 11s; }
-
-@-webkit-keyframes htmlSevenFade {
-  from {
-    opacity: 0; }
-  to {
-    opacity: 1; } }
-
-@-moz-keyframes htmlSevenFade {
-  from {
-    opacity: 0; }
-  to {
-    opacity: 1; } }
-
-@keyframes htmlSevenFade {
-  from {
-    opacity: 0; }
-  to {
-    opacity: 1; } }
-
 .cssOneAnimation {
   opacity: 0;
   -webkit-animation: cssOneFade ease 1;
@@ -1003,9 +937,9 @@ img#meSkills {
   -webkit-animation-fill-mode: forwards;
   -moz-animation-fill-mode: forwards;
   animation-fill-mode: forwards;
-  -webkit-animation-delay: 5s;
-  -moz-animation-delay: 5s;
-  animation-delay: 5s; }
+  -webkit-animation-delay: 6s;
+  -moz-animation-delay: 6s;
+  animation-delay: 6s; }
 
 @-webkit-keyframes cssOneFade {
   from {
@@ -1036,9 +970,9 @@ img#meSkills {
   -webkit-animation-fill-mode: forwards;
   -moz-animation-fill-mode: forwards;
   animation-fill-mode: forwards;
-  -webkit-animation-delay: 6s;
-  -moz-animation-delay: 6s;
-  animation-delay: 6s; }
+  -webkit-animation-delay: 6.5s;
+  -moz-animation-delay: 6.5s;
+  animation-delay: 6.5s; }
 
 @-webkit-keyframes cssTwoFade {
   from {
@@ -1102,9 +1036,9 @@ img#meSkills {
   -webkit-animation-fill-mode: forwards;
   -moz-animation-fill-mode: forwards;
   animation-fill-mode: forwards;
-  -webkit-animation-delay: 8s;
-  -moz-animation-delay: 8s;
-  animation-delay: 8s; }
+  -webkit-animation-delay: 7.5s;
+  -moz-animation-delay: 7.5s;
+  animation-delay: 7.5s; }
 
 @-webkit-keyframes cssFourFade {
   from {
@@ -1135,9 +1069,9 @@ img#meSkills {
   -webkit-animation-fill-mode: forwards;
   -moz-animation-fill-mode: forwards;
   animation-fill-mode: forwards;
-  -webkit-animation-delay: 9s;
-  -moz-animation-delay: 9s;
-  animation-delay: 9s; }
+  -webkit-animation-delay: 8s;
+  -moz-animation-delay: 8s;
+  animation-delay: 8s; }
 
 @-webkit-keyframes cssFiveFade {
   from {
@@ -1157,72 +1091,6 @@ img#meSkills {
   to {
     opacity: 1; } }
 
-.cssSixAnimation {
-  opacity: 0;
-  -webkit-animation: cssSixFade ease 1;
-  -moz-animation: cssSixFade ease 1;
-  animation: cssSixFade ease 1;
-  -webkit-animation-duration: .25s;
-  -moz-animation-duration: .25s;
-  animation-duration: .25s;
-  -webkit-animation-fill-mode: forwards;
-  -moz-animation-fill-mode: forwards;
-  animation-fill-mode: forwards;
-  -webkit-animation-delay: 10s;
-  -moz-animation-delay: 10s;
-  animation-delay: 10s; }
-
-@-webkit-keyframes cssSixFade {
-  from {
-    opacity: 0; }
-  to {
-    opacity: 1; } }
-
-@-moz-keyframes cssSixFade {
-  from {
-    opacity: 0; }
-  to {
-    opacity: 1; } }
-
-@keyframes cssSixFade {
-  from {
-    opacity: 0; }
-  to {
-    opacity: 1; } }
-
-.cssSevenAnimation {
-  opacity: 0;
-  -webkit-animation: cssSevenFade ease 1;
-  -moz-animation: cssSevenFade ease 1;
-  animation: cssSevenFade ease 1;
-  -webkit-animation-duration: .25s;
-  -moz-animation-duration: .25s;
-  animation-duration: .25s;
-  -webkit-animation-fill-mode: forwards;
-  -moz-animation-fill-mode: forwards;
-  animation-fill-mode: forwards;
-  -webkit-animation-delay: 11s;
-  -moz-animation-delay: 11s;
-  animation-delay: 11s; }
-
-@-webkit-keyframes cssSevenFade {
-  from {
-    opacity: 0; }
-  to {
-    opacity: 1; } }
-
-@-moz-keyframes cssSevenFade {
-  from {
-    opacity: 0; }
-  to {
-    opacity: 1; } }
-
-@keyframes cssSevenFade {
-  from {
-    opacity: 0; }
-  to {
-    opacity: 1; } }
-
 .javaOneAnimation {
   opacity: 0;
   -webkit-animation: javaOneFade ease 1;
@@ -1234,9 +1102,9 @@ img#meSkills {
   -webkit-animation-fill-mode: forwards;
   -moz-animation-fill-mode: forwards;
   animation-fill-mode: forwards;
-  -webkit-animation-delay: 5s;
-  -moz-animation-delay: 5s;
-  animation-delay: 5s; }
+  -webkit-animation-delay: 9s;
+  -moz-animation-delay: 9s;
+  animation-delay: 9s; }
 
 @-webkit-keyframes javaOneFade {
   from {
@@ -1267,9 +1135,9 @@ img#meSkills {
   -webkit-animation-fill-mode: forwards;
   -moz-animation-fill-mode: forwards;
   animation-fill-mode: forwards;
-  -webkit-animation-delay: 6s;
-  -moz-animation-delay: 6s;
-  animation-delay: 6s; }
+  -webkit-animation-delay: 9.5s;
+  -moz-animation-delay: 9.5s;
+  animation-delay: 9.5s; }
 
 @-webkit-keyframes javaTwoFade {
   from {
@@ -1300,9 +1168,9 @@ img#meSkills {
   -webkit-animation-fill-mode: forwards;
   -moz-animation-fill-mode: forwards;
   animation-fill-mode: forwards;
-  -webkit-animation-delay: 7s;
-  -moz-animation-delay: 7s;
-  animation-delay: 7s; }
+  -webkit-animation-delay: 10s;
+  -moz-animation-delay: 10s;
+  animation-delay: 10s; }
 
 @-webkit-keyframes javaThreeFade {
   from {
@@ -1333,9 +1201,9 @@ img#meSkills {
   -webkit-animation-fill-mode: forwards;
   -moz-animation-fill-mode: forwards;
   animation-fill-mode: forwards;
-  -webkit-animation-delay: 8s;
-  -moz-animation-delay: 8s;
-  animation-delay: 8s; }
+  -webkit-animation-delay: 10.5s;
+  -moz-animation-delay: 10.5s;
+  animation-delay: 10.5s; }
 
 @-webkit-keyframes javaFourFade {
   from {
@@ -1366,9 +1234,9 @@ img#meSkills {
   -webkit-animation-fill-mode: forwards;
   -moz-animation-fill-mode: forwards;
   animation-fill-mode: forwards;
-  -webkit-animation-delay: 9s;
-  -moz-animation-delay: 9s;
-  animation-delay: 9s; }
+  -webkit-animation-delay: 11s;
+  -moz-animation-delay: 11s;
+  animation-delay: 11s; }
 
 @-webkit-keyframes javaFiveFade {
   from {
@@ -1388,72 +1256,6 @@ img#meSkills {
   to {
     opacity: 1; } }
 
-.javaSixAnimation {
-  opacity: 0;
-  -webkit-animation: javaSixFade ease 1;
-  -moz-animation: javaSixFade ease 1;
-  animation: javaSixFade ease 1;
-  -webkit-animation-duration: .25s;
-  -moz-animation-duration: .25s;
-  animation-duration: .25s;
-  -webkit-animation-fill-mode: forwards;
-  -moz-animation-fill-mode: forwards;
-  animation-fill-mode: forwards;
-  -webkit-animation-delay: 10s;
-  -moz-animation-delay: 10s;
-  animation-delay: 10s; }
-
-@-webkit-keyframes javaSixFade {
-  from {
-    opacity: 0; }
-  to {
-    opacity: 1; } }
-
-@-moz-keyframes javaSixFade {
-  from {
-    opacity: 0; }
-  to {
-    opacity: 1; } }
-
-@keyframes javaSixFade {
-  from {
-    opacity: 0; }
-  to {
-    opacity: 1; } }
-
-.javaSevenAnimation {
-  opacity: 0;
-  -webkit-animation: javaSevenFade ease 1;
-  -moz-animation: javaSevenFade ease 1;
-  animation: javaSevenFade ease 1;
-  -webkit-animation-duration: .25s;
-  -moz-animation-duration: .25s;
-  animation-duration: .25s;
-  -webkit-animation-fill-mode: forwards;
-  -moz-animation-fill-mode: forwards;
-  animation-fill-mode: forwards;
-  -webkit-animation-delay: 11s;
-  -moz-animation-delay: 11s;
-  animation-delay: 11s; }
-
-@-webkit-keyframes javaSevenFade {
-  from {
-    opacity: 0; }
-  to {
-    opacity: 1; } }
-
-@-moz-keyframes javaSevenFade {
-  from {
-    opacity: 0; }
-  to {
-    opacity: 1; } }
-
-@keyframes javaSevenFade {
-  from {
-    opacity: 0; }
-  to {
-    opacity: 1; } }
-
 .jOneAnimation {
   opacity: 0;
   -webkit-animation: jOneFade ease 1;
@@ -1465,9 +1267,9 @@ img#meSkills {
   -webkit-animation-fill-mode: forwards;
   -moz-animation-fill-mode: forwards;
   animation-fill-mode: forwards;
-  -webkit-animation-delay: 5s;
-  -moz-animation-delay: 5s;
-  animation-delay: 5s; }
+  -webkit-animation-delay: 12s;
+  -moz-animation-delay: 12s;
+  animation-delay: 12s; }
 
 @-webkit-keyframes jOneFade {
   from {
@@ -1498,9 +1300,9 @@ img#meSkills {
   -webkit-animation-fill-mode: forwards;
   -moz-animation-fill-mode: forwards;
   animation-fill-mode: forwards;
-  -webkit-animation-delay: 6s;
-  -moz-animation-delay: 6s;
-  animation-delay: 6s; }
+  -webkit-animation-delay: 12.5s;
+  -moz-animation-delay: 12.5s;
+  animation-delay: 12.5s; }
 
 @-webkit-keyframes jTwoFade {
   from {
@@ -1531,9 +1333,9 @@ img#meSkills {
   -webkit-animation-fill-mode: forwards;
   -moz-animation-fill-mode: forwards;
   animation-fill-mode: forwards;
-  -webkit-animation-delay: 7s;
-  -moz-animation-delay: 7s;
-  animation-delay: 7s; }
+  -webkit-animation-delay: 13s;
+  -moz-animation-delay: 13s;
+  animation-delay: 13s; }
 
 @-webkit-keyframes jThreeFade {
   from {
@@ -1564,9 +1366,9 @@ img#meSkills {
   -webkit-animation-fill-mode: forwards;
   -moz-animation-fill-mode: forwards;
   animation-fill-mode: forwards;
-  -webkit-animation-delay: 8s;
-  -moz-animation-delay: 8s;
-  animation-delay: 8s; }
+  -webkit-animation-delay: 13.5s;
+  -moz-animation-delay: 13.5s;
+  animation-delay: 13.5s; }
 
 @-webkit-keyframes jFourFade {
   from {
@@ -1597,9 +1399,9 @@ img#meSkills {
   -webkit-animation-fill-mode: forwards;
   -moz-animation-fill-mode: forwards;
   animation-fill-mode: forwards;
-  -webkit-animation-delay: 9s;
-  -moz-animation-delay: 9s;
-  animation-delay: 9s; }
+  -webkit-animation-delay: 14s;
+  -moz-animation-delay: 14s;
+  animation-delay: 14s; }
 
 @-webkit-keyframes jFiveFade {
   from {
@@ -1619,72 +1421,6 @@ img#meSkills {
   to {
     opacity: 1; } }
 
-.jSixAnimation {
-  opacity: 0;
-  -webkit-animation: jSixFade ease 1;
-  -moz-animation: jSixFade ease 1;
-  animation: jSixFade ease 1;
-  -webkit-animation-duration: .25s;
-  -moz-animation-duration: .25s;
-  animation-duration: .25s;
-  -webkit-animation-fill-mode: forwards;
-  -moz-animation-fill-mode: forwards;
-  animation-fill-mode: forwards;
-  -webkit-animation-delay: 10s;
-  -moz-animation-delay: 10s;
-  animation-delay: 10s; }
-
-@-webkit-keyframes jSixFade {
-  from {
-    opacity: 0; }
-  to {
-    opacity: 1; } }
-
-@-moz-keyframes jSixFade {
-  from {
-    opacity: 0; }
-  to {
-    opacity: 1; } }
-
-@keyframes jSixFade {
-  from {
-    opacity: 0; }
-  to {
-    opacity: 1; } }
-
-.jSevenAnimation {
-  opacity: 0;
-  -webkit-animation: jSevenFade ease 1;
-  -moz-animation: jSevenFade ease 1;
-  animation: jSevenFade ease 1;
-  -webkit-animation-duration: .25s;
-  -moz-animation-duration: .25s;
-  animation-duration: .25s;
-  -webkit-animation-fill-mode: forwards;
-  -moz-animation-fill-mode: forwards;
-  animation-fill-mode: forwards;
-  -webkit-animation-delay: 11s;
-  -moz-animation-delay: 11s;
-  animation-delay: 11s; }
-
-@-webkit-keyframes jSevenFade {
-  from {
-    opacity: 0; }
-  to {
-    opacity: 1; } }
-
-@-moz-keyframes jSevenFade {
-  from {
-    opacity: 0; }
-  to {
-    opacity: 1; } }
-
-@keyframes jSevenFade {
-  from {
-    opacity: 0; }
-  to {
-    opacity: 1; } }
-
 .angOneAnimation {
   opacity: 0;
   -webkit-animation: angOneFade ease 1;
@@ -1696,9 +1432,9 @@ img#meSkills {
   -webkit-animation-fill-mode: forwards;
   -moz-animation-fill-mode: forwards;
   animation-fill-mode: forwards;
-  -webkit-animation-delay: 5s;
-  -moz-animation-delay: 5s;
-  animation-delay: 5s; }
+  -webkit-animation-delay: 15s;
+  -moz-animation-delay: 15s;
+  animation-delay: 15s; }
 
 @-webkit-keyframes angOneFade {
   from {
@@ -1729,9 +1465,9 @@ img#meSkills {
   -webkit-animation-fill-mode: forwards;
   -moz-animation-fill-mode: forwards;
   animation-fill-mode: forwards;
-  -webkit-animation-delay: 6s;
-  -moz-animation-delay: 6s;
-  animation-delay: 6s; }
+  -webkit-animation-delay: 15.5s;
+  -moz-animation-delay: 15.5s;
+  animation-delay: 15.5s; }
 
 @-webkit-keyframes angTwoFade {
   from {
@@ -1762,9 +1498,9 @@ img#meSkills {
   -webkit-animation-fill-mode: forwards;
   -moz-animation-fill-mode: forwards;
   animation-fill-mode: forwards;
-  -webkit-animation-delay: 7s;
-  -moz-animation-delay: 7s;
-  animation-delay: 7s; }
+  -webkit-animation-delay: 16s;
+  -moz-animation-delay: 16s;
+  animation-delay: 16s; }
 
 @-webkit-keyframes angThreeFade {
   from {
@@ -1795,9 +1531,9 @@ img#meSkills {
   -webkit-animation-fill-mode: forwards;
   -moz-animation-fill-mode: forwards;
   animation-fill-mode: forwards;
-  -webkit-animation-delay: 8s;
-  -moz-animation-delay: 8s;
-  animation-delay: 8s; }
+  -webkit-animation-delay: 16.5s;
+  -moz-animation-delay: 16.5s;
+  animation-delay: 16.5s; }
 
 @-webkit-keyframes angFourFade {
   from {
@@ -1828,9 +1564,9 @@ img#meSkills {
   -webkit-animation-fill-mode: forwards;
   -moz-animation-fill-mode: forwards;
   animation-fill-mode: forwards;
-  -webkit-animation-delay: 9s;
-  -moz-animation-delay: 9s;
-  animation-delay: 9s; }
+  -webkit-animation-delay: 17s;
+  -moz-animation-delay: 17s;
+  animation-delay: 17s; }
 
 @-webkit-keyframes angFiveFade {
   from {
@@ -1850,72 +1586,6 @@ img#meSkills {
   to {
     opacity: 1; } }
 
-.angSixAnimation {
-  opacity: 0;
-  -webkit-animation: angSixFade ease 1;
-  -moz-animation: angSixFade ease 1;
-  animation: angSixFade ease 1;
-  -webkit-animation-duration: .25s;
-  -moz-animation-duration: .25s;
-  animation-duration: .25s;
-  -webkit-animation-fill-mode: forwards;
-  -moz-animation-fill-mode: forwards;
-  animation-fill-mode: forwards;
-  -webkit-animation-delay: 10s;
-  -moz-animation-delay: 10s;
-  animation-delay: 10s; }
-
-@-webkit-keyframes angSixFade {
-  from {
-    opacity: 0; }
-  to {
-    opacity: 1; } }
-
-@-moz-keyframes angSixFade {
-  from {
-    opacity: 0; }
-  to {
-    opacity: 1; } }
-
-@keyframes angSixFade {
-  from {
-    opacity: 0; }
-  to {
-    opacity: 1; } }
-
-.angSevenAnimation {
-  opacity: 0;
-  -webkit-animation: angSevenFade ease 1;
-  -moz-animation: angSevenFade ease 1;
-  animation: angSevenFade ease 1;
-  -webkit-animation-duration: .25s;
-  -moz-animation-duration: .25s;
-  animation-duration: .25s;
-  -webkit-animation-fill-mode: forwards;
-  -moz-animation-fill-mode: forwards;
-  animation-fill-mode: forwards;
-  -webkit-animation-delay: 11s;
-  -moz-animation-delay: 11s;
-  animation-delay: 11s; }
-
-@-webkit-keyframes angSevenFade {
-  from {
-    opacity: 0; }
-  to {
-    opacity: 1; } }
-
-@-moz-keyframes angSevenFade {
-  from {
-    opacity: 0; }
-  to {
-    opacity: 1; } }
-
-@keyframes angSevenFade {
-  from {
-    opacity: 0; }
-  to {
-    opacity: 1; } }
-
 .photoOneAnimation {
   opacity: 0;
   -webkit-animation: photoOneFade ease 1;
@@ -1927,9 +1597,9 @@ img#meSkills {
   -webkit-animation-fill-mode: forwards;
   -moz-animation-fill-mode: forwards;
   animation-fill-mode: forwards;
-  -webkit-animation-delay: 5s;
-  -moz-animation-delay: 5s;
-  animation-delay: 5s; }
+  -webkit-animation-delay: 18s;
+  -moz-animation-delay: 18s;
+  animation-delay: 18s; }
 
 @-webkit-keyframes photoOneFade {
   from {
@@ -1960,9 +1630,9 @@ img#meSkills {
   -webkit-animation-fill-mode: forwards;
   -moz-animation-fill-mode: forwards;
   animation-fill-mode: forwards;
-  -webkit-animation-delay: 6s;
-  -moz-animation-delay: 6s;
-  animation-delay: 6s; }
+  -webkit-animation-delay: 18.5s;
+  -moz-animation-delay: 18.5s;
+  animation-delay: 18.5s; }
 
 @-webkit-keyframes photoTwoFade {
   from {
@@ -1993,9 +1663,9 @@ img#meSkills {
   -webkit-animation-fill-mode: forwards;
   -moz-animation-fill-mode: forwards;
   animation-fill-mode: forwards;
-  -webkit-animation-delay: 7s;
-  -moz-animation-delay: 7s;
-  animation-delay: 7s; }
+  -webkit-animation-delay: 19s;
+  -moz-animation-delay: 19s;
+  animation-delay: 19s; }
 
 @-webkit-keyframes photoThreeFade {
   from {
@@ -2026,9 +1696,9 @@ img#meSkills {
   -webkit-animation-fill-mode: forwards;
   -moz-animation-fill-mode: forwards;
   animation-fill-mode: forwards;
-  -webkit-animation-delay: 8s;
-  -moz-animation-delay: 8s;
-  animation-delay: 8s; }
+  -webkit-animation-delay: 19.5s;
+  -moz-animation-delay: 19.5s;
+  animation-delay: 19.5s; }
 
 @-webkit-keyframes photoFourFade {
   from {
@@ -2059,9 +1729,9 @@ img#meSkills {
   -webkit-animation-fill-mode: forwards;
   -moz-animation-fill-mode: forwards;
   animation-fill-mode: forwards;
-  -webkit-animation-delay: 9s;
-  -moz-animation-delay: 9s;
-  animation-delay: 9s; }
+  -webkit-animation-delay: 20s;
+  -moz-animation-delay: 20s;
+  animation-delay: 20s; }
 
 @-webkit-keyframes photoFiveFade {
   from {
@@ -2081,72 +1751,6 @@ img#meSkills {
   to {
     opacity: 1; } }
 
-.photoSixAnimation {
-  opacity: 0;
-  -webkit-animation: photoSixFade ease 1;
-  -moz-animation: photoSixFade ease 1;
-  animation: photoSixFade ease 1;
-  -webkit-animation-duration: .25s;
-  -moz-animation-duration: .25s;
-  animation-duration: .25s;
-  -webkit-animation-fill-mode: forwards;
-  -moz-animation-fill-mode: forwards;
-  animation-fill-mode: forwards;
-  -webkit-animation-delay: 10s;
-  -moz-animation-delay: 10s;
-  animation-delay: 10s; }
-
-@-webkit-keyframes photoSixFade {
-  from {
-    opacity: 0; }
-  to {
-    opacity: 1; } }
-
-@-moz-keyframes photoSixFade {
-  from {
-    opacity: 0; }
-  to {
-    opacity: 1; } }
-
-@keyframes photoSixFade {
-  from {
-    opacity: 0; }
-  to {
-    opacity: 1; } }
-
-.photoSevenAnimation {
-  opacity: 0;
-  -webkit-animation: photoSevenFade ease 1;
-  -moz-animation: photoSevenFade ease 1;
-  animation: photoSevenFade ease 1;
-  -webkit-animation-duration: .25s;
-  -moz-animation-duration: .25s;
-  animation-duration: .25s;
-  -webkit-animation-fill-mode: forwards;
-  -moz-animation-fill-mode: forwards;
-  animation-fill-mode: forwards;
-  -webkit-animation-delay: 11s;
-  -moz-animation-delay: 11s;
-  animation-delay: 11s; }
-
-@-webkit-keyframes photoSevenFade {
-  from {
-    opacity: 0; }
-  to {
-    opacity: 1; } }
-
-@-moz-keyframes photoSevenFade {
-  from {
-    opacity: 0; }
-  to {
-    opacity: 1; } }
-
-@keyframes photoSevenFade {
-  from {
-    opacity: 0; }
-  to {
-    opacity: 1; } }
-
 .designOneAnimation {
   opacity: 0;
   -webkit-animation: designOneFade ease 1;
@@ -2158,9 +1762,9 @@ img#meSkills {
   -webkit-animation-fill-mode: forwards;
   -moz-animation-fill-mode: forwards;
   animation-fill-mode: forwards;
-  -webkit-animation-delay: 5s;
-  -moz-animation-delay: 5s;
-  animation-delay: 5s; }
+  -webkit-animation-delay: 21s;
+  -moz-animation-delay: 21s;
+  animation-delay: 21s; }
 
 @-webkit-keyframes designOneFade {
   from {
@@ -2191,9 +1795,9 @@ img#meSkills {
   -webkit-animation-fill-mode: forwards;
   -moz-animation-fill-mode: forwards;
   animation-fill-mode: forwards;
-  -webkit-animation-delay: 6s;
-  -moz-animation-delay: 6s;
-  animation-delay: 6s; }
+  -webkit-animation-delay: 21.5s;
+  -moz-animation-delay: 21.5s;
+  animation-delay: 21.5s; }
 
 @-webkit-keyframes designTwoFade {
   from {
@@ -2224,9 +1828,9 @@ img#meSkills {
   -webkit-animation-fill-mode: forwards;
   -moz-animation-fill-mode: forwards;
   animation-fill-mode: forwards;
-  -webkit-animation-delay: 7s;
-  -moz-animation-delay: 7s;
-  animation-delay: 7s; }
+  -webkit-animation-delay: 22s;
+  -moz-animation-delay: 22s;
+  animation-delay: 22s; }
 
 @-webkit-keyframes desginThreeFade {
   from {
@@ -2257,9 +1861,9 @@ img#meSkills {
   -webkit-animation-fill-mode: forwards;
   -moz-animation-fill-mode: forwards;
   animation-fill-mode: forwards;
-  -webkit-animation-delay: 8s;
-  -moz-animation-delay: 8s;
-  animation-delay: 8s; }
+  -webkit-animation-delay: 22.5s;
+  -moz-animation-delay: 22.5s;
+  animation-delay: 22.5s; }
 
 @-webkit-keyframes designFourFade {
   from {
@@ -2290,9 +1894,9 @@ img#meSkills {
   -webkit-animation-fill-mode: forwards;
   -moz-animation-fill-mode: forwards;
   animation-fill-mode: forwards;
-  -webkit-animation-delay: 9s;
-  -moz-animation-delay: 9s;
-  animation-delay: 9s; }
+  -webkit-animation-delay: 23s;
+  -moz-animation-delay: 23s;
+  animation-delay: 23s; }
 
 @-webkit-keyframes designFiveFade {
   from {
@@ -2307,72 +1911,6 @@ img#meSkills {
     opacity: 1; } }
 
 @keyframes designFiveFade {
-  from {
-    opacity: 0; }
-  to {
-    opacity: 1; } }
-
-.designSixAnimation {
-  opacity: 0;
-  -webkit-animation: designSixFade ease 1;
-  -moz-animation: designSixFade ease 1;
-  animation: designSixFade ease 1;
-  -webkit-animation-duration: .25s;
-  -moz-animation-duration: .25s;
-  animation-duration: .25s;
-  -webkit-animation-fill-mode: forwards;
-  -moz-animation-fill-mode: forwards;
-  animation-fill-mode: forwards;
-  -webkit-animation-delay: 10s;
-  -moz-animation-delay: 10s;
-  animation-delay: 10s; }
-
-@-webkit-keyframes designSixFade {
-  from {
-    opacity: 0; }
-  to {
-    opacity: 1; } }
-
-@-moz-keyframes designSixFade {
-  from {
-    opacity: 0; }
-  to {
-    opacity: 1; } }
-
-@keyframes designSixFade {
-  from {
-    opacity: 0; }
-  to {
-    opacity: 1; } }
-
-.designSevenAnimation {
-  opacity: 0;
-  -webkit-animation: designSevenFade ease 1;
-  -moz-animation: designSevenFade ease 1;
-  animation: designSevenFade ease 1;
-  -webkit-animation-duration: .25s;
-  -moz-animation-duration: .25s;
-  animation-duration: .25s;
-  -webkit-animation-fill-mode: forwards;
-  -moz-animation-fill-mode: forwards;
-  animation-fill-mode: forwards;
-  -webkit-animation-delay: 11s;
-  -moz-animation-delay: 11s;
-  animation-delay: 11s; }
-
-@-webkit-keyframes designSevenFade {
-  from {
-    opacity: 0; }
-  to {
-    opacity: 1; } }
-
-@-moz-keyframes designSevenFade {
-  from {
-    opacity: 0; }
-  to {
-    opacity: 1; } }
-
-@keyframes designSevenFade {
   from {
     opacity: 0; }
   to {

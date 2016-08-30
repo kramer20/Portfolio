@@ -13,9 +13,9 @@
     -moz-animation-fill-mode:forwards;
 	animation-fill-mode:forwards;
 
-	-webkit-animation-delay:4s;
-	-moz-animation-delay:4s;
-	animation-delay:4s;
+	-webkit-animation-delay:2s;
+	-moz-animation-delay:2s;
+	animation-delay:2s;
 }
 
 @-webkit-keyframes listSkillsFade{
@@ -44,9 +44,9 @@
     -moz-animation-fill-mode:forwards;
 	animation-fill-mode:forwards;
 
-	-webkit-animation-delay:5s;
-	-moz-animation-delay:5s;
-	animation-delay:5s;
+	-webkit-animation-delay:3s;
+	-moz-animation-delay:3s;
+	animation-delay:3s;
 }
 
 @-webkit-keyframes htmlOneFade{
@@ -74,9 +74,9 @@
     -moz-animation-fill-mode:forwards;
 	animation-fill-mode:forwards;
 
-	-webkit-animation-delay:6s;
-	-moz-animation-delay:6s;
-	animation-delay:6s;
+	-webkit-animation-delay:3.5s;
+	-moz-animation-delay:3.5s;
+	animation-delay:3.5s;
 }
 
 @-webkit-keyframes htmlTwoFade{
@@ -104,9 +104,9 @@
     -moz-animation-fill-mode:forwards;
 	animation-fill-mode:forwards;
 
-	-webkit-animation-delay:7s;
-	-moz-animation-delay:7s;
-	animation-delay:7s;
+	-webkit-animation-delay:4s;
+	-moz-animation-delay:4s;
+	animation-delay:4s;
 }
 
 @-webkit-keyframes htmlThreeFade{
@@ -134,9 +134,9 @@
     -moz-animation-fill-mode:forwards;
 	animation-fill-mode:forwards;
 
-	-webkit-animation-delay:8s;
-	-moz-animation-delay:8s;
-	animation-delay:8s;
+	-webkit-animation-delay:4.5s;
+	-moz-animation-delay:4.5s;
+	animation-delay:4.5s;
 }
 
 @-webkit-keyframes htmlFourFade{
@@ -164,9 +164,9 @@
     -moz-animation-fill-mode:forwards;
 	animation-fill-mode:forwards;
 
-	-webkit-animation-delay:9s;
-	-moz-animation-delay:9s;
-	animation-delay:9s;
+	-webkit-animation-delay:5s;
+	-moz-animation-delay:5s;
+	animation-delay:5s;
 }
 
 @-webkit-keyframes htmlFiveFade{
@@ -180,66 +180,66 @@
 		from { opacity:0; } to { opacity:1; } 
 }
 
-.htmlSixAnimation {
-	opacity:0;
-	-webkit-animation:htmlSixFade ease 1;
-	-moz-animation:htmlSixFade ease 1;
-	animation:htmlSixFade ease 1;
+// .htmlSixAnimation {
+// 	opacity:0;
+// 	-webkit-animation:htmlSixFade ease 1;
+// 	-moz-animation:htmlSixFade ease 1;
+// 	animation:htmlSixFade ease 1;
 
-	-webkit-animation-duration:.25s;
-	-moz-animation-duration:.25s;
-	animation-duration:.25s;
+// 	-webkit-animation-duration:.25s;
+// 	-moz-animation-duration:.25s;
+// 	animation-duration:.25s;
 
-	-webkit-animation-fill-mode:forwards;  
-    -moz-animation-fill-mode:forwards;
-	animation-fill-mode:forwards;
+// 	-webkit-animation-fill-mode:forwards;  
+//     -moz-animation-fill-mode:forwards;
+// 	animation-fill-mode:forwards;
 
-	-webkit-animation-delay:10s;
-	-moz-animation-delay:10s;
-	animation-delay:10s;
-}
+// 	-webkit-animation-delay:10s;
+// 	-moz-animation-delay:10s;
+// 	animation-delay:10s;
+// }
 
-@-webkit-keyframes htmlSixFade{
-	from { opacity:0; } to { opacity:1; }
+// @-webkit-keyframes htmlSixFade{
+// 	from { opacity:0; } to { opacity:1; }
 
-}
-@-moz-keyframes htmlSixFade{
-	from { opacity:0; } to { opacity:1; } 
-}
-@keyframes htmlSixFade { 
-		from { opacity:0; } to { opacity:1; } 
-}
+// }
+// @-moz-keyframes htmlSixFade{
+// 	from { opacity:0; } to { opacity:1; } 
+// }
+// @keyframes htmlSixFade { 
+// 		from { opacity:0; } to { opacity:1; } 
+// }
 
 
-.htmlSevenAnimation {
-	opacity:0;
-	-webkit-animation:htmlSevenFade ease 1;
-	-moz-animation:htmlSevenFade ease 1;
-	animation:htmlSevenFade ease 1;
+// .htmlSevenAnimation {
+// 	opacity:0;
+// 	-webkit-animation:htmlSevenFade ease 1;
+// 	-moz-animation:htmlSevenFade ease 1;
+// 	animation:htmlSevenFade ease 1;
 
-	-webkit-animation-duration:.25s;
-	-moz-animation-duration:.25s;
-	animation-duration:.25s;
+// 	-webkit-animation-duration:.25s;
+// 	-moz-animation-duration:.25s;
+// 	animation-duration:.25s;
 
-	-webkit-animation-fill-mode:forwards;  
-    -moz-animation-fill-mode:forwards;
-	animation-fill-mode:forwards;
+// 	-webkit-animation-fill-mode:forwards;  
+//     -moz-animation-fill-mode:forwards;
+// 	animation-fill-mode:forwards;
 
-	-webkit-animation-delay:11s;
-	-moz-animation-delay:11s;
-	animation-delay:11s;
-}
+// 	-webkit-animation-delay:11s;
+// 	-moz-animation-delay:11s;
+// 	animation-delay:11s;
+// }
 
-@-webkit-keyframes htmlSevenFade{
-	from { opacity:0; } to { opacity:1; }
+// @-webkit-keyframes htmlSevenFade{
+// 	from { opacity:0; } to { opacity:1; }
 
-}
-@-moz-keyframes htmlSevenFade{
-	from { opacity:0; } to { opacity:1; } 
-}
-@keyframes htmlSevenFade { 
-		from { opacity:0; } to { opacity:1; } 
-}
+// }
+// @-moz-keyframes htmlSevenFade{
+// 	from { opacity:0; } to { opacity:1; } 
+// }
+// @keyframes htmlSevenFade { 
+// 		from { opacity:0; } to { opacity:1; } 
+// }
 
 // animation for CSS bubbles
 .cssOneAnimation {
@@ -256,9 +256,9 @@
     -moz-animation-fill-mode:forwards;
 	animation-fill-mode:forwards;
 
-	-webkit-animation-delay:5s;
-	-moz-animation-delay:5s;
-	animation-delay:5s;
+	-webkit-animation-delay:6s;
+	-moz-animation-delay:6s;
+	animation-delay:6s;
 }
 
 @-webkit-keyframes cssOneFade{
@@ -286,9 +286,9 @@
     -moz-animation-fill-mode:forwards;
 	animation-fill-mode:forwards;
 
-	-webkit-animation-delay:6s;
-	-moz-animation-delay:6s;
-	animation-delay:6s;
+	-webkit-animation-delay:6.5s;
+	-moz-animation-delay:6.5s;
+	animation-delay:6.5s;
 }
 
 @-webkit-keyframes cssTwoFade{
@@ -346,9 +346,9 @@
     -moz-animation-fill-mode:forwards;
 	animation-fill-mode:forwards;
 
-	-webkit-animation-delay:8s;
-	-moz-animation-delay:8s;
-	animation-delay:8s;
+	-webkit-animation-delay:7.5s;
+	-moz-animation-delay:7.5s;
+	animation-delay:7.5s;
 }
 
 @-webkit-keyframes cssFourFade{
@@ -376,9 +376,9 @@
     -moz-animation-fill-mode:forwards;
 	animation-fill-mode:forwards;
 
-	-webkit-animation-delay:9s;
-	-moz-animation-delay:9s;
-	animation-delay:9s;
+	-webkit-animation-delay:8s;
+	-moz-animation-delay:8s;
+	animation-delay:8s;
 }
 
 @-webkit-keyframes cssFiveFade{
@@ -392,66 +392,66 @@
 		from { opacity:0; } to { opacity:1; } 
 }
 
-.cssSixAnimation {
-	opacity:0;
-	-webkit-animation:cssSixFade ease 1;
-	-moz-animation:cssSixFade ease 1;
-	animation:cssSixFade ease 1;
+// .cssSixAnimation {
+// 	opacity:0;
+// 	-webkit-animation:cssSixFade ease 1;
+// 	-moz-animation:cssSixFade ease 1;
+// 	animation:cssSixFade ease 1;
 
-	-webkit-animation-duration:.25s;
-	-moz-animation-duration:.25s;
-	animation-duration:.25s;
+// 	-webkit-animation-duration:.25s;
+// 	-moz-animation-duration:.25s;
+// 	animation-duration:.25s;
 
-	-webkit-animation-fill-mode:forwards;  
-    -moz-animation-fill-mode:forwards;
-	animation-fill-mode:forwards;
+// 	-webkit-animation-fill-mode:forwards;  
+//     -moz-animation-fill-mode:forwards;
+// 	animation-fill-mode:forwards;
 
-	-webkit-animation-delay:10s;
-	-moz-animation-delay:10s;
-	animation-delay:10s;
-}
+// 	-webkit-animation-delay:17s;
+// 	-moz-animation-delay:17s;
+// 	animation-delay:17s;
+// }
 
-@-webkit-keyframes cssSixFade{
-	from { opacity:0; } to { opacity:1; }
+// @-webkit-keyframes cssSixFade{
+// 	from { opacity:0; } to { opacity:1; }
 
-}
-@-moz-keyframes cssSixFade{
-	from { opacity:0; } to { opacity:1; } 
-}
-@keyframes cssSixFade { 
-		from { opacity:0; } to { opacity:1; } 
-}
+// }
+// @-moz-keyframes cssSixFade{
+// 	from { opacity:0; } to { opacity:1; } 
+// }
+// @keyframes cssSixFade { 
+// 		from { opacity:0; } to { opacity:1; } 
+// }
 
 
-.cssSevenAnimation {
-	opacity:0;
-	-webkit-animation:cssSevenFade ease 1;
-	-moz-animation:cssSevenFade ease 1;
-	animation:cssSevenFade ease 1;
+// .cssSevenAnimation {
+// 	opacity:0;
+// 	-webkit-animation:cssSevenFade ease 1;
+// 	-moz-animation:cssSevenFade ease 1;
+// 	animation:cssSevenFade ease 1;
 
-	-webkit-animation-duration:.25s;
-	-moz-animation-duration:.25s;
-	animation-duration:.25s;
+// 	-webkit-animation-duration:.25s;
+// 	-moz-animation-duration:.25s;
+// 	animation-duration:.25s;
 
-	-webkit-animation-fill-mode:forwards;  
-    -moz-animation-fill-mode:forwards;
-	animation-fill-mode:forwards;
+// 	-webkit-animation-fill-mode:forwards;  
+//     -moz-animation-fill-mode:forwards;
+// 	animation-fill-mode:forwards;
 
-	-webkit-animation-delay:11s;
-	-moz-animation-delay:11s;
-	animation-delay:11s;
-}
+// 	-webkit-animation-delay:18s;
+// 	-moz-animation-delay:18s;
+// 	animation-delay:18s;
+// }
 
-@-webkit-keyframes cssSevenFade{
-	from { opacity:0; } to { opacity:1; }
+// @-webkit-keyframes cssSevenFade{
+// 	from { opacity:0; } to { opacity:1; }
 
-}
-@-moz-keyframes cssSevenFade{
-	from { opacity:0; } to { opacity:1; } 
-}
-@keyframes cssSevenFade { 
-		from { opacity:0; } to { opacity:1; } 
-}
+// }
+// @-moz-keyframes cssSevenFade{
+// 	from { opacity:0; } to { opacity:1; } 
+// }
+// @keyframes cssSevenFade { 
+// 		from { opacity:0; } to { opacity:1; } 
+// }
 
 //java rate animation
 
@@ -469,9 +469,9 @@
     -moz-animation-fill-mode:forwards;
 	animation-fill-mode:forwards;
 
-	-webkit-animation-delay:5s;
-	-moz-animation-delay:5s;
-	animation-delay:5s;
+	-webkit-animation-delay:9s;
+	-moz-animation-delay:9s;
+	animation-delay:9s;
 }
 
 @-webkit-keyframes javaOneFade{
@@ -499,9 +499,9 @@
     -moz-animation-fill-mode:forwards;
 	animation-fill-mode:forwards;
 
-	-webkit-animation-delay:6s;
-	-moz-animation-delay:6s;
-	animation-delay:6s;
+	-webkit-animation-delay:9.5s;
+	-moz-animation-delay:9.5s;
+	animation-delay:9.5s;
 }
 
 @-webkit-keyframes javaTwoFade{
@@ -529,9 +529,9 @@
     -moz-animation-fill-mode:forwards;
 	animation-fill-mode:forwards;
 
-	-webkit-animation-delay:7s;
-	-moz-animation-delay:7s;
-	animation-delay:7s;
+	-webkit-animation-delay:10s;
+	-moz-animation-delay:10s;
+	animation-delay:10s;
 }
 
 @-webkit-keyframes javaThreeFade{
@@ -559,9 +559,9 @@
     -moz-animation-fill-mode:forwards;
 	animation-fill-mode:forwards;
 
-	-webkit-animation-delay:8s;
-	-moz-animation-delay:8s;
-	animation-delay:8s;
+	-webkit-animation-delay:10.5s;
+	-moz-animation-delay:10.5s;
+	animation-delay:10.5s;
 }
 
 @-webkit-keyframes javaFourFade{
@@ -589,9 +589,9 @@
     -moz-animation-fill-mode:forwards;
 	animation-fill-mode:forwards;
 
-	-webkit-animation-delay:9s;
-	-moz-animation-delay:9s;
-	animation-delay:9s;
+	-webkit-animation-delay:11s;
+	-moz-animation-delay:11s;
+	animation-delay:11s;
 }
 
 @-webkit-keyframes javaFiveFade{
@@ -605,66 +605,66 @@
 		from { opacity:0; } to { opacity:1; } 
 }
 
-.javaSixAnimation {
-	opacity:0;
-	-webkit-animation:javaSixFade ease 1;
-	-moz-animation:javaSixFade ease 1;
-	animation:javaSixFade ease 1;
+// .javaSixAnimation {
+// 	opacity:0;
+// 	-webkit-animation:javaSixFade ease 1;
+// 	-moz-animation:javaSixFade ease 1;
+// 	animation:javaSixFade ease 1;
 
-	-webkit-animation-duration:.25s;
-	-moz-animation-duration:.25s;
-	animation-duration:.25s;
+// 	-webkit-animation-duration:.25s;
+// 	-moz-animation-duration:.25s;
+// 	animation-duration:.25s;
 
-	-webkit-animation-fill-mode:forwards;  
-    -moz-animation-fill-mode:forwards;
-	animation-fill-mode:forwards;
+// 	-webkit-animation-fill-mode:forwards;  
+//     -moz-animation-fill-mode:forwards;
+// 	animation-fill-mode:forwards;
 
-	-webkit-animation-delay:10s;
-	-moz-animation-delay:10s;
-	animation-delay:10s;
-}
+// 	-webkit-animation-delay:10s;
+// 	-moz-animation-delay:10s;
+// 	animation-delay:10s;
+// }
 
-@-webkit-keyframes javaSixFade{
-	from { opacity:0; } to { opacity:1; }
+// @-webkit-keyframes javaSixFade{
+// 	from { opacity:0; } to { opacity:1; }
 
-}
-@-moz-keyframes javaSixFade{
-	from { opacity:0; } to { opacity:1; } 
-}
-@keyframes javaSixFade { 
-		from { opacity:0; } to { opacity:1; } 
-}
+// }
+// @-moz-keyframes javaSixFade{
+// 	from { opacity:0; } to { opacity:1; } 
+// }
+// @keyframes javaSixFade { 
+// 		from { opacity:0; } to { opacity:1; } 
+// }
 
 
-.javaSevenAnimation {
-	opacity:0;
-	-webkit-animation:javaSevenFade ease 1;
-	-moz-animation:javaSevenFade ease 1;
-	animation:javaSevenFade ease 1;
+// .javaSevenAnimation {
+// 	opacity:0;
+// 	-webkit-animation:javaSevenFade ease 1;
+// 	-moz-animation:javaSevenFade ease 1;
+// 	animation:javaSevenFade ease 1;
 
-	-webkit-animation-duration:.25s;
-	-moz-animation-duration:.25s;
-	animation-duration:.25s;
+// 	-webkit-animation-duration:.25s;
+// 	-moz-animation-duration:.25s;
+// 	animation-duration:.25s;
 
-	-webkit-animation-fill-mode:forwards;  
-    -moz-animation-fill-mode:forwards;
-	animation-fill-mode:forwards;
+// 	-webkit-animation-fill-mode:forwards;  
+//     -moz-animation-fill-mode:forwards;
+// 	animation-fill-mode:forwards;
 
-	-webkit-animation-delay:11s;
-	-moz-animation-delay:11s;
-	animation-delay:11s;
-}
+// 	-webkit-animation-delay:11s;
+// 	-moz-animation-delay:11s;
+// 	animation-delay:11s;
+// }
 
-@-webkit-keyframes javaSevenFade{
-	from { opacity:0; } to { opacity:1; }
+// @-webkit-keyframes javaSevenFade{
+// 	from { opacity:0; } to { opacity:1; }
 
-}
-@-moz-keyframes javaSevenFade{
-	from { opacity:0; } to { opacity:1; } 
-}
-@keyframes javaSevenFade { 
-		from { opacity:0; } to { opacity:1; } 
-}
+// }
+// @-moz-keyframes javaSevenFade{
+// 	from { opacity:0; } to { opacity:1; } 
+// }
+// @keyframes javaSevenFade { 
+// 		from { opacity:0; } to { opacity:1; } 
+// }
 
 //jQuery animation
 .jOneAnimation {
@@ -681,9 +681,9 @@
     -moz-animation-fill-mode:forwards;
 	animation-fill-mode:forwards;
 
-	-webkit-animation-delay:5s;
-	-moz-animation-delay:5s;
-	animation-delay:5s;
+	-webkit-animation-delay:12s;
+	-moz-animation-delay:12s;
+	animation-delay:12s;
 }
 
 @-webkit-keyframes jOneFade{
@@ -711,9 +711,9 @@
     -moz-animation-fill-mode:forwards;
 	animation-fill-mode:forwards;
 
-	-webkit-animation-delay:6s;
-	-moz-animation-delay:6s;
-	animation-delay:6s;
+	-webkit-animation-delay:12.5s;
+	-moz-animation-delay:12.5s;
+	animation-delay:12.5s;
 }
 
 @-webkit-keyframes jTwoFade{
@@ -741,9 +741,9 @@
     -moz-animation-fill-mode:forwards;
 	animation-fill-mode:forwards;
 
-	-webkit-animation-delay:7s;
-	-moz-animation-delay:7s;
-	animation-delay:7s;
+	-webkit-animation-delay:13s;
+	-moz-animation-delay:13s;
+	animation-delay:13s;
 }
 
 @-webkit-keyframes jThreeFade{
@@ -771,9 +771,9 @@
     -moz-animation-fill-mode:forwards;
 	animation-fill-mode:forwards;
 
-	-webkit-animation-delay:8s;
-	-moz-animation-delay:8s;
-	animation-delay:8s;
+	-webkit-animation-delay:13.5s;
+	-moz-animation-delay:13.5s;
+	animation-delay:13.5s;
 }
 
 @-webkit-keyframes jFourFade{
@@ -801,9 +801,9 @@
     -moz-animation-fill-mode:forwards;
 	animation-fill-mode:forwards;
 
-	-webkit-animation-delay:9s;
-	-moz-animation-delay:9s;
-	animation-delay:9s;
+	-webkit-animation-delay:14s;
+	-moz-animation-delay:14s;
+	animation-delay:14s;
 }
 
 @-webkit-keyframes jFiveFade{
@@ -817,66 +817,66 @@
 		from { opacity:0; } to { opacity:1; } 
 }
 
-.jSixAnimation {
-	opacity:0;
-	-webkit-animation:jSixFade ease 1;
-	-moz-animation:jSixFade ease 1;
-	animation:jSixFade ease 1;
+// .jSixAnimation {
+// 	opacity:0;
+// 	-webkit-animation:jSixFade ease 1;
+// 	-moz-animation:jSixFade ease 1;
+// 	animation:jSixFade ease 1;
 
-	-webkit-animation-duration:.25s;
-	-moz-animation-duration:.25s;
-	animation-duration:.25s;
+// 	-webkit-animation-duration:.25s;
+// 	-moz-animation-duration:.25s;
+// 	animation-duration:.25s;
 
-	-webkit-animation-fill-mode:forwards;  
-    -moz-animation-fill-mode:forwards;
-	animation-fill-mode:forwards;
+// 	-webkit-animation-fill-mode:forwards;  
+//     -moz-animation-fill-mode:forwards;
+// 	animation-fill-mode:forwards;
 
-	-webkit-animation-delay:10s;
-	-moz-animation-delay:10s;
-	animation-delay:10s;
-}
+// 	-webkit-animation-delay:10s;
+// 	-moz-animation-delay:10s;
+// 	animation-delay:10s;
+// }
 
-@-webkit-keyframes jSixFade{
-	from { opacity:0; } to { opacity:1; }
+// @-webkit-keyframes jSixFade{
+// 	from { opacity:0; } to { opacity:1; }
 
-}
-@-moz-keyframes jSixFade{
-	from { opacity:0; } to { opacity:1; } 
-}
-@keyframes jSixFade { 
-		from { opacity:0; } to { opacity:1; } 
-}
+// }
+// @-moz-keyframes jSixFade{
+// 	from { opacity:0; } to { opacity:1; } 
+// }
+// @keyframes jSixFade { 
+// 		from { opacity:0; } to { opacity:1; } 
+// }
 
 
-.jSevenAnimation {
-	opacity:0;
-	-webkit-animation:jSevenFade ease 1;
-	-moz-animation:jSevenFade ease 1;
-	animation:jSevenFade ease 1;
+// .jSevenAnimation {
+// 	opacity:0;
+// 	-webkit-animation:jSevenFade ease 1;
+// 	-moz-animation:jSevenFade ease 1;
+// 	animation:jSevenFade ease 1;
 
-	-webkit-animation-duration:.25s;
-	-moz-animation-duration:.25s;
-	animation-duration:.25s;
+// 	-webkit-animation-duration:.25s;
+// 	-moz-animation-duration:.25s;
+// 	animation-duration:.25s;
 
-	-webkit-animation-fill-mode:forwards;  
-    -moz-animation-fill-mode:forwards;
-	animation-fill-mode:forwards;
+// 	-webkit-animation-fill-mode:forwards;  
+//     -moz-animation-fill-mode:forwards;
+// 	animation-fill-mode:forwards;
 
-	-webkit-animation-delay:11s;
-	-moz-animation-delay:11s;
-	animation-delay:11s;
-}
+// 	-webkit-animation-delay:11s;
+// 	-moz-animation-delay:11s;
+// 	animation-delay:11s;
+// }
 
-@-webkit-keyframes jSevenFade{
-	from { opacity:0; } to { opacity:1; }
+// @-webkit-keyframes jSevenFade{
+// 	from { opacity:0; } to { opacity:1; }
 
-}
-@-moz-keyframes jSevenFade{
-	from { opacity:0; } to { opacity:1; } 
-}
-@keyframes jSevenFade { 
-		from { opacity:0; } to { opacity:1; } 
-}
+// }
+// @-moz-keyframes jSevenFade{
+// 	from { opacity:0; } to { opacity:1; } 
+// }
+// @keyframes jSevenFade { 
+// 		from { opacity:0; } to { opacity:1; } 
+// }
 
 //angular animation
 .angOneAnimation {
@@ -893,9 +893,9 @@
     -moz-animation-fill-mode:forwards;
 	animation-fill-mode:forwards;
 
-	-webkit-animation-delay:5s;
-	-moz-animation-delay:5s;
-	animation-delay:5s;
+	-webkit-animation-delay:15s;
+	-moz-animation-delay:15s;
+	animation-delay:15s;
 }
 
 @-webkit-keyframes angOneFade{
@@ -923,9 +923,9 @@
     -moz-animation-fill-mode:forwards;
 	animation-fill-mode:forwards;
 
-	-webkit-animation-delay:6s;
-	-moz-animation-delay:6s;
-	animation-delay:6s;
+	-webkit-animation-delay:15.5s;
+	-moz-animation-delay:15.5s;
+	animation-delay:15.5s;
 }
 
 @-webkit-keyframes angTwoFade{
@@ -953,9 +953,9 @@
     -moz-animation-fill-mode:forwards;
 	animation-fill-mode:forwards;
 
-	-webkit-animation-delay:7s;
-	-moz-animation-delay:7s;
-	animation-delay:7s;
+	-webkit-animation-delay:16s;
+	-moz-animation-delay:16s;
+	animation-delay:16s;
 }
 
 @-webkit-keyframes angThreeFade{
@@ -983,9 +983,9 @@
     -moz-animation-fill-mode:forwards;
 	animation-fill-mode:forwards;
 
-	-webkit-animation-delay:8s;
-	-moz-animation-delay:8s;
-	animation-delay:8s;
+	-webkit-animation-delay:16.5s;
+	-moz-animation-delay:16.5s;
+	animation-delay:16.5s;
 }
 
 @-webkit-keyframes angFourFade{
@@ -1013,9 +1013,9 @@
     -moz-animation-fill-mode:forwards;
 	animation-fill-mode:forwards;
 
-	-webkit-animation-delay:9s;
-	-moz-animation-delay:9s;
-	animation-delay:9s;
+	-webkit-animation-delay:17s;
+	-moz-animation-delay:17s;
+	animation-delay:17s;
 }
 
 @-webkit-keyframes angFiveFade{
@@ -1029,66 +1029,66 @@
 		from { opacity:0; } to { opacity:1; } 
 }
 
-.angSixAnimation {
-	opacity:0;
-	-webkit-animation:angSixFade ease 1;
-	-moz-animation:angSixFade ease 1;
-	animation:angSixFade ease 1;
+// .angSixAnimation {
+// 	opacity:0;
+// 	-webkit-animation:angSixFade ease 1;
+// 	-moz-animation:angSixFade ease 1;
+// 	animation:angSixFade ease 1;
 
-	-webkit-animation-duration:.25s;
-	-moz-animation-duration:.25s;
-	animation-duration:.25s;
+// 	-webkit-animation-duration:.25s;
+// 	-moz-animation-duration:.25s;
+// 	animation-duration:.25s;
 
-	-webkit-animation-fill-mode:forwards;  
-    -moz-animation-fill-mode:forwards;
-	animation-fill-mode:forwards;
+// 	-webkit-animation-fill-mode:forwards;  
+//     -moz-animation-fill-mode:forwards;
+// 	animation-fill-mode:forwards;
 
-	-webkit-animation-delay:10s;
-	-moz-animation-delay:10s;
-	animation-delay:10s;
-}
+// 	-webkit-animation-delay:10s;
+// 	-moz-animation-delay:10s;
+// 	animation-delay:10s;
+// }
 
-@-webkit-keyframes angSixFade{
-	from { opacity:0; } to { opacity:1; }
+// @-webkit-keyframes angSixFade{
+// 	from { opacity:0; } to { opacity:1; }
 
-}
-@-moz-keyframes angSixFade{
-	from { opacity:0; } to { opacity:1; } 
-}
-@keyframes angSixFade { 
-		from { opacity:0; } to { opacity:1; } 
-}
+// }
+// @-moz-keyframes angSixFade{
+// 	from { opacity:0; } to { opacity:1; } 
+// }
+// @keyframes angSixFade { 
+// 		from { opacity:0; } to { opacity:1; } 
+// }
 
 
-.angSevenAnimation {
-	opacity:0;
-	-webkit-animation:angSevenFade ease 1;
-	-moz-animation:angSevenFade ease 1;
-	animation:angSevenFade ease 1;
+// .angSevenAnimation {
+// 	opacity:0;
+// 	-webkit-animation:angSevenFade ease 1;
+// 	-moz-animation:angSevenFade ease 1;
+// 	animation:angSevenFade ease 1;
 
-	-webkit-animation-duration:.25s;
-	-moz-animation-duration:.25s;
-	animation-duration:.25s;
+// 	-webkit-animation-duration:.25s;
+// 	-moz-animation-duration:.25s;
+// 	animation-duration:.25s;
 
-	-webkit-animation-fill-mode:forwards;  
-    -moz-animation-fill-mode:forwards;
-	animation-fill-mode:forwards;
+// 	-webkit-animation-fill-mode:forwards;  
+//     -moz-animation-fill-mode:forwards;
+// 	animation-fill-mode:forwards;
 
-	-webkit-animation-delay:11s;
-	-moz-animation-delay:11s;
-	animation-delay:11s;
-}
+// 	-webkit-animation-delay:11s;
+// 	-moz-animation-delay:11s;
+// 	animation-delay:11s;
+// }
 
-@-webkit-keyframes angSevenFade{
-	from { opacity:0; } to { opacity:1; }
+// @-webkit-keyframes angSevenFade{
+// 	from { opacity:0; } to { opacity:1; }
 
-}
-@-moz-keyframes angSevenFade{
-	from { opacity:0; } to { opacity:1; } 
-}
-@keyframes angSevenFade { 
-		from { opacity:0; } to { opacity:1; } 
-}
+// }
+// @-moz-keyframes angSevenFade{
+// 	from { opacity:0; } to { opacity:1; } 
+// }
+// @keyframes angSevenFade { 
+// 		from { opacity:0; } to { opacity:1; } 
+// }
 
 //photoshop animation
 .photoOneAnimation {
@@ -1105,9 +1105,9 @@
     -moz-animation-fill-mode:forwards;
 	animation-fill-mode:forwards;
 
-	-webkit-animation-delay:5s;
-	-moz-animation-delay:5s;
-	animation-delay:5s;
+	-webkit-animation-delay:18s;
+	-moz-animation-delay:18s;
+	animation-delay:18s;
 }
 
 @-webkit-keyframes photoOneFade{
@@ -1135,9 +1135,9 @@
     -moz-animation-fill-mode:forwards;
 	animation-fill-mode:forwards;
 
-	-webkit-animation-delay:6s;
-	-moz-animation-delay:6s;
-	animation-delay:6s;
+	-webkit-animation-delay:18.5s;
+	-moz-animation-delay:18.5s;
+	animation-delay:18.5s;
 }
 
 @-webkit-keyframes photoTwoFade{
@@ -1165,9 +1165,9 @@
     -moz-animation-fill-mode:forwards;
 	animation-fill-mode:forwards;
 
-	-webkit-animation-delay:7s;
-	-moz-animation-delay:7s;
-	animation-delay:7s;
+	-webkit-animation-delay:19s;
+	-moz-animation-delay:19s;
+	animation-delay:19s;
 }
 
 @-webkit-keyframes photoThreeFade{
@@ -1195,9 +1195,9 @@
     -moz-animation-fill-mode:forwards;
 	animation-fill-mode:forwards;
 
-	-webkit-animation-delay:8s;
-	-moz-animation-delay:8s;
-	animation-delay:8s;
+	-webkit-animation-delay:19.5s;
+	-moz-animation-delay:19.5s;
+	animation-delay:19.5s;
 }
 
 @-webkit-keyframes photoFourFade{
@@ -1225,9 +1225,9 @@
     -moz-animation-fill-mode:forwards;
 	animation-fill-mode:forwards;
 
-	-webkit-animation-delay:9s;
-	-moz-animation-delay:9s;
-	animation-delay:9s;
+	-webkit-animation-delay:20s;
+	-moz-animation-delay:20s;
+	animation-delay:20s;
 }
 
 @-webkit-keyframes photoFiveFade{
@@ -1241,66 +1241,66 @@
 		from { opacity:0; } to { opacity:1; } 
 }
 
-.photoSixAnimation {
-	opacity:0;
-	-webkit-animation:photoSixFade ease 1;
-	-moz-animation:photoSixFade ease 1;
-	animation:photoSixFade ease 1;
+// .photoSixAnimation {
+// 	opacity:0;
+// 	-webkit-animation:photoSixFade ease 1;
+// 	-moz-animation:photoSixFade ease 1;
+// 	animation:photoSixFade ease 1;
 
-	-webkit-animation-duration:.25s;
-	-moz-animation-duration:.25s;
-	animation-duration:.25s;
+// 	-webkit-animation-duration:.25s;
+// 	-moz-animation-duration:.25s;
+// 	animation-duration:.25s;
 
-	-webkit-animation-fill-mode:forwards;  
-    -moz-animation-fill-mode:forwards;
-	animation-fill-mode:forwards;
+// 	-webkit-animation-fill-mode:forwards;  
+//     -moz-animation-fill-mode:forwards;
+// 	animation-fill-mode:forwards;
 
-	-webkit-animation-delay:10s;
-	-moz-animation-delay:10s;
-	animation-delay:10s;
-}
+// 	-webkit-animation-delay:10s;
+// 	-moz-animation-delay:10s;
+// 	animation-delay:10s;
+// }
 
-@-webkit-keyframes photoSixFade{
-	from { opacity:0; } to { opacity:1; }
+// @-webkit-keyframes photoSixFade{
+// 	from { opacity:0; } to { opacity:1; }
 
-}
-@-moz-keyframes photoSixFade{
-	from { opacity:0; } to { opacity:1; } 
-}
-@keyframes photoSixFade { 
-		from { opacity:0; } to { opacity:1; } 
-}
+// }
+// @-moz-keyframes photoSixFade{
+// 	from { opacity:0; } to { opacity:1; } 
+// }
+// @keyframes photoSixFade { 
+// 		from { opacity:0; } to { opacity:1; } 
+// }
 
 
-.photoSevenAnimation {
-	opacity:0;
-	-webkit-animation:photoSevenFade ease 1;
-	-moz-animation:photoSevenFade ease 1;
-	animation:photoSevenFade ease 1;
+// .photoSevenAnimation {
+// 	opacity:0;
+// 	-webkit-animation:photoSevenFade ease 1;
+// 	-moz-animation:photoSevenFade ease 1;
+// 	animation:photoSevenFade ease 1;
 
-	-webkit-animation-duration:.25s;
-	-moz-animation-duration:.25s;
-	animation-duration:.25s;
+// 	-webkit-animation-duration:.25s;
+// 	-moz-animation-duration:.25s;
+// 	animation-duration:.25s;
 
-	-webkit-animation-fill-mode:forwards;  
-    -moz-animation-fill-mode:forwards;
-	animation-fill-mode:forwards;
+// 	-webkit-animation-fill-mode:forwards;  
+//     -moz-animation-fill-mode:forwards;
+// 	animation-fill-mode:forwards;
 
-	-webkit-animation-delay:11s;
-	-moz-animation-delay:11s;
-	animation-delay:11s;
-}
+// 	-webkit-animation-delay:11s;
+// 	-moz-animation-delay:11s;
+// 	animation-delay:11s;
+// }
 
-@-webkit-keyframes photoSevenFade{
-	from { opacity:0; } to { opacity:1; }
+// @-webkit-keyframes photoSevenFade{
+// 	from { opacity:0; } to { opacity:1; }
 
-}
-@-moz-keyframes photoSevenFade{
-	from { opacity:0; } to { opacity:1; } 
-}
-@keyframes photoSevenFade { 
-		from { opacity:0; } to { opacity:1; } 
-}
+// }
+// @-moz-keyframes photoSevenFade{
+// 	from { opacity:0; } to { opacity:1; } 
+// }
+// @keyframes photoSevenFade { 
+// 		from { opacity:0; } to { opacity:1; } 
+// }
 
 //design animation
 .designOneAnimation {
@@ -1317,9 +1317,9 @@
     -moz-animation-fill-mode:forwards;
 	animation-fill-mode:forwards;
 
-	-webkit-animation-delay:5s;
-	-moz-animation-delay:5s;
-	animation-delay:5s;
+	-webkit-animation-delay:21s;
+	-moz-animation-delay:21s;
+	animation-delay:21s;
 }
 
 @-webkit-keyframes designOneFade{
@@ -1347,9 +1347,9 @@
     -moz-animation-fill-mode:forwards;
 	animation-fill-mode:forwards;
 
-	-webkit-animation-delay:6s;
-	-moz-animation-delay:6s;
-	animation-delay:6s;
+	-webkit-animation-delay:21.5s;
+	-moz-animation-delay:21.5s;
+	animation-delay:21.5s;
 }
 
 @-webkit-keyframes designTwoFade{
@@ -1377,9 +1377,9 @@
     -moz-animation-fill-mode:forwards;
 	animation-fill-mode:forwards;
 
-	-webkit-animation-delay:7s;
-	-moz-animation-delay:7s;
-	animation-delay:7s;
+	-webkit-animation-delay:22s;
+	-moz-animation-delay:22s;
+	animation-delay:22s;
 }
 
 @-webkit-keyframes desginThreeFade{
@@ -1407,9 +1407,9 @@
     -moz-animation-fill-mode:forwards;
 	animation-fill-mode:forwards;
 
-	-webkit-animation-delay:8s;
-	-moz-animation-delay:8s;
-	animation-delay:8s;
+	-webkit-animation-delay:22.5s;
+	-moz-animation-delay:22.5s;
+	animation-delay:22.5s;
 }
 
 @-webkit-keyframes designFourFade{
@@ -1437,9 +1437,9 @@
     -moz-animation-fill-mode:forwards;
 	animation-fill-mode:forwards;
 
-	-webkit-animation-delay:9s;
-	-moz-animation-delay:9s;
-	animation-delay:9s;
+	-webkit-animation-delay:23s;
+	-moz-animation-delay:23s;
+	animation-delay:23s;
 }
 
 @-webkit-keyframes designFiveFade{
@@ -1453,63 +1453,63 @@
 		from { opacity:0; } to { opacity:1; } 
 }
 
-.designSixAnimation {
-	opacity:0;
-	-webkit-animation:designSixFade ease 1;
-	-moz-animation:designSixFade ease 1;
-	animation:designSixFade ease 1;
+// .designSixAnimation {
+// 	opacity:0;
+// 	-webkit-animation:designSixFade ease 1;
+// 	-moz-animation:designSixFade ease 1;
+// 	animation:designSixFade ease 1;
 
-	-webkit-animation-duration:.25s;
-	-moz-animation-duration:.25s;
-	animation-duration:.25s;
+// 	-webkit-animation-duration:.25s;
+// 	-moz-animation-duration:.25s;
+// 	animation-duration:.25s;
 
-	-webkit-animation-fill-mode:forwards;  
-    -moz-animation-fill-mode:forwards;
-	animation-fill-mode:forwards;
+// 	-webkit-animation-fill-mode:forwards;  
+//     -moz-animation-fill-mode:forwards;
+// 	animation-fill-mode:forwards;
 
-	-webkit-animation-delay:10s;
-	-moz-animation-delay:10s;
-	animation-delay:10s;
-}
+// 	-webkit-animation-delay:10s;
+// 	-moz-animation-delay:10s;
+// 	animation-delay:10s;
+// }
 
-@-webkit-keyframes designSixFade{
-	from { opacity:0; } to { opacity:1; }
+// @-webkit-keyframes designSixFade{
+// 	from { opacity:0; } to { opacity:1; }
 
-}
-@-moz-keyframes designSixFade{
-	from { opacity:0; } to { opacity:1; } 
-}
-@keyframes designSixFade { 
-		from { opacity:0; } to { opacity:1; } 
-}
+// }
+// @-moz-keyframes designSixFade{
+// 	from { opacity:0; } to { opacity:1; } 
+// }
+// @keyframes designSixFade { 
+// 		from { opacity:0; } to { opacity:1; } 
+// }
 
 
-.designSevenAnimation {
-	opacity:0;
-	-webkit-animation:designSevenFade ease 1;
-	-moz-animation:designSevenFade ease 1;
-	animation:designSevenFade ease 1;
+// .designSevenAnimation {
+// 	opacity:0;
+// 	-webkit-animation:designSevenFade ease 1;
+// 	-moz-animation:designSevenFade ease 1;
+// 	animation:designSevenFade ease 1;
 
-	-webkit-animation-duration:.25s;
-	-moz-animation-duration:.25s;
-	animation-duration:.25s;
+// 	-webkit-animation-duration:.25s;
+// 	-moz-animation-duration:.25s;
+// 	animation-duration:.25s;
 
-	-webkit-animation-fill-mode:forwards;  
-    -moz-animation-fill-mode:forwards;
-	animation-fill-mode:forwards;
+// 	-webkit-animation-fill-mode:forwards;  
+//     -moz-animation-fill-mode:forwards;
+// 	animation-fill-mode:forwards;
 
-	-webkit-animation-delay:11s;
-	-moz-animation-delay:11s;
-	animation-delay:11s;
-}
+// 	-webkit-animation-delay:11s;
+// 	-moz-animation-delay:11s;
+// 	animation-delay:11s;
+// }
 
-@-webkit-keyframes designSevenFade{
-	from { opacity:0; } to { opacity:1; }
+// @-webkit-keyframes designSevenFade{
+// 	from { opacity:0; } to { opacity:1; }
 
-}
-@-moz-keyframes designSevenFade{
-	from { opacity:0; } to { opacity:1; } 
-}
-@keyframes designSevenFade { 
-		from { opacity:0; } to { opacity:1; } 
-}
+// }
+// @-moz-keyframes designSevenFade{
+// 	from { opacity:0; } to { opacity:1; } 
+// }
+// @keyframes designSevenFade { 
+// 		from { opacity:0; } to { opacity:1; } 
+// }
