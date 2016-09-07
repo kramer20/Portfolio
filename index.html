@@ -13,7 +13,8 @@
 
 	<!--CSS style sheet-->
 	<link rel="stylesheet" type="text/css" href="css/main.css">
-
+    <link rel="stylesheet" href="css/unslider.css">
+    <link rel="stylesheet" href="css/unslider-dots.css">
 	<script src="node_modules/angular/angular.min.js"></script>
     <script src="node_modules/angular-ui-router/release/angular-ui-router.min.js"></script>
     <script src="https://use.fontawesome.com/247c14072a.js"></script>
@@ -81,7 +82,50 @@
                             <div class="smallWork"></div>
                     
                         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                            <h2>Carosuel of Work</h2>
+                            <div class="my-slider">   
+                                    <ul>
+                                        <li>
+                                            <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 workOneImg">
+                                                <img class="park" src="images/parkALot.png">
+                                            </div>
+
+                                            <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 workOneText">
+                                                <h1>ParkALot Text</h1>
+                                            </div>
+                                        </li>
+                                        
+                                        <li>
+                                            <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 workTwoImg">
+                                                <img class="marvel" src="images/marvel.png">
+                                            </div>
+
+                                            <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 workTwoText">
+                                                <h1>Marvel Text</h1>
+                                            </div>
+                                        </li>
+
+                                        <li>
+                                            <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 workThreeImg">
+                                                <img class="tee" src="images/UrbanTees.png">
+                                            </div>
+
+                                            <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 workThreeText">
+                                                <h1>TeeShirt Text</h1>
+                                            </div>
+                                        </li>
+
+                                        <li>
+                                            <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 workFourImg">
+                                                <img class="bob" src="images/bobBikes.png">
+                                            </div>
+
+                                            <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 workFourText">
+                                                <h1>Bob's Bikes Text</h1>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>   
+                            </div>
                         </div>
 
                     <div class="topBottom">        
@@ -124,7 +168,9 @@
                             <div class="smallSkills"></div>
 
                     <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 meSkillsCol">
-                        <img id="meSkills" src="images/meIcon.png">
+                        <div class="upDown">
+                            <img id="meSkills" src="images/meIcon.png">
+                        </div>    
                     </div>    
 
                     <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2 listSkillsCol">
@@ -208,8 +254,10 @@
                         <h1 class="contactIntro">Let's<br>Connect</h1>
                     </div> 
 
-                        <img class="meContact" src="images/meIcon.png">
-
+                        <div class="rightLeft">
+                            <img id="meContact" src="images/meIcon.png">
+                        </div>    
+                            
                         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 contactCol">
                             <div class="emailItem"><a href="mailto:mkramer2089@gmail.com">mkramer2089@gmail.com</a></div>
                             <div class="phoneItem"><a href="tel:937-689-0442">937.689.0442</a></div>
@@ -237,5 +285,7 @@
     <!--link to JS file-->
     <script   src="https://code.jquery.com/jquery-1.12.4.min.js"   integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="   crossorigin="anonymous"></script>
     <script src="js/controllers/mainControl.js"></script>
+    <script src="//code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="js/unslider.js"></script>
 </body>
 </html>

@@ -46,10 +46,9 @@ img#meWork{
 }
 
 // contact blob
-img.meContact{
+img#meContact{
 	width:125px;
-	margin:0 auto;
-	display:block;
+	float:right;
 }
 
 //skills blob

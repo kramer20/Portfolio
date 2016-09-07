@@ -44,6 +44,155 @@ ul.rateList{
 }
 
 //animation for blob
+.fadeRateAnimation{
+	opacity:0;
+	-webkit-animation:rateFade ease-in 1;
+	-moz-animation:rateFade ease-in 1;
+	animation:rateFade ease-in 1;
+
+	-webkit-animation-duration:.25s;
+	-moz-animation-duration:.25s;
+	animation-duration:.25s;
+
+	-webkit-animation-fill-mode:forwards;  
+    -moz-animation-fill-mode:forwards;
+	animation-fill-mode:forwards;
+
+	-webkit-animation-delay:2.5s;
+	-moz-animation-delay:2.5s;
+	animation-delay:2.5s;
+}
+
+@-webkit-keyframes rateFade{
+	from { opacity:0; } to { opacity:1; } 
+}
+
+@-moz-keyframes rateFade{
+	from { opacity:0; } to { opacity:1; } 
+}
+
+@keyframes rateFade { 
+		from { opacity:0; } to { opacity:1; } 
+}
+
+.rateSlideAnimation {
+	-webkit-animation-name:slideDown;
+	-moz-animation-name:slideDown;
+	animation-name:slideDown;
+
+	-webkit-animation-duration:.5s;
+	-moz-animation-duration:.5s;
+	animation-duration:.5s;
+
+	-webkit-animation-timing-function:linear;
+	-moz-animation-timing-function:linear;
+	animation-timing-function:linear;
+
+	-webkit-animation-delay:.5s;
+	-moz-animation-delat:.5s;
+	animation-delay:.5s;
+
+	-webkit-animation-iteration-count:1;
+	-moz-animation-iteration-count:1;
+	animation-iteration-count:1;
+
+	-webkit-animation-fill-mode:forwards;  
+    -moz-animation-fill-mode:forwards;
+	animation-fill-mode:forwards;
+	}
+
+@-webkit-keyframes slideDown {
+	0% {
+		margin-top:48px;
+		
+	}
+	25% {
+		margin-top:108px;
+		
+	}
+	50% {
+		margin-top:168px;
+		
+	}
+	75% {
+		margin-left: 224px;
+
+	}
+	// 64% {
+	// 	margin-left:283px;
+	// 	opacity:0;
+	// }
+	// 80% {
+	// 	margin-left:338px;
+	// 	opacity:0;
+	// }
+	100% {
+		margin-left:398px;
+		
+	}
+}
+
+@-moz-keyframes slideDown {
+	0% {
+		margin-top:48px;
+		
+	}
+	25% {
+		margin-top:108px;
+		
+	}
+	50% {
+		margin-top:168px;
+		
+	}
+	75% {
+		margin-left: 224px;
+
+	}
+	// 64% {
+	// 	margin-left:283px;
+	// 	opacity:0;
+	// }
+	// 80% {
+	// 	margin-left:338px;
+	// 	opacity:0;
+	// }
+	100% {
+		margin-left:398px;
+	
+	}
+}
+
+@keyframes slideDown {
+	0% {
+		margin-top:48px;
+		
+	}
+	25% {
+		margin-top:108px;
+		
+	}
+	50% {
+		margin-top:168px;
+		
+	}
+	75% {
+		margin-left: 224px;
+
+	}
+	// 64% {
+	// 	margin-left:283px;
+	// 	opacity:0;
+	// }
+	// 80% {
+	// 	margin-left:338px;
+	// 	opacity:0;
+	// }
+	100% {
+		margin-left:398px;
+		
+	}
+}
 
 //animation for about bubbles
 @-webkit-keyframes smallSkillsFade{
