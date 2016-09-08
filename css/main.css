@@ -24,7 +24,7 @@ ul.navList {
       border-bottom: 2px solid rgba(106, 44, 180, 0); }
       ul.navList li.page-scroll a:focus {
         outline: none; }
-      ul.navList li.page-scroll a:hover {
+      ul.navList li.page-scroll a.active {
         border-bottom: 2px solid #6a2cb4;
         transition: border 2000ms ease; }
 
@@ -51,9 +51,7 @@ h1.workIntro {
   margin-top: 44px; }
 
 li img.park, .marvel, .tee, .bob {
-  width: 545px;
-  border: 2px solid #6A2CB4;
-  border-radius: 6px; }
+  width: 545px; }
 
 @-webkit-keyframes smallWorkFade {
   from {
@@ -165,21 +163,21 @@ h1.skillsIntro {
   margin-top: 30px; }
 
 ul.technicalList {
-  margin-top: 48px;
+  margin-top: 17px;
   text-align: left; }
   ul.technicalList li.technicalItem {
     display: block;
     font-family: "Shadows Into Light", cursive;
     color: #6A2CB4;
-    font-size: 30px;
+    font-size: 21px;
     margin-top: 15px; }
 
 ul.rateList {
-  margin-top: 48px; }
+  margin-top: 17px; }
   ul.rateList li.rateItem {
     display: block;
     color: #6A2CB4;
-    font-size: 30px;
+    font-size: 21px;
     margin-top: 15px; }
 
 .rateItem i {
@@ -222,15 +220,15 @@ ul.rateList {
   -webkit-animation-name: slideDown;
   -moz-animation-name: slideDown;
   animation-name: slideDown;
-  -webkit-animation-duration: .5s;
-  -moz-animation-duration: .5s;
-  animation-duration: .5s;
+  -webkit-animation-duration: 8s;
+  -moz-animation-duration: 8s;
+  animation-duration: 8s;
   -webkit-animation-timing-function: linear;
   -moz-animation-timing-function: linear;
   animation-timing-function: linear;
-  -webkit-animation-delay: .5s;
-  -moz-animation-delat: .5s;
-  animation-delay: .5s;
+  -webkit-animation-delay: 1s;
+  -moz-animation-delay: 1s;
+  animation-delay: 1s;
   -webkit-animation-iteration-count: 1;
   -moz-animation-iteration-count: 1;
   animation-iteration-count: 1;
@@ -240,39 +238,39 @@ ul.rateList {
 
 @-webkit-keyframes slideDown {
   0% {
-    margin-top: 48px; }
+    padding-top: 8px; }
   25% {
-    margin-top: 108px; }
+    padding-top: 48px; }
   50% {
-    margin-top: 168px; }
+    padding-top: 168px; }
   75% {
-    margin-left: 224px; }
+    padding-top: 224px; }
   100% {
-    margin-left: 398px; } }
+    padding-top: 300px; } }
 
 @-moz-keyframes slideDown {
   0% {
-    margin-top: 48px; }
+    padding-top: 8px; }
   25% {
-    margin-top: 108px; }
+    padding-top: 48px; }
   50% {
-    margin-top: 168px; }
+    padding-top: 168px; }
   75% {
-    margin-left: 224px; }
+    padding-top: 224px; }
   100% {
-    margin-left: 398px; } }
+    padding-top: 300px; } }
 
 @keyframes slideDown {
   0% {
-    margin-top: 48px; }
+    padding-top: 8px; }
   25% {
-    margin-top: 108px; }
+    padding-top: 48px; }
   50% {
-    margin-top: 168px; }
+    padding-top: 168px; }
   75% {
-    margin-left: 224px; }
+    padding-top: 224px; }
   100% {
-    margin-left: 398px; } }
+    padding-top: 300px; } }
 
 @-webkit-keyframes smallSkillsFade {
   from {
@@ -517,6 +515,7 @@ h1.aboutIntro {
   animation-delay: 4s; }
 
 #contact .contact {
+  opacity: 0;
   margin-top: 130px; }
 
 h1.contactIntro {
@@ -558,32 +557,79 @@ ul.contactList {
 
 .animationFadeTwo {
   opacity: 0;
-  -webkit-animation: ease-in 1;
-  -moz-animation: fadeIn ease-in 1;
-  animation: fadeIn ease-in 1;
-  -webkit-animation-duration: .5s;
-  -moz-animation-duration: .5s;
-  animation-duration: .5s;
+  -webkit-animation: appear ease-in 1;
+  -moz-animation: appear ease-in 1;
+  animation: appear ease-in 1;
+  -webkit-animation-duration: 1.5s;
+  -moz-animation-duration: 1.5s;
+  animation-duration: 1.5s;
   -webkit-animation-fill-mode: forwards;
   -moz-animation-fill-mode: forwards;
   animation-fill-mode: forwards; }
 
-@-webkit-keyframes fadeIn {
+@-webkit-keyframes appear {
   from {
     opacity: 0; }
   to {
     opacity: 1; } }
 
-@-moz-keyframes fadeIn {
+@-moz-keyframes appear {
   from {
     opacity: 0; }
   to {
     opacity: 1; } }
 
-@keyframes fadeIn {
+@keyframes appear {
   from {
     opacity: 0; }
   to {
+    opacity: 1; } }
+
+.animationSlideLeft {
+  -webkit-animation-name: slideLeft;
+  -moz-animation-name: slideLeft;
+  animation-name: slideLeft;
+  -webkit-animation-duration: 8s;
+  -moz-animation-duration: 8s;
+  animation-duration: 8s;
+  -webkit-animation-timing-function: linear;
+  -moz-animation-timing-function: linear;
+  animation-timing-function: linear;
+  -webkit-animation-delay: 2s;
+  -moz-animation-delat: 2s;
+  animation-delay: 2s;
+  -webkit-animation-iteration-count: 1;
+  -moz-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+  -webkit-animation-fill-mode: forwards;
+  -moz-animation-fill-mode: forwards;
+  animation-fill-mode: forwards; }
+
+@-webkit-keyframes slideLeft {
+  0% {
+    float: right;
+    opacity: 1; }
+  100% {
+    margin: 0 auto;
+    margin-right: 45%;
+    opacity: 1; } }
+
+@-moz-keyframes slideLeft {
+  0% {
+    float: right;
+    opacity: 1; }
+  100% {
+    margin-right: 45%;
+    margin: 0 auto;
+    opacity: 1; } }
+
+@keyframes slideLeft {
+  0% {
+    float: right;
+    opacity: 1; }
+  100% {
+    margin: 0 auto;
+    margin-right: 45%;
     opacity: 1; } }
 
 .helloBubble {
@@ -600,13 +646,12 @@ ul.contactList {
   -webkit-box-shadow: 2px 2px 4px #888;
   -moz-box-shadow: 2px 2px 4px #888;
   box-shadow: 2px 2px 4px #888;
-  margin-left: 154px;
-  margin: 0 auto;
+  margin-left: 35%;
   margin-top: 30px; }
 
 .medHello {
   content: ' ';
-  margin-left: 437px;
+  margin-left: 39%;
   margin-top: -45px;
   width: 88px;
   height: 88px;
@@ -622,7 +667,7 @@ ul.contactList {
   border: 8px solid #666;
   width: 52px;
   height: 52px;
-  margin-left: 473px;
+  margin-left: 42%;
   margin-top: 15px;
   -webkit-border-radius: 58px;
   -moz-border-radius: 58px;
@@ -644,13 +689,13 @@ ul.contactList {
   -moz-box-shadow: 2px 2px 4px #888;
   box-shadow: 2px 2px 4px #888;
   float: right;
-  margin-right: 217px;
+  margin-right: 26%;
   margin-top: 98px;
   margin-bottom: 40px; }
 
 .medWork {
   content: ' ';
-  margin-left: 697px;
+  margin-left: 48%;
   margin-top: 212px;
   width: 67px;
   height: 67px;
@@ -666,7 +711,7 @@ ul.contactList {
   border: 8px solid #666;
   width: 47px;
   height: 47px;
-  margin-left: 684px;
+  margin-left: 44%;
   margin-top: 243px;
   -webkit-border-radius: 58px;
   -moz-border-radius: 58px;
@@ -729,8 +774,7 @@ ul.contactList {
   -webkit-box-shadow: 2px 2px 4px #888;
   -moz-box-shadow: 2px 2px 4px #888;
   box-shadow: 2px 2px 4px #888;
-  margin-right: 250px;
-  float: right;
+  margin-left: 59%;
   margin-bottom: 40px;
   margin-top: 98px; }
 
@@ -847,7 +891,7 @@ img#meContact {
   float: right; }
 
 img#meSkills {
-  margin-top: 48px;
+  margin-top: 8px;
   width: 55px;
   float: right; }
 

@@ -111,13 +111,13 @@
               // $('.smallWork').addClass('animated smallWorkAnimation');
               // $('.medWork').addClass('animated medWorkAnimation');
               // $('.workBubble').addClass('animated workBubbleAnimation');
-              // // $('#meWork').addClass('animated meWorkAnimation');
+              $('#meContact').addClass('animated animationSlideLeft');
               $('.rightLeft').addClass('animated animationFadeTwo');
 
             // use jQuery to add class of what animation i want to happen
           },
           
-          offset:'10%'
+          offset:'30%'
            
        });
 
@@ -126,11 +126,18 @@
           });
 
           //on click like stays on active nav item
-          $("li.page-scroll > a").click(function(){
+          $("a").click(function(){
               // console.log("li.page-scroll > a");
-                $("li.page-scroll > a").removeClass("in-active");
-                console.log("li.page-scroll > a");
-                $(vm).addClass("active");
+                $("a").removeClass("active");
+                console.log("a");
+                $(this).addClass("active");
           });
+
+          $('a').click(function(){
+          $('html, body').animate({
+               scrollTop: $( $(this).attr('href') ).offset().top
+           }, 500);
+           return false;
+ });
     });
 })();

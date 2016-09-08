@@ -1,5 +1,5 @@
 #contact .contact{
-	//opacity:0;
+	opacity:0;
 	margin-top:130px;
 
 	// background-color:darken($lightgray,25);
@@ -57,27 +57,94 @@ ul.contactList{
 //animation for blob 
 .animationFadeTwo {
 	opacity:0;
-	-webkit-animation: ease-in 1;
-	-moz-animation:fadeIn ease-in 1;
-	animation:fadeIn ease-in 1;
+	-webkit-animation:appear ease-in 1;
+	-moz-animation:appear ease-in 1;
+	animation:appear ease-in 1;
 
-	-webkit-animation-duration:.5s;
-	-moz-animation-duration:.5s;
-	animation-duration:.5s;
+	-webkit-animation-duration:1.5s;
+	-moz-animation-duration:1.5s;
+	animation-duration:1.5s;
 
 	-webkit-animation-fill-mode:forwards;  
     -moz-animation-fill-mode:forwards;
 	animation-fill-mode:forwards;
 }
 
-@-webkit-keyframes fadeIn{
+@-webkit-keyframes appear{
 	from { opacity:0; } to { opacity:1; } 
 }
 
-@-moz-keyframes fadeIn{
+@-moz-keyframes appear{
 	from { opacity:0; } to { opacity:1; } 
 }
 
-@keyframes fadeIn { 
+@keyframes appear { 
 		from { opacity:0; } to { opacity:1; } 
+}
+
+.animationSlideLeft{
+	-webkit-animation-name:slideLeft;
+	-moz-animation-name:slideLeft;
+	animation-name:slideLeft;
+
+	-webkit-animation-duration:8s;
+	-moz-animation-duration:8s;
+	animation-duration:8s;
+
+	-webkit-animation-timing-function:linear;
+	-moz-animation-timing-function:linear;
+	animation-timing-function:linear;
+
+	-webkit-animation-delay:2s;
+	-moz-animation-delat:2s;
+	animation-delay:2s;
+
+	-webkit-animation-iteration-count:1;
+	-moz-animation-iteration-count:1;
+	animation-iteration-count:1;
+
+	-webkit-animation-fill-mode:forwards;  
+    -moz-animation-fill-mode:forwards;
+	animation-fill-mode:forwards;
+
+	}
+
+@-webkit-keyframes slideLeft {
+	0% {
+		float:right;
+		
+		opacity:1;
+	}
+
+	100% {
+		margin:0 auto;
+		margin-right:45%;
+		opacity:1;
+	}
+}
+
+@-moz-keyframes slideLeft {
+	0% {
+		float:right;
+		opacity:1;
+	}
+	
+	100% {
+		margin-right:45%;
+		margin:0 auto;
+		opacity:1;
+	}
+}
+
+@keyframes slideLeft {
+	0% {
+		float:right;
+		opacity:1;
+	}
+	
+	100% {
+		margin:0 auto;
+		margin-right:45%;
+		opacity:1;
+	}
 }

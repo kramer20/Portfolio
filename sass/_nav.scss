@@ -28,7 +28,7 @@ ul.navList{
 		&:focus {
 			outline:none;
 		}
-		&:hover {
+		&.active {
 			border-bottom:2px solid rgba(106,44,180,1);
 			transition:border 2000ms ease;
 		}
