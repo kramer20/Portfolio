@@ -60,3 +60,10 @@ img#meSkills{
  //    -webkit-transform: rotate(45deg); /* Chrome, Safari, Opera */
 	// transform:rotate(45deg);
 }
+
+img.aboutOne{
+	-ms-transform: rotate(90deg); /* IE 9 */
+ 	-webkit-transform: rotate(90deg); /* Chrome, Safari, Opera */
+	transform:rotate(80deg);
+	width:60px;
+}

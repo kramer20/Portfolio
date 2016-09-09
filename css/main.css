@@ -53,6 +53,30 @@ h1.workIntro {
 li img.park, .marvel, .tee, .bob {
   width: 545px; }
 
+p.parkalotInfo {
+  font-size: 20px;
+  font-family: "Shadows Into Light", cursive;
+  color: #666666; }
+
+li.parkalotSkills {
+  display: inline-block; }
+  li.parkalotSkills h5 {
+    font-family: "Shadows Into Light", cursive;
+    font-size: 20px;
+    color: #6A2CB4;
+    border: 4px solid #666666;
+    border-radius: 22px;
+    padding: 8px; }
+
+h2.parkAbout, .parkUsed, .viewPark {
+  font-size: 30px;
+  font-family: "Shadows Into Light", cursive;
+  color: #6A2CB4;
+  text-align: left; }
+
+.arrowAbout li {
+  display: inline-block; }
+
 @-webkit-keyframes smallWorkFade {
   from {
     opacity: 0; }
@@ -894,6 +918,14 @@ img#meSkills {
   margin-top: 8px;
   width: 55px;
   float: right; }
+
+img.aboutOne {
+  -ms-transform: rotate(90deg);
+  /* IE 9 */
+  -webkit-transform: rotate(90deg);
+  /* Chrome, Safari, Opera */
+  transform: rotate(80deg);
+  width: 60px; }
 
 .skillsListAnimation {
   opacity: 0;
