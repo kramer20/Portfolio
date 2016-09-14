@@ -14,52 +14,53 @@ h1.workIntro{
 }
 
 li img.park,.marvel,.tee,.bob{
-	width:545px;
-	//border:2px solid $mainpurple;
-	//border-radius: 6px;
+	width:609px;
 }
 
-p.parkalotInfo{
-	font-size:18px;
-	font-family:$fontOne;
-	color:$bubblegray;
-	margin-left:34px;
-	margin-right:34px;
-}
 
-li.parkalotSkills{
+li.appSkills{
 	display:inline-block;
 	h5{
 		font-family:$fontOne;
-		font-size: 20px;
+		font-size: 18px;
 		color:$mainpurple;
 		border:4px solid $bubblegray;
 		border-radius:22px;
-		padding:8px;
+		padding:6px;
+		margin-top:5px;
+		margin-bottom: 5px;
 	}
 
+}
+
+.arrowView{
+	text-align:center;
 }
 
 h2.appAbout, .appUsed, .viewApp{
 	font-size:30px;
 	font-family:$fontOne;
 	color:$mainpurple;
-	text-align:left;
+	
 }
 
 a.appLink {
 	font-family:$fontOne;
 	color:$bubblegray;
-	font-size:20px;
 	text-decoration:none;
-	// h6:hover{
-	// 	font-size:20px;
-	// 	color:rgba(106,44,180,1);
-	// 		transition:color 800ms ease;
-	// }
 }
 
-p.marvelInfo{
+.appLink h6{
+	font-size:20px;
+	text-align:center;
+	
+	&:hover{
+		color:rgba(106,44,180,1);
+			transition:color 800ms ease;
+	}
+}
+
+p.appInfo{
 	font-size:18px;
 	font-family:$fontOne;
 	color:$bubblegray;
@@ -67,18 +68,7 @@ p.marvelInfo{
 	margin-right:34px;
 }
 
-li.marvelSkills{
-	display:inline-block;
-	h5{
-		font-family:$fontOne;
-		font-size: 20px;
-		color:$mainpurple;
-		border:4px solid $bubblegray;
-		border-radius:22px;
-		padding:8px;
-	}
 
-}
 .arrowAbout li{
 	display:inline-block;
 }
@@ -86,6 +76,11 @@ li.marvelSkills{
 .arrowUsed li {
 	display:inline-block;
 }
+
+.arrowView li {
+	display:inline-block;
+}
+
 // //animation for blob
 // .meWorkFadeAnimation{
 // 	opacity:0;

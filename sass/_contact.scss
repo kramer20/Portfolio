@@ -54,6 +54,94 @@ ul.contactList{
   transition:500ms ease;
 }
 
+//animation for bubbles
+@-webkit-keyframes smallContactFade{
+	from { opacity:0; } to { opacity:1; } 
+}
+@-moz-keyframes smallContactFade{
+	from { opacity:0; } to { opacity:1; } 
+}
+@keyframes smallContactFade { 
+		from { opacity:0; } to { opacity:1; } 
+}
+
+.smallContactAnimation{
+	opacity:0;
+	-webkit-animation:smallContactFade ease-in 1;
+	-moz-animation:smallContactFade ease-in 1;
+	animation:smallContactFade ease-in 1;
+
+	-webkit-animation-duration:.25s;
+	-moz-animation-duration:.25s;
+	animation-duration:.25s;
+
+	-webkit-animation-fill-mode:forwards;  
+    -moz-animation-fill-mode:forwards;
+	animation-fill-mode:forwards;
+
+	-webkit-animation-delay:2s;
+	-moz-animation-delay:2s;
+	animation-delay:2s;
+}
+
+@-webkit-keyframes medContactFade{
+	from { opacity:0; } to { opacity:1; } 
+}
+@-moz-keyframes medContactFade{
+	from { opacity:0; } to { opacity:1; } 
+}
+@keyframes medContactFade { 
+		from { opacity:0; } to { opacity:1; } 
+}
+
+.medContactAnimation{
+	opacity:0;
+	-webkit-animation:medContactFade ease-in 1;
+	-moz-animation:medContactFade ease-in 1;
+	animation:medContactFade ease-in 1;
+
+	-webkit-animation-duration:.5s;
+	-moz-animation-duration:.5s;
+	animation-duration:.5s;
+
+	-webkit-animation-fill-mode:forwards;  
+    -moz-animation-fill-mode:forwards;
+	animation-fill-mode:forwards;
+
+	-webkit-animation-delay:3s;
+	-moz-animation-delat:3s;
+	animation-delay:3s;
+}
+
+@-webkit-keyframes lgContactFade{
+	from { opacity:0; } to { opacity:1; }
+
+}
+@-moz-keyframes lgContactFade{
+	from { opacity:0; } to { opacity:1; } 
+}
+@keyframes lgContactFade { 
+		from { opacity:0; } to { opacity:1; } 
+}
+
+.contactBubbleAnimation{
+	opacity:0;
+	-webkit-animation:lgContactFade ease-in 1;
+	-moz-animation:lgContactFade ease-in 1;
+	animation:lgContactFade ease-in 1;
+
+	-webkit-animation-duration:1s;
+	-moz-animation-duration:1s;
+	animation-duration:1s;
+
+	-webkit-animation-fill-mode:forwards;  
+    -moz-animation-fill-mode:forwards;
+	animation-fill-mode:forwards;
+
+	-webkit-animation-delay:4s;
+	-moz-animation-delay:4s;
+	animation-delay:4s;
+}
 //animation for blob 
 .animationFadeTwo {
 	opacity:0;

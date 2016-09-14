@@ -210,10 +210,10 @@
 
 }
 
-.contactBubble:before, .contactBubble:after{
+.medContact{
   content: ' '; 
-  margin-left: 58px;
-  margin-top: 110px;
+  margin-left: 405px;
+  margin-top: -66px;
   width: 68px;
   height: 68px;
   background-color: #fff;
@@ -224,11 +224,13 @@
   position:absolute;
 }
 
-.contactBubble:after {
+.smallContact {
+  background-color: #fff;
+  border: 8px solid #666;
   width: 44px;
   height: 44px;
-  margin-left: 128px;
-  margin-top: 30px;
+  margin-left: 485px;
+  margin-top: -20px;
   -webkit-border-radius: 58px;
   -moz-border-radius: 58px;
   border-radius: 58px;

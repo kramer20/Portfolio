@@ -108,9 +108,9 @@
           handler: function(){
             // alert('hi');
               $('#contact .contact').css('opacity', 100);
-              // $('.smallWork').addClass('animated smallWorkAnimation');
-              // $('.medWork').addClass('animated medWorkAnimation');
-              // $('.workBubble').addClass('animated workBubbleAnimation');
+              $('.smallContact').addClass('animated smallContactAnimation');
+              $('.medContact').addClass('animated medContactAnimation');
+              $('.contactBubble').addClass('animated contactBubbleAnimation');
               $('#meContact').addClass('animated animationSlideLeft');
               $('.rightLeft').addClass('animated animationFadeTwo');
 

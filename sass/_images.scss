@@ -68,8 +68,16 @@ img.aboutOne{
 }
 
 img.usedOne{
-	-ms-transform: rotate(45deg); /* IE 9 */
- 	-webkit-transform: rotate(45deg); /* Chrome, Safari, Opera */
-	transform:rotate(45deg);
-	width:60px;
+	width:45px;
+	padding:0px;
+}
+
+img.tee{
+	width:612px;
+}
+
+img.view{
+	padding:0px;
+	width:43px;
+	margin-top:18px;
 }

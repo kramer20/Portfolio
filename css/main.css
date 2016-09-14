@@ -51,58 +51,54 @@ h1.workIntro {
   margin-top: 44px; }
 
 li img.park, .marvel, .tee, .bob {
-  width: 545px; }
+  width: 609px; }
 
-p.parkalotInfo {
-  font-size: 18px;
-  font-family: "Shadows Into Light", cursive;
-  color: #666666;
-  margin-left: 34px;
-  margin-right: 34px; }
-
-li.parkalotSkills {
+li.appSkills {
   display: inline-block; }
-  li.parkalotSkills h5 {
+  li.appSkills h5 {
     font-family: "Shadows Into Light", cursive;
-    font-size: 20px;
+    font-size: 18px;
     color: #6A2CB4;
     border: 4px solid #666666;
     border-radius: 22px;
-    padding: 8px; }
+    padding: 6px;
+    margin-top: 5px;
+    margin-bottom: 5px; }
+
+.arrowView {
+  text-align: center; }
 
 h2.appAbout, .appUsed, .viewApp {
   font-size: 30px;
   font-family: "Shadows Into Light", cursive;
-  color: #6A2CB4;
-  text-align: left; }
+  color: #6A2CB4; }
 
 a.appLink {
   font-family: "Shadows Into Light", cursive;
   color: #666666;
-  font-size: 20px;
   text-decoration: none; }
 
-p.marvelInfo {
+.appLink h6 {
+  font-size: 20px;
+  text-align: center; }
+  .appLink h6:hover {
+    color: #6a2cb4;
+    transition: color 800ms ease; }
+
+p.appInfo {
   font-size: 18px;
   font-family: "Shadows Into Light", cursive;
   color: #666666;
   margin-left: 34px;
   margin-right: 34px; }
-
-li.marvelSkills {
-  display: inline-block; }
-  li.marvelSkills h5 {
-    font-family: "Shadows Into Light", cursive;
-    font-size: 20px;
-    color: #6A2CB4;
-    border: 4px solid #666666;
-    border-radius: 22px;
-    padding: 8px; }
 
 .arrowAbout li {
   display: inline-block; }
 
 .arrowUsed li {
+  display: inline-block; }
+
+.arrowView li {
   display: inline-block; }
 
 @-webkit-keyframes smallWorkFade {
@@ -607,6 +603,105 @@ ul.contactList {
   transform: scale(1.2);
   transition: 500ms ease; }
 
+@-webkit-keyframes smallContactFade {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
+
+@-moz-keyframes smallContactFade {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
+
+@keyframes smallContactFade {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
+
+.smallContactAnimation {
+  opacity: 0;
+  -webkit-animation: smallContactFade ease-in 1;
+  -moz-animation: smallContactFade ease-in 1;
+  animation: smallContactFade ease-in 1;
+  -webkit-animation-duration: .25s;
+  -moz-animation-duration: .25s;
+  animation-duration: .25s;
+  -webkit-animation-fill-mode: forwards;
+  -moz-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+  -webkit-animation-delay: 2s;
+  -moz-animation-delay: 2s;
+  animation-delay: 2s; }
+
+@-webkit-keyframes medContactFade {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
+
+@-moz-keyframes medContactFade {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
+
+@keyframes medContactFade {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
+
+.medContactAnimation {
+  opacity: 0;
+  -webkit-animation: medContactFade ease-in 1;
+  -moz-animation: medContactFade ease-in 1;
+  animation: medContactFade ease-in 1;
+  -webkit-animation-duration: .5s;
+  -moz-animation-duration: .5s;
+  animation-duration: .5s;
+  -webkit-animation-fill-mode: forwards;
+  -moz-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+  -webkit-animation-delay: 3s;
+  -moz-animation-delat: 3s;
+  animation-delay: 3s; }
+
+@-webkit-keyframes lgContactFade {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
+
+@-moz-keyframes lgContactFade {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
+
+@keyframes lgContactFade {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
+
+.contactBubbleAnimation {
+  opacity: 0;
+  -webkit-animation: lgContactFade ease-in 1;
+  -moz-animation: lgContactFade ease-in 1;
+  animation: lgContactFade ease-in 1;
+  -webkit-animation-duration: 1s;
+  -moz-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: forwards;
+  -moz-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+  -webkit-animation-delay: 4s;
+  -moz-animation-delay: 4s;
+  animation-delay: 4s; }
+
 .animationFadeTwo {
   opacity: 0;
   -webkit-animation: appear ease-in 1;
@@ -873,10 +968,10 @@ ul.contactList {
   box-shadow: 2px 2px 4px #888;
   margin-left: 162px; }
 
-.contactBubble:before, .contactBubble:after {
+.medContact {
   content: ' ';
-  margin-left: 58px;
-  margin-top: 110px;
+  margin-left: 405px;
+  margin-top: -66px;
   width: 68px;
   height: 68px;
   background-color: #fff;
@@ -886,11 +981,13 @@ ul.contactList {
   border-radius: 58px;
   position: absolute; }
 
-.contactBubble:after {
+.smallContact {
+  background-color: #fff;
+  border: 8px solid #666;
   width: 44px;
   height: 44px;
-  margin-left: 128px;
-  margin-top: 30px;
+  margin-left: 485px;
+  margin-top: -20px;
   -webkit-border-radius: 58px;
   -moz-border-radius: 58px;
   border-radius: 58px;
@@ -953,12 +1050,16 @@ img.aboutOne {
   padding-top: 5px; }
 
 img.usedOne {
-  -ms-transform: rotate(45deg);
-  /* IE 9 */
-  -webkit-transform: rotate(45deg);
-  /* Chrome, Safari, Opera */
-  transform: rotate(45deg);
-  width: 60px; }
+  width: 45px;
+  padding: 0px; }
+
+img.tee {
+  width: 612px; }
+
+img.view {
+  padding: 0px;
+  width: 43px;
+  margin-top: 18px; }
 
 .skillsListAnimation {
   opacity: 0;

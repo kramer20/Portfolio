@@ -1,7 +1,8 @@
 .unslider{
 	overflow:auto;
-	margin:0;
-	padding:0
+	margin:0 auto;
+	padding:0;
+	width:1205px;
 	margin-bottom:10px;}
 .unslider-wrap{
 	position:relative}
@@ -37,7 +38,8 @@
 	z-index:2;
 	font-size:18px;
 	cursor:pointer;
-	text-decoration: none;}
+	margin-left:83px;
+	text-decoration: none !important;}
 .unslider-arrow.next{
 	left:auto;
 	color:#6A2CB4;
@@ -47,8 +49,9 @@
 	font-size:18px;
 	border:4px solid #666666;
 	padding:5px;
+	margin-right: 83px;
 	border-radius: 22px;}
 .unslider-horizontal{
-	margin-bottom: 15px;
+	
 	margin-top: 48px;
 }	
