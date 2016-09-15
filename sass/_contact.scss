@@ -53,6 +53,36 @@ ul.contactList{
   transform:scale(1.2);
   transition:500ms ease;
 }
+//animation for contact info
+.contactItemsAnimation{
+	opacity:0;
+	-webkit-animation:contactItemsFade ease 1;
+	-moz-animation:contactItemsFade ease 1;
+	animation:contactItemsFade ease 1;
+
+	-webkit-animation-duration:.5s;
+	-moz-animation-duration:.5s;
+	animation-duration:.5s;
+
+	-webkit-animation-fill-mode:forwards;  
+    -moz-animation-fill-mode:forwards;
+	animation-fill-mode:forwards;
+
+	-webkit-animation-delay:3.25s;
+	-moz-animation-delay:3.25s;
+	animation-delay:3.25s;
+}
+
+@-webkit-keyframes contactItemsFade{
+	from { opacity:0; } to { opacity:1; }
+
+}
+@-moz-keyframes contactItemsFade{
+	from { opacity:0; } to { opacity:1; } 
+}
+@keyframes contactItemsFade { 
+		from { opacity:0; } to { opacity:1; } 
+}
 
 //animation for bubbles
 @-webkit-keyframes smallContactFade{
@@ -79,9 +109,9 @@ ul.contactList{
     -moz-animation-fill-mode:forwards;
 	animation-fill-mode:forwards;
 
-	-webkit-animation-delay:2s;
-	-moz-animation-delay:2s;
-	animation-delay:2s;
+	-webkit-animation-delay:2.5s;
+	-moz-animation-delay:2.5s;
+	animation-delay:2.5s;
 }
 
 @-webkit-keyframes medContactFade{
@@ -100,17 +130,17 @@ ul.contactList{
 	-moz-animation:medContactFade ease-in 1;
 	animation:medContactFade ease-in 1;
 
-	-webkit-animation-duration:.5s;
-	-moz-animation-duration:.5s;
-	animation-duration:.5s;
+	-webkit-animation-duration:.25s;
+	-moz-animation-duration:.25s;
+	animation-duration:.25s;
 
 	-webkit-animation-fill-mode:forwards;  
     -moz-animation-fill-mode:forwards;
 	animation-fill-mode:forwards;
 
-	-webkit-animation-delay:3s;
-	-moz-animation-delat:3s;
-	animation-delay:3s;
+	-webkit-animation-delay:2.75s;
+	-moz-animation-delat:2.75s;
+	animation-delay:2.75s;
 }
 
 @-webkit-keyframes lgContactFade{
@@ -130,17 +160,17 @@ ul.contactList{
 	-moz-animation:lgContactFade ease-in 1;
 	animation:lgContactFade ease-in 1;
 
-	-webkit-animation-duration:1s;
-	-moz-animation-duration:1s;
-	animation-duration:1s;
+	-webkit-animation-duration:.25s;
+	-moz-animation-duration:.25s;
+	animation-duration:.25s;
 
 	-webkit-animation-fill-mode:forwards;  
     -moz-animation-fill-mode:forwards;
 	animation-fill-mode:forwards;
 
-	-webkit-animation-delay:4s;
-	-moz-animation-delay:4s;
-	animation-delay:4s;
+	-webkit-animation-delay:3s;
+	-moz-animation-delay:3s;
+	animation-delay:3s;
 }
 //animation for blob 
 .animationFadeTwo {
@@ -149,9 +179,9 @@ ul.contactList{
 	-moz-animation:appear ease-in 1;
 	animation:appear ease-in 1;
 
-	-webkit-animation-duration:1.5s;
-	-moz-animation-duration:1.5s;
-	animation-duration:1.5s;
+	-webkit-animation-duration:.5s;
+	-moz-animation-duration:.5s;
+	animation-duration:.5s;
 
 	-webkit-animation-fill-mode:forwards;  
     -moz-animation-fill-mode:forwards;
@@ -175,17 +205,17 @@ ul.contactList{
 	-moz-animation-name:slideLeft;
 	animation-name:slideLeft;
 
-	-webkit-animation-duration:8s;
-	-moz-animation-duration:8s;
-	animation-duration:8s;
+	-webkit-animation-duration:2s;
+	-moz-animation-duration:2s;
+	animation-duration:2s;
 
 	-webkit-animation-timing-function:linear;
 	-moz-animation-timing-function:linear;
 	animation-timing-function:linear;
 
-	-webkit-animation-delay:2s;
-	-moz-animation-delat:2s;
-	animation-delay:2s;
+	-webkit-animation-delay:.5s;
+	-moz-animation-delat:.5s;
+	animation-delay:.5s;
 
 	-webkit-animation-iteration-count:1;
 	-moz-animation-iteration-count:1;

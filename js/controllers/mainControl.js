@@ -6,6 +6,11 @@
     .controller('MainController', function() {
        var vm = this;
       
+
+      //For animations to work use jQuery to add class of 
+      //what animation I want to take place.
+
+      //animation for about section
        var waypoint = new Waypoint({
        		element: document.getElementById('about'),
        		handler: function(){
@@ -15,14 +20,13 @@
               $('.medAbout').addClass('animated medAboutAnimation');
               $('.aboutBubble').addClass('animated aboutBubbleAnimation');
               $('#me').addClass('animated meAnimation');
-
-       			// use jQuery to add class of what animation i want to happen
        		},
           
           offset:'10%'
            
        });
 
+       //animation for work section
        var waypointTwo = new Waypoint({
           element: document.getElementById('work'),
           handler: function(){
@@ -34,13 +38,13 @@
               // $('#meWork').addClass('animated meWorkAnimation');
               // $('.topBottom').addClass('animated meWorkFadeAnimation');
 
-            // use jQuery to add class of what animation i want to happen
           },
           
           offset:'10%'
            
        });
 
+       //animation for skills section
        var waypointThree = new Waypoint({
           element: document.getElementById('skills'),
           handler: function(){
@@ -93,16 +97,14 @@
               $('.designThree').addClass('animated designThreeAnimation');
               $('.designFour').addClass('animated designFourAnimation');
               $('.designFive').addClass('animated designFiveAnimation');
-              
-
-
-            // use jQuery to add class of what animation i want to happen
+    
           },
           
           offset:'10%'
            
        });
 
+       //animations for contact section
        var waypointFour = new Waypoint({
           element: document.getElementById('contact'),
           handler: function(){
@@ -113,8 +115,8 @@
               $('.contactBubble').addClass('animated contactBubbleAnimation');
               $('#meContact').addClass('animated animationSlideLeft');
               $('.rightLeft').addClass('animated animationFadeTwo');
-
-            // use jQuery to add class of what animation i want to happen
+              $('.contactCol').addClass('animated contactItemsAnimation');
+           
           },
           
           offset:'30%'
@@ -125,14 +127,14 @@
            $('.my-slider').unslider();
           });
 
-          //on click like stays on active nav item
+          //on click line stays on active nav item
           $("a").click(function(){
-              // console.log("li.page-scroll > a");
                 $("a").removeClass("active");
                 console.log("a");
                 $(this).addClass("active");
           });
 
+          //function for a smooth transition between different sections
           $('a').click(function(){
           $('html, body').animate({
                scrollTop: $( $(this).attr('href') ).offset().top
