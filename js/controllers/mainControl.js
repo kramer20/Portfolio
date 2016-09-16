@@ -123,6 +123,53 @@
            
        });
 
+       //work scroll line
+       var waypointFour = new Waypoint({
+          element: document.getElementById('work'),
+          handler: function(){
+              $('.workScroll').css('opacity', 100);
+              $('.workScroll').addClass('scrollLine');     
+          },
+
+          offset:'10%'
+       });
+
+       //about scroll line
+       var waypointFour = new Waypoint({
+          element: document.getElementById('about'),
+          handler: function(){
+              $(".workScroll").removeClass("scrollLine");
+              $('.aboutScroll').css('opacity', 100);
+              $('.aboutScroll').addClass('scrollLineA');     
+          },
+
+          offset:'10%'
+       });
+
+       //skills scroll line
+       var waypointFour = new Waypoint({
+          element: document.getElementById('skills'),
+          handler: function(){
+              $(".aboutScroll").removeClass("scrollLineA");
+              $('.skillsScroll').css('opacity', 100);
+              $('.skillsScroll').addClass('scrollLineB');     
+          },
+
+          offset:'10%'
+       });
+
+       //contact scroll line
+       var waypointFour = new Waypoint({
+          element: document.getElementById('contact'),
+          handler: function(){
+              $(".skillsScroll").removeClass("scrollLineB");
+              $('.contactScroll').css('opacity', 100);
+              $('.contactScroll').addClass('scrollLineC');     
+          },
+
+          offset:'10%'
+       });
+
           jQuery(document).ready(function($) {
            $('.my-slider').unslider();
           });

@@ -53,3 +53,31 @@ ul.navList li.page-scroll:nth-child(5) a{
 	}
 }
 
+.scrollLine {
+	opacity:0;
+	border-bottom:2px solid rgba(106,44,180,1);
+	transition:border 2000ms ease;
+	// &.active{
+	// 	opacity:0;
+	// 	border-bottom:2px solid rgba(106,44,180,1);
+	// 	transition:border 2000ms ease;
+	// }	
+}
+
+.scrollLineA {
+	opacity:0;
+	border-bottom:2px solid rgba(106,44,180,1);
+	transition:border 2000ms ease;
+}
+
+.scrollLineB {
+	opacity:0;
+	border-bottom:2px solid rgba(106,44,180,1);
+	transition:border 2000ms ease;
+}
+
+.scrollLineC {
+	opacity:0;
+	border-bottom:2px solid rgba(106,44,180,1);
+	transition:border 2000ms ease;
+}

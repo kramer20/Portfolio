@@ -40,6 +40,26 @@ ul.navList li.page-scroll:nth-child(5) a {
   ul.navList li.page-scroll:nth-child(5) a:hover {
     border-bottom: hidden; }
 
+.scrollLine {
+  opacity: 0;
+  border-bottom: 2px solid #6a2cb4;
+  transition: border 2000ms ease; }
+
+.scrollLineA {
+  opacity: 0;
+  border-bottom: 2px solid #6a2cb4;
+  transition: border 2000ms ease; }
+
+.scrollLineB {
+  opacity: 0;
+  border-bottom: 2px solid #6a2cb4;
+  transition: border 2000ms ease; }
+
+.scrollLineC {
+  opacity: 0;
+  border-bottom: 2px solid #6a2cb4;
+  transition: border 2000ms ease; }
+
 #work .work {
   opacity: 0;
   margin-top: 130px; }
@@ -2283,7 +2303,8 @@ img.view {
     opacity: 1; } }
 
 body {
-  background-color: #F2F4F7; }
+  background-color: #F2F4F7;
+  overflow-x: hidden; }
 
 h1.helloIntro {
   color: #6A2CB4;
