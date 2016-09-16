@@ -376,9 +376,9 @@ ul.rateList {
   -webkit-animation: medSkillsFade ease-in 1;
   -moz-animation: medSkillsFade ease-in 1;
   animation: medSkillsFade ease-in 1;
-  -webkit-animation-duration: .5s;
-  -moz-animation-duration: .5s;
-  animation-duration: .5s;
+  -webkit-animation-duration: .25s;
+  -moz-animation-duration: .25s;
+  animation-duration: .25s;
   -webkit-animation-fill-mode: forwards;
   -moz-animation-fill-mode: forwards;
   animation-fill-mode: forwards;
@@ -409,9 +409,9 @@ ul.rateList {
   -webkit-animation: lgSkillsFade ease-in 1;
   -moz-animation: lgSkillsFade ease-in 1;
   animation: lgSkillsFade ease-in 1;
-  -webkit-animation-duration: 1s;
-  -moz-animation-duration: 1s;
-  animation-duration: 1s;
+  -webkit-animation-duration: .5s;
+  -moz-animation-duration: .5s;
+  animation-duration: .5s;
   -webkit-animation-fill-mode: forwards;
   -moz-animation-fill-mode: forwards;
   animation-fill-mode: forwards;
@@ -430,7 +430,7 @@ h1.aboutIntro {
   text-align: center;
   font-family: "Shadows Into Light", cursive;
   font-size: 20px;
-  margin-top: 25px;
+  margin-top: -4px;
   padding: 25px; }
 
 .meAnimation {
@@ -1099,9 +1099,9 @@ img.view {
   -webkit-animation: listSkillsFade ease 1;
   -moz-animation: listSkillsFade ease 1;
   animation: listSkillsFade ease 1;
-  -webkit-animation-duration: 1s;
-  -moz-animation-duration: 1s;
-  animation-duration: 1s;
+  -webkit-animation-duration: .5s;
+  -moz-animation-duration: .5s;
+  animation-duration: .5s;
   -webkit-animation-fill-mode: forwards;
   -moz-animation-fill-mode: forwards;
   animation-fill-mode: forwards;
@@ -1132,9 +1132,9 @@ img.view {
   -webkit-animation: htmlOneFade ease 1;
   -moz-animation: htmlOneFade ease 1;
   animation: htmlOneFade ease 1;
-  -webkit-animation-duration: .25s;
-  -moz-animation-duration: .25s;
-  animation-duration: .25s;
+  -webkit-animation-duration: .1s;
+  -moz-animation-duration: .1s;
+  animation-duration: .1s;
   -webkit-animation-fill-mode: forwards;
   -moz-animation-fill-mode: forwards;
   animation-fill-mode: forwards;
@@ -1165,15 +1165,15 @@ img.view {
   -webkit-animation: htmlTwoFade ease 1;
   -moz-animation: htmlTwoFade ease 1;
   animation: htmlTwoFade ease 1;
-  -webkit-animation-duration: .25s;
-  -moz-animation-duration: .25s;
-  animation-duration: .25s;
+  -webkit-animation-duration: .1s;
+  -moz-animation-duration: .1s;
+  animation-duration: .1s;
   -webkit-animation-fill-mode: forwards;
   -moz-animation-fill-mode: forwards;
   animation-fill-mode: forwards;
-  -webkit-animation-delay: 3.5s;
-  -moz-animation-delay: 3.5s;
-  animation-delay: 3.5s; }
+  -webkit-animation-delay: 3.25s;
+  -moz-animation-delay: 3.25s;
+  animation-delay: 3.25s; }
 
 @-webkit-keyframes htmlTwoFade {
   from {
@@ -1198,15 +1198,15 @@ img.view {
   -webkit-animation: htmlThreeFade ease 1;
   -moz-animation: htmlThreeFade ease 1;
   animation: htmlThreeFade ease 1;
-  -webkit-animation-duration: .25s;
-  -moz-animation-duration: .25s;
-  animation-duration: .25s;
+  -webkit-animation-duration: .1s;
+  -moz-animation-duration: .1s;
+  animation-duration: .1s;
   -webkit-animation-fill-mode: forwards;
   -moz-animation-fill-mode: forwards;
   animation-fill-mode: forwards;
-  -webkit-animation-delay: 4s;
-  -moz-animation-delay: 4s;
-  animation-delay: 4s; }
+  -webkit-animation-delay: 3.5s;
+  -moz-animation-delay: 3.5s;
+  animation-delay: 3.5s; }
 
 @-webkit-keyframes htmlThreeFade {
   from {
@@ -1231,15 +1231,15 @@ img.view {
   -webkit-animation: htmlFourFade ease 1;
   -moz-animation: htmlFourFade ease 1;
   animation: htmlFourFade ease 1;
-  -webkit-animation-duration: .25s;
-  -moz-animation-duration: .25s;
-  animation-duration: .25s;
+  -webkit-animation-duration: .1s;
+  -moz-animation-duration: .1s;
+  animation-duration: .1s;
   -webkit-animation-fill-mode: forwards;
   -moz-animation-fill-mode: forwards;
   animation-fill-mode: forwards;
-  -webkit-animation-delay: 4.5s;
-  -moz-animation-delay: 4.5s;
-  animation-delay: 4.5s; }
+  -webkit-animation-delay: 3.75s;
+  -moz-animation-delay: 3.75s;
+  animation-delay: 3.75s; }
 
 @-webkit-keyframes htmlFourFade {
   from {
@@ -1264,15 +1264,15 @@ img.view {
   -webkit-animation: htmlFiveFade ease 1;
   -moz-animation: htmlFiveFade ease 1;
   animation: htmlFiveFade ease 1;
-  -webkit-animation-duration: .25s;
-  -moz-animation-duration: .25s;
-  animation-duration: .25s;
+  -webkit-animation-duration: .1s;
+  -moz-animation-duration: .1s;
+  animation-duration: .1s;
   -webkit-animation-fill-mode: forwards;
   -moz-animation-fill-mode: forwards;
   animation-fill-mode: forwards;
-  -webkit-animation-delay: 5s;
-  -moz-animation-delay: 5s;
-  animation-delay: 5s; }
+  -webkit-animation-delay: 4s;
+  -moz-animation-delay: 4s;
+  animation-delay: 4s; }
 
 @-webkit-keyframes htmlFiveFade {
   from {
@@ -1297,15 +1297,15 @@ img.view {
   -webkit-animation: cssOneFade ease 1;
   -moz-animation: cssOneFade ease 1;
   animation: cssOneFade ease 1;
-  -webkit-animation-duration: .25s;
-  -moz-animation-duration: .25s;
-  animation-duration: .25s;
+  -webkit-animation-duration: .1s;
+  -moz-animation-duration: .1s;
+  animation-duration: .1s;
   -webkit-animation-fill-mode: forwards;
   -moz-animation-fill-mode: forwards;
   animation-fill-mode: forwards;
-  -webkit-animation-delay: 6s;
-  -moz-animation-delay: 6s;
-  animation-delay: 6s; }
+  -webkit-animation-delay: 4.5s;
+  -moz-animation-delay: 4.5s;
+  animation-delay: 4.5s; }
 
 @-webkit-keyframes cssOneFade {
   from {
@@ -1330,15 +1330,15 @@ img.view {
   -webkit-animation: cssTwoFade ease 1;
   -moz-animation: cssTwoFade ease 1;
   animation: cssTwoFade ease 1;
-  -webkit-animation-duration: .25s;
-  -moz-animation-duration: .25s;
-  animation-duration: .25s;
+  -webkit-animation-duration: .1s;
+  -moz-animation-duration: .1s;
+  animation-duration: .1s;
   -webkit-animation-fill-mode: forwards;
   -moz-animation-fill-mode: forwards;
   animation-fill-mode: forwards;
-  -webkit-animation-delay: 6.5s;
-  -moz-animation-delay: 6.5s;
-  animation-delay: 6.5s; }
+  -webkit-animation-delay: 4.75s;
+  -moz-animation-delay: 4.75s;
+  animation-delay: 4.75s; }
 
 @-webkit-keyframes cssTwoFade {
   from {
@@ -1363,15 +1363,15 @@ img.view {
   -webkit-animation: cssThreeFade ease 1;
   -moz-animation: cssThreeFade ease 1;
   animation: cssThreeFade ease 1;
-  -webkit-animation-duration: .25s;
-  -moz-animation-duration: .25s;
-  animation-duration: .25s;
+  -webkit-animation-duration: .1s;
+  -moz-animation-duration: .1s;
+  animation-duration: .1s;
   -webkit-animation-fill-mode: forwards;
   -moz-animation-fill-mode: forwards;
   animation-fill-mode: forwards;
-  -webkit-animation-delay: 7s;
-  -moz-animation-delay: 7s;
-  animation-delay: 7s; }
+  -webkit-animation-delay: 5s;
+  -moz-animation-delay: 5s;
+  animation-delay: 5s; }
 
 @-webkit-keyframes cssThreeFade {
   from {
@@ -1396,15 +1396,15 @@ img.view {
   -webkit-animation: cssFourFade ease 1;
   -moz-animation: cssFourFade ease 1;
   animation: cssFourFade ease 1;
-  -webkit-animation-duration: .25s;
-  -moz-animation-duration: .25s;
-  animation-duration: .25s;
+  -webkit-animation-duration: .1s;
+  -moz-animation-duration: .1s;
+  animation-duration: .1s;
   -webkit-animation-fill-mode: forwards;
   -moz-animation-fill-mode: forwards;
   animation-fill-mode: forwards;
-  -webkit-animation-delay: 7.5s;
-  -moz-animation-delay: 7.5s;
-  animation-delay: 7.5s; }
+  -webkit-animation-delay: 5.25s;
+  -moz-animation-delay: 5.25s;
+  animation-delay: 5.25s; }
 
 @-webkit-keyframes cssFourFade {
   from {
@@ -1429,15 +1429,15 @@ img.view {
   -webkit-animation: cssFiveFade ease 1;
   -moz-animation: cssFiveFade ease 1;
   animation: cssFiveFade ease 1;
-  -webkit-animation-duration: .25s;
-  -moz-animation-duration: .25s;
-  animation-duration: .25s;
+  -webkit-animation-duration: .1s;
+  -moz-animation-duration: .1s;
+  animation-duration: .1s;
   -webkit-animation-fill-mode: forwards;
   -moz-animation-fill-mode: forwards;
   animation-fill-mode: forwards;
-  -webkit-animation-delay: 8s;
-  -moz-animation-delay: 8s;
-  animation-delay: 8s; }
+  -webkit-animation-delay: 5.5s;
+  -moz-animation-delay: 5.5s;
+  animation-delay: 5.5s; }
 
 @-webkit-keyframes cssFiveFade {
   from {
@@ -1462,15 +1462,15 @@ img.view {
   -webkit-animation: javaOneFade ease 1;
   -moz-animation: javaOneFade ease 1;
   animation: javaOneFade ease 1;
-  -webkit-animation-duration: .25s;
-  -moz-animation-duration: .25s;
-  animation-duration: .25s;
+  -webkit-animation-duration: .1s;
+  -moz-animation-duration: .1s;
+  animation-duration: .1s;
   -webkit-animation-fill-mode: forwards;
   -moz-animation-fill-mode: forwards;
   animation-fill-mode: forwards;
-  -webkit-animation-delay: 9s;
-  -moz-animation-delay: 9s;
-  animation-delay: 9s; }
+  -webkit-animation-delay: 6s;
+  -moz-animation-delay: 6s;
+  animation-delay: 6s; }
 
 @-webkit-keyframes javaOneFade {
   from {
@@ -1495,15 +1495,15 @@ img.view {
   -webkit-animation: javaTwoFade ease 1;
   -moz-animation: javaTwoFade ease 1;
   animation: javaTwoFade ease 1;
-  -webkit-animation-duration: .25s;
-  -moz-animation-duration: .25s;
-  animation-duration: .25s;
+  -webkit-animation-duration: .1s;
+  -moz-animation-duration: .1s;
+  animation-duration: .1s;
   -webkit-animation-fill-mode: forwards;
   -moz-animation-fill-mode: forwards;
   animation-fill-mode: forwards;
-  -webkit-animation-delay: 9.5s;
-  -moz-animation-delay: 9.5s;
-  animation-delay: 9.5s; }
+  -webkit-animation-delay: 6.25s;
+  -moz-animation-delay: 6.25s;
+  animation-delay: 6.25s; }
 
 @-webkit-keyframes javaTwoFade {
   from {
@@ -1528,15 +1528,15 @@ img.view {
   -webkit-animation: javaThreeFade ease 1;
   -moz-animation: javaThreeFade ease 1;
   animation: javaThreeFade ease 1;
-  -webkit-animation-duration: .25s;
-  -moz-animation-duration: .25s;
-  animation-duration: .25s;
+  -webkit-animation-duration: .1s;
+  -moz-animation-duration: .1s;
+  animation-duration: .1s;
   -webkit-animation-fill-mode: forwards;
   -moz-animation-fill-mode: forwards;
   animation-fill-mode: forwards;
-  -webkit-animation-delay: 10s;
-  -moz-animation-delay: 10s;
-  animation-delay: 10s; }
+  -webkit-animation-delay: 6.5s;
+  -moz-animation-delay: 6.5s;
+  animation-delay: 6.5s; }
 
 @-webkit-keyframes javaThreeFade {
   from {
@@ -1561,15 +1561,15 @@ img.view {
   -webkit-animation: javaFourFade ease 1;
   -moz-animation: javaFourFade ease 1;
   animation: javaFourFade ease 1;
-  -webkit-animation-duration: .25s;
-  -moz-animation-duration: .25s;
-  animation-duration: .25s;
+  -webkit-animation-duration: .1s;
+  -moz-animation-duration: .1s;
+  animation-duration: .1s;
   -webkit-animation-fill-mode: forwards;
   -moz-animation-fill-mode: forwards;
   animation-fill-mode: forwards;
-  -webkit-animation-delay: 10.5s;
-  -moz-animation-delay: 10.5s;
-  animation-delay: 10.5s; }
+  -webkit-animation-delay: 6.75s;
+  -moz-animation-delay: 6.75s;
+  animation-delay: 6.75s; }
 
 @-webkit-keyframes javaFourFade {
   from {
@@ -1594,15 +1594,15 @@ img.view {
   -webkit-animation: javaFiveFade ease 1;
   -moz-animation: javaFiveFade ease 1;
   animation: javaFiveFade ease 1;
-  -webkit-animation-duration: .25s;
-  -moz-animation-duration: .25s;
-  animation-duration: .25s;
+  -webkit-animation-duration: .1s;
+  -moz-animation-duration: .1s;
+  animation-duration: .1s;
   -webkit-animation-fill-mode: forwards;
   -moz-animation-fill-mode: forwards;
   animation-fill-mode: forwards;
-  -webkit-animation-delay: 11s;
-  -moz-animation-delay: 11s;
-  animation-delay: 11s; }
+  -webkit-animation-delay: 7s;
+  -moz-animation-delay: 7s;
+  animation-delay: 7s; }
 
 @-webkit-keyframes javaFiveFade {
   from {
@@ -1627,15 +1627,15 @@ img.view {
   -webkit-animation: jOneFade ease 1;
   -moz-animation: jOneFade ease 1;
   animation: jOneFade ease 1;
-  -webkit-animation-duration: .25s;
-  -moz-animation-duration: .25s;
-  animation-duration: .25s;
+  -webkit-animation-duration: .1s;
+  -moz-animation-duration: .1s;
+  animation-duration: .1s;
   -webkit-animation-fill-mode: forwards;
   -moz-animation-fill-mode: forwards;
   animation-fill-mode: forwards;
-  -webkit-animation-delay: 12s;
-  -moz-animation-delay: 12s;
-  animation-delay: 12s; }
+  -webkit-animation-delay: 7.5s;
+  -moz-animation-delay: 7.5s;
+  animation-delay: 7.5s; }
 
 @-webkit-keyframes jOneFade {
   from {
@@ -1660,15 +1660,15 @@ img.view {
   -webkit-animation: jTwoFade ease 1;
   -moz-animation: jTwoFade ease 1;
   animation: jTwoFade ease 1;
-  -webkit-animation-duration: .25s;
-  -moz-animation-duration: .25s;
-  animation-duration: .25s;
+  -webkit-animation-duration: .1s;
+  -moz-animation-duration: .1s;
+  animation-duration: .1s;
   -webkit-animation-fill-mode: forwards;
   -moz-animation-fill-mode: forwards;
   animation-fill-mode: forwards;
-  -webkit-animation-delay: 12.5s;
-  -moz-animation-delay: 12.5s;
-  animation-delay: 12.5s; }
+  -webkit-animation-delay: 7.75s;
+  -moz-animation-delay: 7.75s;
+  animation-delay: 7.75s; }
 
 @-webkit-keyframes jTwoFade {
   from {
@@ -1693,15 +1693,15 @@ img.view {
   -webkit-animation: jThreeFade ease 1;
   -moz-animation: jThreeFade ease 1;
   animation: jThreeFade ease 1;
-  -webkit-animation-duration: .25s;
-  -moz-animation-duration: .25s;
-  animation-duration: .25s;
+  -webkit-animation-duration: .1s;
+  -moz-animation-duration: .1s;
+  animation-duration: .1s;
   -webkit-animation-fill-mode: forwards;
   -moz-animation-fill-mode: forwards;
   animation-fill-mode: forwards;
-  -webkit-animation-delay: 13s;
-  -moz-animation-delay: 13s;
-  animation-delay: 13s; }
+  -webkit-animation-delay: 8s;
+  -moz-animation-delay: 8s;
+  animation-delay: 8s; }
 
 @-webkit-keyframes jThreeFade {
   from {
@@ -1726,15 +1726,15 @@ img.view {
   -webkit-animation: jFourFade ease 1;
   -moz-animation: jFourFade ease 1;
   animation: jFourFade ease 1;
-  -webkit-animation-duration: .25s;
-  -moz-animation-duration: .25s;
-  animation-duration: .25s;
+  -webkit-animation-duration: .1s;
+  -moz-animation-duration: .1s;
+  animation-duration: .1s;
   -webkit-animation-fill-mode: forwards;
   -moz-animation-fill-mode: forwards;
   animation-fill-mode: forwards;
-  -webkit-animation-delay: 13.5s;
-  -moz-animation-delay: 13.5s;
-  animation-delay: 13.5s; }
+  -webkit-animation-delay: 8.25s;
+  -moz-animation-delay: 8.25s;
+  animation-delay: 8.25s; }
 
 @-webkit-keyframes jFourFade {
   from {
@@ -1759,15 +1759,15 @@ img.view {
   -webkit-animation: jFiveFade ease 1;
   -moz-animation: jFiveFade ease 1;
   animation: jFiveFade ease 1;
-  -webkit-animation-duration: .25s;
-  -moz-animation-duration: .25s;
-  animation-duration: .25s;
+  -webkit-animation-duration: .1s;
+  -moz-animation-duration: .1s;
+  animation-duration: .1s;
   -webkit-animation-fill-mode: forwards;
   -moz-animation-fill-mode: forwards;
   animation-fill-mode: forwards;
-  -webkit-animation-delay: 14s;
-  -moz-animation-delay: 14s;
-  animation-delay: 14s; }
+  -webkit-animation-delay: 8.5s;
+  -moz-animation-delay: 8.5s;
+  animation-delay: 8.5s; }
 
 @-webkit-keyframes jFiveFade {
   from {
@@ -1792,15 +1792,15 @@ img.view {
   -webkit-animation: angOneFade ease 1;
   -moz-animation: angOneFade ease 1;
   animation: angOneFade ease 1;
-  -webkit-animation-duration: .25s;
-  -moz-animation-duration: .25s;
-  animation-duration: .25s;
+  -webkit-animation-duration: .1s;
+  -moz-animation-duration: .1s;
+  animation-duration: .1s;
   -webkit-animation-fill-mode: forwards;
   -moz-animation-fill-mode: forwards;
   animation-fill-mode: forwards;
-  -webkit-animation-delay: 15s;
-  -moz-animation-delay: 15s;
-  animation-delay: 15s; }
+  -webkit-animation-delay: 9s;
+  -moz-animation-delay: 9s;
+  animation-delay: 9s; }
 
 @-webkit-keyframes angOneFade {
   from {
@@ -1825,15 +1825,15 @@ img.view {
   -webkit-animation: angTwoFade ease 1;
   -moz-animation: angTwoFade ease 1;
   animation: angTwoFade ease 1;
-  -webkit-animation-duration: .25s;
-  -moz-animation-duration: .25s;
-  animation-duration: .25s;
+  -webkit-animation-duration: .1s;
+  -moz-animation-duration: .1s;
+  animation-duration: .1s;
   -webkit-animation-fill-mode: forwards;
   -moz-animation-fill-mode: forwards;
   animation-fill-mode: forwards;
-  -webkit-animation-delay: 15.5s;
-  -moz-animation-delay: 15.5s;
-  animation-delay: 15.5s; }
+  -webkit-animation-delay: 9.25s;
+  -moz-animation-delay: 9.25s;
+  animation-delay: 9.25s; }
 
 @-webkit-keyframes angTwoFade {
   from {
@@ -1858,15 +1858,15 @@ img.view {
   -webkit-animation: angThreeFade ease 1;
   -moz-animation: angThreeFade ease 1;
   animation: angThreeFade ease 1;
-  -webkit-animation-duration: .25s;
-  -moz-animation-duration: .25s;
-  animation-duration: .25s;
+  -webkit-animation-duration: .1s;
+  -moz-animation-duration: .1s;
+  animation-duration: .1s;
   -webkit-animation-fill-mode: forwards;
   -moz-animation-fill-mode: forwards;
   animation-fill-mode: forwards;
-  -webkit-animation-delay: 16s;
-  -moz-animation-delay: 16s;
-  animation-delay: 16s; }
+  -webkit-animation-delay: 9.5s;
+  -moz-animation-delay: 9.5s;
+  animation-delay: 9.5s; }
 
 @-webkit-keyframes angThreeFade {
   from {
@@ -1891,15 +1891,15 @@ img.view {
   -webkit-animation: angFourFade ease 1;
   -moz-animation: angFourFade ease 1;
   animation: angFourFade ease 1;
-  -webkit-animation-duration: .25s;
-  -moz-animation-duration: .25s;
-  animation-duration: .25s;
+  -webkit-animation-duration: .1s;
+  -moz-animation-duration: .1s;
+  animation-duration: .1s;
   -webkit-animation-fill-mode: forwards;
   -moz-animation-fill-mode: forwards;
   animation-fill-mode: forwards;
-  -webkit-animation-delay: 16.5s;
-  -moz-animation-delay: 16.5s;
-  animation-delay: 16.5s; }
+  -webkit-animation-delay: 9.75s;
+  -moz-animation-delay: 9.75s;
+  animation-delay: 9.75s; }
 
 @-webkit-keyframes angFourFade {
   from {
@@ -1924,15 +1924,15 @@ img.view {
   -webkit-animation: angFiveFade ease 1;
   -moz-animation: angFiveFade ease 1;
   animation: angFiveFade ease 1;
-  -webkit-animation-duration: .25s;
-  -moz-animation-duration: .25s;
-  animation-duration: .25s;
+  -webkit-animation-duration: .1s;
+  -moz-animation-duration: .1s;
+  animation-duration: .1s;
   -webkit-animation-fill-mode: forwards;
   -moz-animation-fill-mode: forwards;
   animation-fill-mode: forwards;
-  -webkit-animation-delay: 17s;
-  -moz-animation-delay: 17s;
-  animation-delay: 17s; }
+  -webkit-animation-delay: 10s;
+  -moz-animation-delay: 10s;
+  animation-delay: 10s; }
 
 @-webkit-keyframes angFiveFade {
   from {
@@ -1957,15 +1957,15 @@ img.view {
   -webkit-animation: photoOneFade ease 1;
   -moz-animation: photoOneFade ease 1;
   animation: photoOneFade ease 1;
-  -webkit-animation-duration: .25s;
-  -moz-animation-duration: .25s;
-  animation-duration: .25s;
+  -webkit-animation-duration: .1s;
+  -moz-animation-duration: .1s;
+  animation-duration: .1s;
   -webkit-animation-fill-mode: forwards;
   -moz-animation-fill-mode: forwards;
   animation-fill-mode: forwards;
-  -webkit-animation-delay: 18s;
-  -moz-animation-delay: 18s;
-  animation-delay: 18s; }
+  -webkit-animation-delay: 10.5s;
+  -moz-animation-delay: 10.5s;
+  animation-delay: 10.5s; }
 
 @-webkit-keyframes photoOneFade {
   from {
@@ -1990,15 +1990,15 @@ img.view {
   -webkit-animation: photoTwoFade ease 1;
   -moz-animation: photoTwoFade ease 1;
   animation: photoTwoFade ease 1;
-  -webkit-animation-duration: .25s;
-  -moz-animation-duration: .25s;
-  animation-duration: .25s;
+  -webkit-animation-duration: .1s;
+  -moz-animation-duration: .1s;
+  animation-duration: .1s;
   -webkit-animation-fill-mode: forwards;
   -moz-animation-fill-mode: forwards;
   animation-fill-mode: forwards;
-  -webkit-animation-delay: 18.5s;
-  -moz-animation-delay: 18.5s;
-  animation-delay: 18.5s; }
+  -webkit-animation-delay: 10.75s;
+  -moz-animation-delay: 10.75s;
+  animation-delay: 10.75s; }
 
 @-webkit-keyframes photoTwoFade {
   from {
@@ -2023,15 +2023,15 @@ img.view {
   -webkit-animation: photoThreeFade ease 1;
   -moz-animation: photoThreeFade ease 1;
   animation: photoThreeFade ease 1;
-  -webkit-animation-duration: .25s;
-  -moz-animation-duration: .25s;
-  animation-duration: .25s;
+  -webkit-animation-duration: .1s;
+  -moz-animation-duration: .1s;
+  animation-duration: .1s;
   -webkit-animation-fill-mode: forwards;
   -moz-animation-fill-mode: forwards;
   animation-fill-mode: forwards;
-  -webkit-animation-delay: 19s;
-  -moz-animation-delay: 19s;
-  animation-delay: 19s; }
+  -webkit-animation-delay: 11s;
+  -moz-animation-delay: 11s;
+  animation-delay: 11s; }
 
 @-webkit-keyframes photoThreeFade {
   from {
@@ -2056,15 +2056,15 @@ img.view {
   -webkit-animation: photoFourFade ease 1;
   -moz-animation: photoFourFade ease 1;
   animation: photoFourFade ease 1;
-  -webkit-animation-duration: .25s;
-  -moz-animation-duration: .25s;
-  animation-duration: .25s;
+  -webkit-animation-duration: .1s;
+  -moz-animation-duration: .1s;
+  animation-duration: .1s;
   -webkit-animation-fill-mode: forwards;
   -moz-animation-fill-mode: forwards;
   animation-fill-mode: forwards;
-  -webkit-animation-delay: 19.5s;
-  -moz-animation-delay: 19.5s;
-  animation-delay: 19.5s; }
+  -webkit-animation-delay: 11.25s;
+  -moz-animation-delay: 11.25s;
+  animation-delay: 11.25s; }
 
 @-webkit-keyframes photoFourFade {
   from {
@@ -2089,15 +2089,15 @@ img.view {
   -webkit-animation: photoFiveFade ease 1;
   -moz-animation: photoFiveFade ease 1;
   animation: photoFiveFade ease 1;
-  -webkit-animation-duration: .25s;
-  -moz-animation-duration: .25s;
-  animation-duration: .25s;
+  -webkit-animation-duration: .1s;
+  -moz-animation-duration: .1s;
+  animation-duration: .1s;
   -webkit-animation-fill-mode: forwards;
   -moz-animation-fill-mode: forwards;
   animation-fill-mode: forwards;
-  -webkit-animation-delay: 20s;
-  -moz-animation-delay: 20s;
-  animation-delay: 20s; }
+  -webkit-animation-delay: 11.5s;
+  -moz-animation-delay: 11.5s;
+  animation-delay: 11.5s; }
 
 @-webkit-keyframes photoFiveFade {
   from {
@@ -2122,15 +2122,15 @@ img.view {
   -webkit-animation: designOneFade ease 1;
   -moz-animation: designOneFade ease 1;
   animation: designOneFade ease 1;
-  -webkit-animation-duration: .25s;
-  -moz-animation-duration: .25s;
-  animation-duration: .25s;
+  -webkit-animation-duration: .1s;
+  -moz-animation-duration: .1s;
+  animation-duration: .1s;
   -webkit-animation-fill-mode: forwards;
   -moz-animation-fill-mode: forwards;
   animation-fill-mode: forwards;
-  -webkit-animation-delay: 21s;
-  -moz-animation-delay: 21s;
-  animation-delay: 21s; }
+  -webkit-animation-delay: 12s;
+  -moz-animation-delay: 12s;
+  animation-delay: 12s; }
 
 @-webkit-keyframes designOneFade {
   from {
@@ -2155,15 +2155,15 @@ img.view {
   -webkit-animation: designTwoFade ease 1;
   -moz-animation: designTwoFade ease 1;
   animation: designTwoFade ease 1;
-  -webkit-animation-duration: .25s;
-  -moz-animation-duration: .25s;
-  animation-duration: .25s;
+  -webkit-animation-duration: .1s;
+  -moz-animation-duration: .1s;
+  animation-duration: .1s;
   -webkit-animation-fill-mode: forwards;
   -moz-animation-fill-mode: forwards;
   animation-fill-mode: forwards;
-  -webkit-animation-delay: 21.5s;
-  -moz-animation-delay: 21.5s;
-  animation-delay: 21.5s; }
+  -webkit-animation-delay: 12.25s;
+  -moz-animation-delay: 12.25s;
+  animation-delay: 12.25s; }
 
 @-webkit-keyframes designTwoFade {
   from {
@@ -2188,15 +2188,15 @@ img.view {
   -webkit-animation: desginThreeFade ease 1;
   -moz-animation: desginThreeFade ease 1;
   animation: desginThreeFade ease 1;
-  -webkit-animation-duration: .25s;
-  -moz-animation-duration: .25s;
-  animation-duration: .25s;
+  -webkit-animation-duration: .1s;
+  -moz-animation-duration: .1s;
+  animation-duration: .1s;
   -webkit-animation-fill-mode: forwards;
   -moz-animation-fill-mode: forwards;
   animation-fill-mode: forwards;
-  -webkit-animation-delay: 22s;
-  -moz-animation-delay: 22s;
-  animation-delay: 22s; }
+  -webkit-animation-delay: 12.5s;
+  -moz-animation-delay: 12.5s;
+  animation-delay: 12.5s; }
 
 @-webkit-keyframes desginThreeFade {
   from {
@@ -2221,15 +2221,15 @@ img.view {
   -webkit-animation: designFourFade ease 1;
   -moz-animation: designFourFade ease 1;
   animation: designFourFade ease 1;
-  -webkit-animation-duration: .25s;
-  -moz-animation-duration: .25s;
-  animation-duration: .25s;
+  -webkit-animation-duration: .1s;
+  -moz-animation-duration: .1s;
+  animation-duration: .1s;
   -webkit-animation-fill-mode: forwards;
   -moz-animation-fill-mode: forwards;
   animation-fill-mode: forwards;
-  -webkit-animation-delay: 22.5s;
-  -moz-animation-delay: 22.5s;
-  animation-delay: 22.5s; }
+  -webkit-animation-delay: 12.75s;
+  -moz-animation-delay: 12.75s;
+  animation-delay: 12.75s; }
 
 @-webkit-keyframes designFourFade {
   from {
@@ -2254,15 +2254,15 @@ img.view {
   -webkit-animation: designFiveFade ease 1;
   -moz-animation: designFiveFade ease 1;
   animation: designFiveFade ease 1;
-  -webkit-animation-duration: .25s;
-  -moz-animation-duration: .25s;
-  animation-duration: .25s;
+  -webkit-animation-duration: .1s;
+  -moz-animation-duration: .1s;
+  animation-duration: .1s;
   -webkit-animation-fill-mode: forwards;
   -moz-animation-fill-mode: forwards;
   animation-fill-mode: forwards;
-  -webkit-animation-delay: 23s;
-  -moz-animation-delay: 23s;
-  animation-delay: 23s; }
+  -webkit-animation-delay: 13s;
+  -moz-animation-delay: 13s;
+  animation-delay: 13s; }
 
 @-webkit-keyframes designFiveFade {
   from {
