@@ -43,7 +43,8 @@ ul.navList li.page-scroll:nth-child(5) a {
 .scrollLine {
   opacity: 0;
   border-bottom: 2px solid #6a2cb4;
-  transition: border 2000ms ease; }
+  transition: border 2000ms ease;
+  width: 5px; }
 
 .scrollLineA {
   opacity: 0;

@@ -127,8 +127,8 @@
        var waypointFour = new Waypoint({
           element: document.getElementById('work'),
           handler: function(){
-              $('.workScroll').css('opacity', 100);
-              $('.workScroll').addClass('scrollLine');     
+              $('a.workScroll').css('opacity', 100);
+              $('a.workScroll').addClass('scrollLine');     
           },
 
           offset:'10%'
@@ -138,9 +138,9 @@
        var waypointFour = new Waypoint({
           element: document.getElementById('about'),
           handler: function(){
-              $(".workScroll").removeClass("scrollLine");
-              $('.aboutScroll').css('opacity', 100);
-              $('.aboutScroll').addClass('scrollLineA');     
+              $('a.workScroll').removeClass('scrollLine');
+              $('a.aboutScroll').css('opacity', 100);
+              $('a.aboutScroll').addClass('scrollLineA');     
           },
 
           offset:'10%'
@@ -150,9 +150,9 @@
        var waypointFour = new Waypoint({
           element: document.getElementById('skills'),
           handler: function(){
-              $(".aboutScroll").removeClass("scrollLineA");
-              $('.skillsScroll').css('opacity', 100);
-              $('.skillsScroll').addClass('scrollLineB');     
+              $('a.aboutScroll').removeClass('scrollLineA');
+              $('a.skillsScroll').css('opacity', 100);
+              $('a.skillsScroll').addClass('scrollLineB');     
           },
 
           offset:'10%'
@@ -162,9 +162,9 @@
        var waypointFour = new Waypoint({
           element: document.getElementById('contact'),
           handler: function(){
-              $(".skillsScroll").removeClass("scrollLineB");
-              $('.contactScroll').css('opacity', 100);
-              $('.contactScroll').addClass('scrollLineC');     
+              $('a.skillsScroll').removeClass('scrollLineB');
+              $('a.contactScroll').css('opacity', 100);
+              $('a.contactScroll').addClass('scrollLineC');     
           },
 
           offset:'10%'
