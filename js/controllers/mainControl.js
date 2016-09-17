@@ -35,8 +35,9 @@
               $('.smallWork').addClass('animated smallWorkAnimation');
               $('.medWork').addClass('animated medWorkAnimation');
               $('.workBubble').addClass('animated workBubbleAnimation');
-              // $('#meWork').addClass('animated meWorkAnimation');
-              // $('.topBottom').addClass('animated meWorkFadeAnimation');
+              $('.my-slider').addClass('animated workSliderAnimation');
+              $('#meWork').addClass('animated meWorkFadeAnimation');
+              $('#meWorkTwo').addClass('animated meAppearAnimation');
 
           },
           
@@ -124,7 +125,7 @@
        });
 
        //work scroll line
-       var waypointFour = new Waypoint({
+       var waypointFive = new Waypoint({
           element: document.getElementById('work'),
           handler: function(){
               $('a.workScroll').css('opacity', 100);
@@ -135,7 +136,7 @@
        });
 
        //about scroll line
-       var waypointFour = new Waypoint({
+       var waypointSix = new Waypoint({
           element: document.getElementById('about'),
           handler: function(){
               $('a.workScroll').removeClass('scrollLine');
@@ -147,7 +148,7 @@
        });
 
        //skills scroll line
-       var waypointFour = new Waypoint({
+       var waypointSeven = new Waypoint({
           element: document.getElementById('skills'),
           handler: function(){
               $('a.aboutScroll').removeClass('scrollLineA');
@@ -159,7 +160,7 @@
        });
 
        //contact scroll line
-       var waypointFour = new Waypoint({
+       var waypointEight = new Waypoint({
           element: document.getElementById('contact'),
           handler: function(){
               $('a.skillsScroll').removeClass('scrollLineB');

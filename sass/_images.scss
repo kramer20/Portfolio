@@ -39,10 +39,17 @@ img#meHello{
 img#meWork{
 	-ms-transform: rotate(90deg); /* IE 9 */
     -webkit-transform: rotate(90deg); /* Chrome, Safari, Opera */
-	transform:rotate(90deg);
-	width:100px;
-	margin-top:226px;
+	transform:rotate(90deg) !important;
+	width:131px;
+	margin-top:187px;
 	//margin-left:60px;
+}
+
+//work blob number 2
+img#meWorkTwo{
+	width:131px;
+	margin-top:-38px;
+	margin-left:457px;
 }
 
 // contact blob
@@ -53,7 +60,7 @@ img#meContact{
 
 //skills blob
 img#meSkills{
-	margin-top:8px;
+	margin-top:5px;
 	width:55px;
 	float:right;
 	// -ms-transform: rotate(45deg); /* IE 9 */
