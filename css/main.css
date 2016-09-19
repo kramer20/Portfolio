@@ -61,6 +61,83 @@ ul.navList li.page-scroll:nth-child(5) a {
   border-bottom: 2px solid #6a2cb4;
   transition: border 2000ms ease; }
 
+.navToggle {
+  z-index: 111;
+  position: absolute;
+  width: 100px;
+  height: 60px;
+  right: 10px;
+  cursor: pointer; }
+  .navToggle .icon {
+    transition: all 0.4s ease-out;
+    position: absolute;
+    top: 40px;
+    right: 10px;
+    width: 50px;
+    height: 2px;
+    background-color: #6A2CB4; }
+    .navToggle .icon:before, .navToggle .icon:after {
+      transition: all 0.25s ease-out;
+      position: absolute;
+      width: 50px;
+      height: 2px;
+      background-color: #6A2CB4;
+      content: ''; }
+    .navToggle .icon:before {
+      top: -20px;
+      left: 0; }
+    .navToggle .icon:after {
+      top: 20px;
+      left: 0; }
+  .navToggle:hover .icon {
+    background-color: #666666; }
+    .navToggle:hover .icon:before {
+      top: -25px;
+      background-color: #666666; }
+    .navToggle:hover .icon:after {
+      top: 25px;
+      background-color: #666666; }
+  .navToggle.open .icon {
+    transition: all 0.4s ease-out;
+    background-color: transparent;
+    transform: rotate(180deg); }
+    .navToggle.open .icon:before {
+      top: 0;
+      transform: rotate(45deg); }
+    .navToggle.open .icon:after {
+      top: 0;
+      transform: rotate(-45deg); }
+
+#menu {
+  z-index: 1;
+  right: 0;
+  position: absolute;
+  width: 200px;
+  height: 0px;
+  overflow: hidden;
+  text-align: left;
+  border-bottom: 1px solid transparent;
+  transition: all 0.5s; }
+  #menu ul {
+    list-style: none;
+    padding: 0;
+    font-family: "Shadows Into Light", cursive;
+    font-size: 17px;
+    text-transform: uppercase; }
+  #menu li:first-child {
+    margin-top: 5px; }
+  #menu li {
+    margin: 11px 0;
+    padding: 0px 0;
+    cursor: pointer;
+    letter-spacing: 0.5em;
+    text-decoration: none;
+    transition: all 0.25s; }
+  #menu li:hover {
+    text-decoration: none; }
+  #menu.active {
+    height: 200px; }
+
 #work .work {
   opacity: 0;
   margin-top: 130px; }
