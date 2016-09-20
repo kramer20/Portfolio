@@ -141,53 +141,6 @@
   position:absolute;
 }
 
-// //skills bubble
-.skillsBubble{
-  position: relative;
-  width: 250px;
-  height: 154px;
-  text-align: center;
-  line-height: 100px;
-  background-color: #fff;
-  border: 8px solid #666;
-  -webkit-border-radius:145px;
-  -moz-border-radius:145px;
-  border-radius: 145px;
-  -webkit-box-shadow:2px 2px 4px #888;
-  -moz-box-shadow:2px 2px 4px #888;
-  box-shadow: 2px 2px 4px #888;
-  margin-left:59%;
-
-  margin-bottom: 40px;
-  margin-top: 98px;
-}
-
-.medSkills{
-  content: ' '; 
-  margin-left: 700px;
-  margin-top: 207px;
-  width: 66px;
-  height: 66px;
-  background-color: #fff;
-  border: 8px solid #666;
-  -webkit-border-radius: 58px;
-  -moz-border-radius: 58px;
-  border-radius: 58px;
-  position:absolute;
-}
-
-.smallSkills {
-  background-color: #fff;
-  border: 8px solid #666;
-  width: 36px;
-  height: 36px;
-  margin-left: 686px;
-  margin-top: 243px;
-  -webkit-border-radius: 58px;
-  -moz-border-radius: 58px;
-  border-radius: 58px;
-  position:absolute;
-}
 
 //contact bubble
 .contactBubble {

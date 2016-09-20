@@ -57,18 +57,18 @@ ul.navList li.page-scroll:nth-child(5) a{
   z-index: 111;
   position: absolute;
   width: 100px;
-  height: 60px;
+  height: 80px;
   right: 10px;
   cursor: pointer;
   
   .icon{
     transition: all 0.4s ease-out;
-  	position: absolute;
-  	top: 40px;
+    position: absolute;
+    top: 40px;
     right: 10px;
-  	width: 50px;
-  	height: 2px;
-  	background-color: $mainpurple;
+    width: 50px;
+    height: 2px;
+    background-color: $mainpurple;
     &:before, &:after{
       transition: all 0.25s ease-out;
       position: absolute;
@@ -132,6 +132,7 @@ ul.navList li.page-scroll:nth-child(5) a{
     padding: 0;
     font-family:$fontOne;
     font-size: 17px;
+    font-weight: bold;
     text-transform: uppercase;
 
   }
@@ -139,8 +140,8 @@ ul.navList li.page-scroll:nth-child(5) a{
     margin-top: 5px;
   }
   & li{
-    margin: 11px 0;
-    padding: 0px 0;
+    margin: 14px 0;
+    padding: 5px 0;
     cursor: pointer;
     letter-spacing: 0.5em;
     text-decoration: none;
