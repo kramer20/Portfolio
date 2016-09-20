@@ -8,26 +8,25 @@
     <meta name='author' content='Malorie Kramer'>
 
     <meta name='viewport' content='width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no'>
-	
-	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
 
-	<!--CSS style sheet-->
-	<link rel="stylesheet" type="text/css" href="css/main.css">
+    <!--CSS style sheet-->
+    <link rel="stylesheet" type="text/css" href="css/main.css">
     <link rel="stylesheet" href="css/unslider.css">
     <link rel="stylesheet" href="css/unslider-dots.css">
-	<script src="node_modules/angular/angular.min.js"></script>
+    <script src="node_modules/angular/angular.min.js"></script>
     <script src="node_modules/angular-ui-router/release/angular-ui-router.min.js"></script>
     <script src="https://use.fontawesome.com/247c14072a.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Shadows+Into+Light" rel="stylesheet">
 </head>
 
 <body id="body" ng-controller="MainController as controller">
-
-                <!-- Navigation -->
+    <!-- Navigation -->
             <section id="navigation">    
                 <div class="row nav">
                     <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 logoCol">
-                        <a href="#intro"><img class="logo" src="images/mkLogo.png"></a>
+                        <a class="introScroll" href="#intro"><img class="logo" src="images/mkLogo.png"></a>
                     </div>
 
                     <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8 hidden-sm hidden-xs navCol">
@@ -37,9 +36,6 @@
                             </li> 
                             <li class="page-scroll">
                                 <a class="aboutScroll" href="#about">About Me</a>
-                            </li> 
-                            <li class="page-scroll">
-                                <a class="skillsScroll" href="#skills">Skills</a>
                             </li> 
                             <li class="page-scroll">
                                 <a class="contactScroll" href="#contact">Contact</a>
@@ -55,37 +51,35 @@
                     <div class="col-xs-3 col-sm-3 show-sm show-xs hidden-lg hidden-md mobileMenu">
                         <div id="mobileDrop">
                             <div class="navToggle"><div class="icon"></div></div>
-                                <div id="menu"><ul>
-                                    <li><a href="#work">Work</a></li>
-                                    <li><a href="#about">About Me</a></li>
-                                    <li><a href="#skills">Skills</a></li>
-                                    <li><a href="#contact">Contact</a></li>
-                                </ul>
+                                <div id="menu">
+                                    <ul>
+                                        <li><a href="#work">Work</a></li>
+                                        <li><a href="#about">About Me</a></li>
+                                        <li><a href="#contact">Contact</a></li>
+                                    </ul>
                                 </div>
                         </div>
                     </div>
                 </div>
             </section>
 
-
+       <!-- container fluid over each section -->
         <div class="container-fluid">
-                <!-- Intro -->
+            <!-- Intro -->
             <section id="intro"> 
-
                 <div class="leftRight">
                     <img id="meHello" src="images/meIcon.png">
                 </div>   
-
-                <div class="helloBubble">
-                    <h1 class="helloIntro">Hi!<br>I'm Malorie, I love coding and creating aesthetically pleasing<br>interfaces that users can enjoy!<br>My current obsession...mastering animations.</h1>
-                </div> 
-                    <div class="medHello">
-                    </div>
-                        <div class="smallHello">
+                    <div class="helloBubble">
+                        <h1 class="helloIntro">Hi!<br>I'm Malorie, I love coding and creating aesthetically pleasing<br>interfaces that users can enjoy!<br>My current obsession...mastering animations.</h1>
+                    </div> 
+                        <div class="medHello">
                         </div>
-            </section>   
+                            <div class="smallHello">
+                            </div>
+            </section> 
 
-                <!--Work-->
+            <!--Work-->
 
             <section id="work">
                 <div class="row work">
@@ -117,7 +111,7 @@
                                                     <li><h2 class="appAbout">About</h2></li>
                                                 </ul>    
                                                     <p class="appInfo">Final/group project, Map Search App that allows you to find parking garages in the Downtown Cincinnati area close to your destination. Ability to search as a user or guest. Geolocation can be used to find garages nearest your current location.</p>
-                                                
+                                               
                                                 <div class="col-xs-7 col-sm-7 col-md-7 col-lg-7 splitCol"> 
                                                     <ul class="arrowUsed">
                                                         <li><h2 class="appUsed">Utlized</h2></li>
@@ -156,7 +150,7 @@
                                                                 </li>
                                                             </ul>
                                                         </div>
-                                                    </div>    
+                                                </div>    
 
                                                     <div class="col-xs-5 col-sm-5 col-md-5 col-lg-5 splitColTwo">    
                                                         <ul class="arrowView">
@@ -166,7 +160,7 @@
                                                         </ul>   
                                                             <a class="appLink" href="https://parkalot1.herokuapp.com" target="_blank"><h6>parkalot1.herokuapp.com</h6></a>
                                                     </div>        
-                                            </div>
+                                            </div> 
 
                                         </li>
 
@@ -182,9 +176,9 @@
                                                 </ul> 
 
                                                     <p class="appInfo">Class assignment creating an online shop that utilizes Angular's ui-router. Created one main HTML with different views that navigate to various states. Set up controllers for each separate state.</p>
-
+                                                       
                                                 <div class="col-xs-7 col-sm-7 col-md-7 col-lg-7 splitCol">    
-                                                     <ul class="arrowUsed">
+                                                    <ul class="arrowUsed">
                                                         <li><h2 class="appUsed">Utlized</h2></li>
                                                         <li><img class="usedOne" src="images/arrowFour.png"></li> 
                                                     </ul> 
@@ -211,14 +205,14 @@
                                                 </div>        
 
                                                 <div class="col-xs-5 col-sm-5 col-md-5 col-lg-5 splitColTwo">
-                                                     <ul class="arrowView">
+                                                    <ul class="arrowView">
                                                             <li><img class="view" src="images/arrowsThree.png"></li>
                                                             <li><h2 class="viewApp">View Site</h2></li>
                                                             <li><img class="view" src="images/arrowsTwo.png"></li> 
-                                                        </ul> 
+                                                    </ul> 
                                                         <a class="appLink" href="https://bobsbikessite.herokuapp.com" target="_blank"><h6>bobsbikessite.herokuapp.com</h6></a>
                                                 </div>        
-                                            </div>
+                                            </div> 
                                         </li>
                                         
                                         <li>
@@ -227,13 +221,14 @@
                                             </div>
 
                                             <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 workTwoText">
-                                                 <ul class="arrowAbout">
+                                                <ul class="arrowAbout">
                                                     <li><img class="aboutOne" src="images/arrowsOne.png"></li>
                                                     <li><h2 class="appAbout">About</h2></li>
+                                                </ul>  
                                                 <p class="appInfo">Class assignment in which we were required to create a Marvel Fan Page Site using the Marvel API. For it to be considered a full site, we had to design a home page, character page with a more information button, comic page with a more information button and contact page that integrated google maps.</p>
-
+                                                   
                                                 <div class="col-xs-7 col-sm-7 col-md-7 col-lg-7 splitCol">     
-                                                     <ul class="arrowUsed">
+                                                    <ul class="arrowUsed">
                                                         <li><h2 class="appUsed">Utlized</h2></li>
                                                         <li><img class="usedOne" src="images/arrowFour.png"></li>  
                                                     </ul>  
@@ -270,11 +265,11 @@
                                                             <li><img class="view" src="images/arrowsThree.png"></li>
                                                             <li><h2 class="viewApp">View Site</h2></li>
                                                             <li><img class="view" src="images/arrowsTwo.png"></li> 
-                                                        </ul>
+                                                    </ul>
                                                         <a class="appLink" href="https://marvelfanpage.herokuapp.com" target="_blank"><h6>marvelfanpage.herokuapp.com</h6></a>
                                                 </div>        
-
-                                            </div>
+                                            </div>     
+                                           
                                         </li>
 
                                         <li>
@@ -286,16 +281,17 @@
                                                 <ul class="arrowAbout">
                                                     <li><img class="aboutOne" src="images/arrowsOne.png"></li>
                                                     <li><h2 class="appAbout">About</h2></li>
-
+                                                </ul>     
                                                          <p class="appInfo">Full website for a mock tee shirt company. Shopping cart that allows you to add items in and gain a running total on your purchases. Site was required to be fully responsive.</p>
-                                                </ul> 
-
+                                                
+                                              
                                                 <div class="col-xs-7 col-sm-7 col-md-7 col-lg-7 splitCol">     
                                                     <ul class="arrowUsed">
                                                         <li><h2 class="appUsed">Utlized</h2></li>
                                                         <li><img class="usedOne" src="images/arrowFour.png"></li>  
                                                     </ul>  
-                                                        <div class="skillsUsed">
+                                                    
+                                                    <div class="skillsUsed">
                                                         <ul class="teeList">
                                                             <li class="appSkills">
                                                                 <h5>HTML5</h5>
@@ -324,20 +320,20 @@
                                                             <li><img class="view" src="images/arrowsThree.png"></li>
                                                             <li><h2 class="viewApp">View Site</h2></li>
                                                             <li><img class="view" src="images/arrowsTwo.png"></li> 
-                                                        </ul>
+                                                    </ul>
                                                         <a class="appLink" href="https://teeshirtshop.herokuapp.com/" target="_blank"><h6>teeshirtshop.herokuapp.com</h6></a>
                                                 </div>        
-                                            </div>
+                                            </div>  
                                         </li>
 
                                     </ul>
-                                </div>   
-                            </div>
+                            </div>   
                         </div>
+                        
                 </div>
-            </section> 
+            </section>
 
-                <!-- About -->
+            <!-- About -->
 
             <section id="about">
                 <div class="row about">
@@ -354,105 +350,7 @@
                                 
                     </div>
                 </div>
-            </section>  
-
-                <!-- Skills -->
-
-            <section id="skills">
-                <div class="row skills">
-
-                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 skillsCol">
-                        <div class="skillsBubble">
-                            <h1 class="skillsIntro">My Skills</h1>
-                        </div> 
-                    </div>      
-                        <div class="medSkills"></div>
-                            <div class="smallSkills"></div>
-
-                    <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 meSkillsCol">
-                        <div class="littleBlob">
-                            <img id="meSkills" src="images/meIcon.png">
-                           <!--  <img id="meSkillsTwo" src="images/meIcon.png">
-                            <img id="meSkillsThree" src=" images/meIcon.png">
-                            <img id="meSkillsFour" src="images/meIcon.png">
-                            <img id="meSkillsFive" src="images/meIcon.png">
-                            <img id="meSkillsSix" src="images/meIcon.png">
-                            <img id="meSkillsSeven" src="images/meIcon.png"> -->
-                        </div>    
-                    </div>    
-
-                    <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2 listSkillsCol">
-                        <div class="technicalSkills">
-                            <!-- <h2 class="technicalSkillsTitle">Technical</h2> -->
-                                <ul class="technicalList">
-                                    <li class="technicalItem">HTML5</li>
-                                    <li class="technicalItem">CSS3</li>
-                                    <li class="technicalItem">Javascript</li>
-                                    <li class="technicalItem">jQuery</li>
-                                    <li class="technicalItem">AngularJS</li>
-                                    <li class="technicalItem">Photoshop</li>
-                                    <li class="technicalItem">Design</li>
-                                </ul>
-                        </div> 
-                    </div>  
-
-                    <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 rateSkillsCol"> 
-                        <div class="rateSkills">
-                            <ul class="rateList">
-                                    <li class="rateItem">
-                                        <i class="fa fa-comment htmlOne" aria-hidden="true"></i>
-                                        <i class="fa fa-comment htmlTwo" aria-hidden="true"></i>
-                                        <i class="fa fa-comment htmlThree" aria-hidden="true"></i>
-                                        <i class="fa fa-comment htmlFour" aria-hidden="true"></i>
-                                        <i class="fa fa-comment-o htmlFive" aria-hidden="true"></i>
-                                    </li>
-                                    <li class="rateItem">
-                                        <i class="fa fa-comment cssOne" aria-hidden="true"></i>
-                                        <i class="fa fa-comment cssTwo" aria-hidden="true"></i>
-                                        <i class="fa fa-comment cssThree" aria-hidden="true"></i>
-                                        <i class="fa fa-comment cssFour" aria-hidden="true"></i>
-                                        <i class="fa fa-comment-o cssFive" aria-hidden="true"></i>
-                                    </li>
-                                    <li class="rateItem"> 
-                                        <i class="fa fa-comment javaOne" aria-hidden="true"></i>
-                                        <i class="fa fa-comment javaTwo" aria-hidden="true"></i>
-                                        <i class="fa fa-comment javaThree" aria-hidden="true"></i>
-                                        <i class="fa fa-comment-o javaFour" aria-hidden="true"></i>
-                                        <i class="fa fa-comment-o javaFive" aria-hidden="true"></i>
-                                    </li>
-                                    <li class="rateItem">
-                                         <i class="fa fa-comment jOne" aria-hidden="true"></i>
-                                        <i class="fa fa-comment jTwo" aria-hidden="true"></i>
-                                        <i class="fa fa-comment jThree" aria-hidden="true"></i>
-                                        <i class="fa fa-comment-o jFour" aria-hidden="true"></i>
-                                        <i class="fa fa-comment-o jFive" aria-hidden="true"></i>
-                                    </li>
-                                    <li class="rateItem">
-                                         <i class="fa fa-comment angOne" aria-hidden="true"></i>
-                                        <i class="fa fa-comment angTwo" aria-hidden="true"></i>
-                                        <i class="fa fa-comment angThree" aria-hidden="true"></i>
-                                        <i class="fa fa-comment-o angFour" aria-hidden="true"></i>
-                                        <i class="fa fa-comment-o angFive" aria-hidden="true"></i>
-                                    </li>
-                                    <li class="rateItem">
-                                         <i class="fa fa-comment photoOne" aria-hidden="true"></i>
-                                        <i class="fa fa-comment photoTwo" aria-hidden="true"></i>
-                                        <i class="fa fa-comment photoThree" aria-hidden="true"></i>
-                                        <i class="fa fa-comment-o photoFour" aria-hidden="true"></i>
-                                        <i class="fa fa-comment-o photoFive" aria-hidden="true"></i>
-                                    </li>
-                                    <li class="rateItem">
-                                        <i class="fa fa-comment designOne" aria-hidden="true"></i>
-                                        <i class="fa fa-comment designTwo" aria-hidden="true"></i>
-                                        <i class="fa fa-comment designThree" aria-hidden="true"></i>
-                                        <i class="fa fa-comment designFour" aria-hidden="true"></i>
-                                        <i class="fa fa-comment-o designFive" aria-hidden="true"></i>
-                                    </li>
-                                </ul>
-                        </div>
-                    </div> 
-                </div>
-            </section>  
+            </section>
 
             <!-- Contact -->
 
@@ -489,8 +387,10 @@
                
               </div>
             </div>
-      
+
         </div> 
+
+    <!-- script links -->
     <script src="/node_modules/waypoints/lib/noframework.waypoints.min.js"></script>     
     <!--link to JS file-->
     <script   src="https://code.jquery.com/jquery-1.12.4.min.js"   integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="   crossorigin="anonymous"></script>

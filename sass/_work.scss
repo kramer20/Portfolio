@@ -1,16 +1,14 @@
 #work .work{
 	opacity:0;
-	margin-top:130px;
+	//margin-top:130px;
 	// background-color:darken($lightgray, 5);
 }
 
 h1.workIntro{
 	color:$mainpurple;
-	// text-align:center;
 	font-family:$fontOne;
 	font-size:35px;
 	margin-top:44px;	
-	// padding:20px;
 }
 
 li img.park,.marvel,.tee,.bob{
@@ -84,9 +82,9 @@ p.appInfo{
 //animation for blob
 .meWorkFadeAnimation{
 	opacity:0;
-	-webkit-animation:pop-in 1s;
-	-moz-animation:pop-in 1s;
-	animation:pop-in 1s;
+	-webkit-animation:pop-in 0.5s;
+	-moz-animation:pop-in 0.5s;
+	animation:pop-in 0.5s;
 
 	-webkit-animation-duration:1.5s;
 	-moz-animation-duration:1.5s;
