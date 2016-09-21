@@ -80,7 +80,7 @@
               $(".contactScroll").addClass("active"); 
           },
           
-          offset:'22%'
+          offset:'30%'
            
        });
 
