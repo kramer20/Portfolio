@@ -58,7 +58,7 @@ ul.navList li.page-scroll:nth-child(5) a{
   position: absolute;
   width: 100px;
   height: 80px;
-  right: 10px;
+  right: 45px;
   cursor: pointer;
   
   .icon{
@@ -78,11 +78,11 @@ ul.navList li.page-scroll:nth-child(5) a{
       content:'';
     }
   &:before{
-    top: -20px;
+    top: -16px;
     left: 0;
   }
   &:after{
-    top: 20px;
+    top: 16px;
     left: 0;
   }
   
@@ -91,11 +91,11 @@ ul.navList li.page-scroll:nth-child(5) a{
     .icon{
       background-color: $bubblegray;
       &:before{
-        top: -25px;
+        top: -20px;
         background-color: $bubblegray;
       }
       &:after{
-        top: 25px;
+        top: 20px;
         background-color:$bubblegray;
       }
     }
@@ -117,9 +117,15 @@ ul.navList li.page-scroll:nth-child(5) a{
   }
 }
 
+img.emailIconTwo{
+  width:30px;
+  padding:0;
+
+}
+
 #menu{
   z-index: 1;
-  right: 0;
+  right: 38px;
   position: absolute;
   width: 200px;
   height: 0px;
@@ -131,27 +137,31 @@ ul.navList li.page-scroll:nth-child(5) a{
     list-style: none;
     padding: 0;
     font-family:$fontOne;
-    font-size: 17px;
+    font-size: 15px;
     font-weight: bold;
     text-transform: uppercase;
-
   }
   & li:first-child{
-    margin-top: 5px;
+    margin-top: 8px;
   }
-  & li{
+  & li {
+   margin-bottom: 5px;
+  }
+  & li a{
     margin: 14px 0;
     padding: 5px 0;
     cursor: pointer;
     letter-spacing: 0.5em;
     text-decoration: none;
     transition: all 0.25s;
+    color:$bubblegray;
   }
-  & li:hover{
+  & li a:hover{
     text-decoration: none;
   }
   &.active{
     height:200px;
+    color:$mainpurple;
     //border-bottom: 2px solid $bro;
   }
 }

@@ -102,7 +102,7 @@
                scrollTop: $( $(this).attr('href') ).offset().top
            }, 500);
            return false;
-            });
+          });
 
            //function for mobile menu on click
           $(".navToggle").on("click", function(){
