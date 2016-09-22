@@ -1,3 +1,4 @@
+$accentColor:#BE80FF;
 $mainpurple: #6A2CB4;
 $lightgray: #F2F4F7;
 $fontOne:'Shadows Into Light', cursive;
@@ -14,6 +15,7 @@ $bubblegray:#666666;
 body {
 	background-color:$lightgray;
 	overflow-x: hidden;
+
 }
 
 h1.helloIntro {
@@ -29,11 +31,14 @@ h2{
 
 section#intro{
 	height:594px;
+	background-image:url("images/circles.png");
+	
 }
 
 section#about{
 	height:682px;
 }
+
 //moving little blob across screen and fadding in and out
 .leftRight{
 	opacity:0;

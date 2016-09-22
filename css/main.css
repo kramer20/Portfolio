@@ -129,6 +129,10 @@ img.emailIconTwo {
 #work .work {
   opacity: 0; }
 
+.sliderSpot {
+  background-color: white;
+  box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.1); }
+
 h1.workIntro {
   color: #6A2CB4;
   font-family: "Shadows Into Light", cursive;
@@ -1040,7 +1044,8 @@ h2 {
   text-align: center; }
 
 section#intro {
-  height: 594px; }
+  height: 594px;
+  background-image: url("images/circles.png"); }
 
 section#about {
   height: 682px; }
