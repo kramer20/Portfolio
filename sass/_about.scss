@@ -1,15 +1,18 @@
 #about .about {
 	opacity:0;
 }
-.about {
-	//margin-top:130px;
-	// background-color:darken($lightgray,10);
+
+section#about{
+	height:940px;
+	background-image:url("../images/circles.png");
+	background-position:bottom;
+
 }
 
 h1.aboutIntro{
 	color:$mainpurple;
 	text-align:center;
-	font-family:$fontOne;
+	font-family:$fontTwo;
 	font-size:20px;
 	margin-top:-4px;
 	padding:25px;

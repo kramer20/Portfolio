@@ -3,6 +3,7 @@ $mainpurple: #6A2CB4;
 $lightgray: #F2F4F7;
 $fontOne:'Shadows Into Light', cursive;
 $bubblegray:#666666;
+$fontTwo:'Bubbler One', sans-serif;
 
 @import 'nav';
 @import 'work';
@@ -30,13 +31,14 @@ h2{
 }
 
 section#intro{
-	height:594px;
-	background-image:url("images/circles.png");
+	height:874px;
+	background-image:url("../images/circles.png");
+	background-position:bottom;
 	
 }
 
-section#about{
-	height:682px;
+.container-fluid{
+	padding:0;
 }
 
 //moving little blob across screen and fadding in and out

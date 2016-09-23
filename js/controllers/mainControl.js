@@ -92,9 +92,16 @@
           //on click line stays on active nav item
           $("a").click(function(){
                 $("a").removeClass("active");
-                console.log("a");
+                // console.log("a");
                 $(this).addClass("active");
           });
+
+          //on click active section stays purple in nav
+          $("a").click(function(){
+              $("a").removeClass("active");
+              // console.log("a");
+              $(this).addClass("active");
+          })
 
           //function for a smooth transition between different sections
           $('a').click(function(){

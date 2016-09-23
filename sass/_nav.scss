@@ -155,13 +155,16 @@ img.emailIconTwo{
     text-decoration: none;
     transition: all 0.25s;
     color:$bubblegray;
+    &.active{
+      color:rgba(106,44,180,1);
+      transition:border 2000ms ease;
+    }
   }
   & li a:hover{
     text-decoration: none;
   }
   &.active{
     height:200px;
-    color:$mainpurple;
     //border-bottom: 2px solid $bro;
   }
 }

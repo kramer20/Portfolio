@@ -2,7 +2,7 @@
 	overflow:auto;
 	margin:0 auto;
 	padding:0;
-	width:1205px;
+	width:1148px;
 	margin-bottom:10px;}
 .unslider-wrap{
 	position:relative}
@@ -29,7 +29,7 @@
 	border:none}
 .unslider-arrow{
 	position:absolute;
-	left:20px;
+	left:0px;
 	border:4px solid #666666;
 	padding:5px;
 	border-radius:22px;
@@ -39,7 +39,9 @@
 	font-size:18px;
 	cursor:pointer;
 	margin-left:83px;
+	margin-top: -183px;
 	text-decoration: none !important;}
+
 .unslider-arrow.next{
 	left:auto;
 	color:#6A2CB4;
@@ -51,7 +53,7 @@
 	padding:5px;
 	margin-right: 83px;
 	border-radius: 22px;}
-.unslider-horizontal{
+/*.unslider-horizontal{
 	
 	margin-top: 48px;
-}	
+}	*/
