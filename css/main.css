@@ -397,10 +397,6 @@ p.appInfo {
   -moz-animation-delay: 1.5s;
   animation-delay: 1.5s; }
 
-@media screen and (max-width: 1234px) {
-  img#meWorkTwo {
-    margin-left: 400px; } }
-
 #about .about {
   opacity: 0; }
 
@@ -414,8 +410,9 @@ h1.aboutIntro {
   text-align: center;
   font-family: "Bubbler One", sans-serif;
   font-size: 20px;
-  margin-top: -4px;
-  padding: 25px; }
+  margin-top: 8px;
+  padding: 21px;
+  line-height: 1.4em; }
 
 .meAnimation {
   opacity: 0;
@@ -546,6 +543,10 @@ h1.aboutIntro {
   -moz-animation-delay: 1s;
   animation-delay: 1s; }
 
+@media screen and (max-width: 980px) {
+  img#me {
+    margin-right: 188px !important; } }
+
 #contact .contact {
   opacity: 0; }
 
@@ -602,9 +603,9 @@ ul.contactList {
   -webkit-animation-fill-mode: forwards;
   -moz-animation-fill-mode: forwards;
   animation-fill-mode: forwards;
-  -webkit-animation-delay: 3.25s;
-  -moz-animation-delay: 3.25s;
-  animation-delay: 3.25s; }
+  -webkit-animation-delay: 2.5s;
+  -moz-animation-delay: 2.5s;
+  animation-delay: 2.5s; }
 
 @-webkit-keyframes contactItemsFade {
   from {
@@ -653,9 +654,9 @@ ul.contactList {
   -webkit-animation-fill-mode: forwards;
   -moz-animation-fill-mode: forwards;
   animation-fill-mode: forwards;
-  -webkit-animation-delay: 2.5s;
-  -moz-animation-delay: 2.5s;
-  animation-delay: 2.5s; }
+  -webkit-animation-delay: 1.75s;
+  -moz-animation-delay: 1.75s;
+  animation-delay: 1.75s; }
 
 @-webkit-keyframes medContactFade {
   from {
@@ -686,9 +687,9 @@ ul.contactList {
   -webkit-animation-fill-mode: forwards;
   -moz-animation-fill-mode: forwards;
   animation-fill-mode: forwards;
-  -webkit-animation-delay: 2.75s;
-  -moz-animation-delat: 2.75s;
-  animation-delay: 2.75s; }
+  -webkit-animation-delay: 2s;
+  -moz-animation-delat: 2s;
+  animation-delay: 2s; }
 
 @-webkit-keyframes lgContactFade {
   from {
@@ -719,18 +720,18 @@ ul.contactList {
   -webkit-animation-fill-mode: forwards;
   -moz-animation-fill-mode: forwards;
   animation-fill-mode: forwards;
-  -webkit-animation-delay: 3s;
-  -moz-animation-delay: 3s;
-  animation-delay: 3s; }
+  -webkit-animation-delay: 2.25s;
+  -moz-animation-delay: 2.25s;
+  animation-delay: 2.25s; }
 
 .animationFadeTwo {
   opacity: 0;
   -webkit-animation: appear ease-in 1;
   -moz-animation: appear ease-in 1;
   animation: appear ease-in 1;
-  -webkit-animation-duration: .5s;
-  -moz-animation-duration: .5s;
-  animation-duration: .5s;
+  -webkit-animation-duration: .25s;
+  -moz-animation-duration: .25s;
+  animation-duration: .25s;
   -webkit-animation-fill-mode: forwards;
   -moz-animation-fill-mode: forwards;
   animation-fill-mode: forwards; }
@@ -757,9 +758,9 @@ ul.contactList {
   -webkit-animation-name: slideLeft;
   -moz-animation-name: slideLeft;
   animation-name: slideLeft;
-  -webkit-animation-duration: 2s;
-  -moz-animation-duration: 2s;
-  animation-duration: 2s;
+  -webkit-animation-duration: 1.25s;
+  -moz-animation-duration: 1.25s;
+  animation-duration: 1.25s;
   -webkit-animation-timing-function: linear;
   -moz-animation-timing-function: linear;
   animation-timing-function: linear;
@@ -814,11 +815,11 @@ ul.contactList {
   -webkit-box-shadow: 2px 2px 4px #888;
   -moz-box-shadow: 2px 2px 4px #888;
   box-shadow: 2px 2px 4px #888;
-  margin-left: 35%; }
+  margin: 0 auto; }
 
 .medHello {
   content: ' ';
-  margin-left: 39%;
+  margin-left: 37%;
   margin-top: -45px;
   width: 88px;
   height: 88px;
@@ -834,7 +835,7 @@ ul.contactList {
   border: 8px solid #666;
   width: 52px;
   height: 52px;
-  margin-left: 42%;
+  margin-left: 40%;
   margin-top: 15px;
   -webkit-border-radius: 58px;
   -moz-border-radius: 58px;
@@ -857,13 +858,13 @@ ul.contactList {
   box-shadow: 2px 2px 4px #888;
   float: right;
   margin-right: 26%;
-  margin-top: 96px;
+  margin-top: 114px;
   margin-bottom: 40px; }
 
 .medWork {
   content: ' ';
   margin-left: 52%;
-  margin-top: 198px;
+  margin-top: 216px;
   width: 67px;
   height: 67px;
   background-color: #fff;
@@ -879,7 +880,7 @@ ul.contactList {
   width: 47px;
   height: 47px;
   margin-left: 48%;
-  margin-top: 219px;
+  margin-top: 244px;
   -webkit-border-radius: 58px;
   -moz-border-radius: 58px;
   border-radius: 58px;
@@ -887,8 +888,8 @@ ul.contactList {
 
 .aboutBubble {
   position: relative;
-  width: 468px;
-  height: 265px;
+  width: 489px;
+  height: 290px;
   text-align: center;
   line-height: 100px;
   background-color: #fff;
@@ -900,7 +901,7 @@ ul.contactList {
   -moz-box-shadow: 2px 2px 4px #888;
   box-shadow: 2px 2px 4px #888;
   margin-left: 144px;
-  margin-top: 99px; }
+  margin-top: 114px; }
 
 .medAbout {
   content: ' ';
@@ -928,7 +929,7 @@ ul.contactList {
   position: absolute; }
 
 .contactBubble {
-  margin-top: 100px;
+  margin-top: 114px;
   margin-bottom: 30px;
   position: relative;
   width: 262px;
@@ -991,7 +992,7 @@ img#me {
   width: 263px;
   float: right;
   margin-right: 238px;
-  margin-top: 90px; }
+  margin-top: 48px; }
 
 img#meHello {
   width: 146px;
@@ -1000,8 +1001,13 @@ img#meHello {
   -webkit-transform: rotate(180deg);
   /* Chrome, Safari, Opera */
   transform: rotate(180deg);
-  margin-top: 68px;
+  margin-top: 69px;
   margin-left: 30px; }
+
+img#meHelloTwo {
+  width: 146px;
+  margin: 0 auto;
+  display: block; }
 
 img#meWork {
   -ms-transform: rotate(90deg);
@@ -1015,8 +1021,8 @@ img#meWork {
 
 img#meWorkTwo {
   width: 131px;
-  margin-top: -90px;
-  margin-left: 457px; }
+  margin-top: -43px;
+  margin-left: 434px; }
 
 img#meContact {
   width: 125px;
@@ -1083,18 +1089,33 @@ section#intro {
   -webkit-animation-name: slide;
   -moz-animation-name: slide;
   animation-name: slide;
-  -webkit-animation-duration: 4s;
-  -moz-animation-duration: 4s;
-  animation-duration: 4s;
+  -webkit-animation-duration: 2.25s;
+  -moz-animation-duration: 2.25s;
+  animation-duration: 2.25s;
   -webkit-animation-timing-function: linear;
   -moz-animation-timing-function: linear;
   animation-timing-function: linear;
   -webkit-animation-delay: .75s;
-  -moz-animation-delat: .75s;
+  -moz-animation-delay: .75s;
   animation-delay: .75s;
   -webkit-animation-iteration-count: 1;
   -moz-animation-iteration-count: 1;
   animation-iteration-count: 1;
+  -webkit-animation-fill-mode: forwards;
+  -moz-animation-fill-mode: forwards;
+  animation-fill-mode: forwards; }
+
+#meHelloTwo {
+  opacity: 0;
+  -webkit-animation: fadeIn ease-in 1;
+  -moz-animation: fadeIn ease-in 1;
+  animation: fadeIn ease-in 1;
+  -webkit-animation-duration: .5s;
+  -moz-animation-duration: .5s;
+  animation-duration: .5s;
+  -webkit-animation-delay: 3s;
+  -moz-animation-delay: 3s;
+  animation-delay: 3s;
   -webkit-animation-fill-mode: forwards;
   -moz-animation-fill-mode: forwards;
   animation-fill-mode: forwards; }
@@ -1194,9 +1215,9 @@ section#intro {
   -webkit-animation-fill-mode: forwards;
   -moz-animation-fill-mode: forwards;
   animation-fill-mode: forwards;
-  -webkit-animation-delay: 1s;
-  -moz-animation-delay: 1s;
-  animation-delay: 1s; }
+  -webkit-animation-delay: 3.25s;
+  -moz-animation-delay: 3.25s;
+  animation-delay: 3.25s; }
 
 @-webkit-keyframes medBubbleFade {
   from {
@@ -1227,9 +1248,9 @@ section#intro {
   -webkit-animation-fill-mode: forwards;
   -moz-animation-fill-mode: forwards;
   animation-fill-mode: forwards;
-  -webkit-animation-delay: 1.5s;
-  -moz-animation-delat: 1.5s;
-  animation-delay: 1.5s; }
+  -webkit-animation-delay: 3.5s;
+  -moz-animation-delat: 3.5s;
+  animation-delay: 3.5s; }
 
 @-webkit-keyframes lgBubbleFade {
   from {
@@ -1260,6 +1281,68 @@ section#intro {
   -webkit-animation-fill-mode: forwards;
   -moz-animation-fill-mode: forwards;
   animation-fill-mode: forwards;
-  -webkit-animation-delay: 2s;
-  -moz-animation-delay: 2s;
-  animation-delay: 2s; }
+  -webkit-animation-delay: 3.75s;
+  -moz-animation-delay: 3.75s;
+  animation-delay: 3.75s; }
+
+@media screen and (max-width: 1280px) {
+  p.appInfo {
+    font-size: 15px; } }
+
+@media screen and (max-width: 980px) {
+  .smallHello {
+    margin-left: 37%; }
+  .medHello {
+    margin-left: 33%; }
+  img#me {
+    margin-right: 188px !important; }
+  .workBubble {
+    margin-right: 11%; }
+  .medWork {
+    margin-left: 64%; }
+  .smallWork {
+    margin-left: 59%; }
+  img.tee {
+    width: 358px; }
+  img.park, .marvel, .bob {
+    width: 349px; }
+  .unslider-arrow {
+    margin-left: 58px !important; }
+  .unslider-arrow.next {
+    margin-right: 51px !important; }
+  .appLink h6 {
+    font-size: 16px; }
+  li.appSkills h5 {
+    font-size: 14px; }
+  @-webkit-keyframes slideLeft {
+    0% {
+      float: right;
+      opacity: 1; }
+    100% {
+      margin: 0 auto;
+      margin-right: 43%;
+      opacity: 1; } }
+  @-moz-keyframes slideLeft {
+    0% {
+      float: right;
+      opacity: 1; }
+    100% {
+      margin-right: 43%;
+      margin: 0 auto;
+      opacity: 1; } }
+  @keyframes slideLeft {
+    0% {
+      float: right;
+      opacity: 1; }
+    100% {
+      margin: 0 auto;
+      margin-right: 43%;
+      opacity: 1; } } }
+
+@media screen and (max-width: 800px) {
+  .contactBubble {
+    margin-left: 285px; }
+  .medAbout {
+    margin-left: 27%; }
+  .smallAbout {
+    margin-left: 38%; } }

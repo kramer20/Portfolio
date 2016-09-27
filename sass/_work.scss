@@ -1,7 +1,6 @@
 #work .work{
 	opacity:0;
-	//margin-top:130px;
-	// background-color:darken($lightgray, 5);
+	
 }
 
 section#work{
@@ -261,8 +260,3 @@ p.appInfo{
 	animation-delay:1.5s;
 }
 
-@media screen and (max-width: 1234px) {
-	img#meWorkTwo {
-		margin-left: 400px;
-	}
-}

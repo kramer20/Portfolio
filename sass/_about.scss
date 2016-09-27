@@ -14,11 +14,12 @@ h1.aboutIntro{
 	text-align:center;
 	font-family:$fontTwo;
 	font-size:20px;
-	margin-top:-4px;
-	padding:25px;
+	margin-top:8px;
+	padding:21px;
+	line-height:1.4em;
 }
 
-//animation for me blob to appear
+//animation for blob to appear
 .meAnimation{
 	opacity:0;
 	-webkit-animation:fadeMeIn ease-in 1;
@@ -131,4 +132,11 @@ h1.aboutIntro{
 	-webkit-animation-delay:1s;
 	-moz-animation-delay:1s;
 	animation-delay:1s;
+}
+
+//media query 
+@media screen and(max-width:980px){
+	img#me{
+		margin-right:188px !important;
+	}
 }

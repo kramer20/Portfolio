@@ -24,7 +24,7 @@ img#me{
 	width:263px;
 	float:right;
 	margin-right:238px;
-	margin-top:90px;
+	margin-top:48px;
 }
 // hello blob
 img#meHello{
@@ -32,8 +32,14 @@ img#meHello{
 	 -ms-transform: rotate(180deg); /* IE 9 */
     -webkit-transform: rotate(180deg); /* Chrome, Safari, Opera */
 	transform:rotate(180deg);
-	margin-top:68px;
+	margin-top:69px;
 	margin-left:30px;
+}
+
+img#meHelloTwo{
+	width:146px;
+	margin:0 auto;
+	display:block;
 }
 // work blob
 img#meWork{
@@ -49,8 +55,8 @@ img#meWork{
 //work blob number 2
 img#meWorkTwo{
 	width:131px;
-	margin-top:-90px;
-	margin-left:457px;
+	margin-top:-43px;
+	margin-left:434px;
 }
 
 // contact blob

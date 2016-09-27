@@ -13,7 +13,7 @@
       //animation for about section
        var waypoint = new Waypoint({
        		element: document.getElementById('about'),
-       		handler: function(){
+       		handler: function(direction){
             // alert('hi');
               $('#about .about').css('opacity', 100);
               $('.smallAbout').addClass('animated smallAboutAnimation');
@@ -22,9 +22,19 @@
               $('#me').addClass('animated meAnimation');
               $(".navList a").removeClass("active");
               $(".aboutScroll").addClass("active"); 
+              if(direction=="down")
+              {
+                $(".navList a").removeClass("active");
+                $(".aboutScroll").addClass("active"); 
+              }
+              else
+              {
+                $(".navList a").removeClass("active");
+                $(".workScroll").addClass("active"); 
+              }
        		},
           
-          offset:'5%'
+          offset:'8%'
           
            
        });
@@ -59,7 +69,7 @@
               $(".workScroll").addClass("active"); 
           },
           
-          // offset:'5%'
+          offset:'8%'
            
        });
 
@@ -67,8 +77,9 @@
        //animations for contact section
        var waypointFour = new Waypoint({
           element: document.getElementById('contact'),
-          handler: function(){
+          handler: function(direction){
             // alert('hi');
+            
               $('#contact .contact').css('opacity', 100);
               $('.smallContact').addClass('animated smallContactAnimation');
               $('.medContact').addClass('animated medContactAnimation');
@@ -76,8 +87,16 @@
               $('#meContact').addClass('animated animationSlideLeft');
               $('.rightLeft').addClass('animated animationFadeTwo');
               $('.contactCol').addClass('animated contactItemsAnimation');
-              $(".navList a").removeClass("active");
-              $(".contactScroll").addClass("active"); 
+              if(direction=="down")
+              {
+                $(".navList a").removeClass("active");
+                $(".contactScroll").addClass("active"); 
+              }
+              else
+              {
+                $(".navList a").removeClass("active");
+                $(".aboutScroll").addClass("active"); 
+              }
           },
           
           offset:'30%'
@@ -89,25 +108,20 @@
            $('.my-slider').unslider();
           });
 
-          //on click line stays on active nav item
-          $("a").click(function(){
-                $("a").removeClass("active");
-                // console.log("a");
-                $(this).addClass("active");
-          });
-
-          //on click active section stays purple in nav
-          $("a").click(function(){
-              $("a").removeClass("active");
-              // console.log("a");
-              $(this).addClass("active");
-          })
+          // //on click line stays on active nav item
+          // $("a").click(function(){
+          //       $("a").removeClass("active");
+          //       // console.log("a");
+          //       $(this).addClass("active");
+          // });
 
           //function for a smooth transition between different sections
           $('a').click(function(){
           $('html, body').animate({
-               scrollTop: $( $(this).attr('href') ).offset().top
+               scrollTop: $( $(this).attr('href') ).offset().top+20
            }, 500);
+          $("a").removeClass("active");
+          $(this).addClass("active");
            return false;
           });
 

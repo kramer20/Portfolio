@@ -62,16 +62,16 @@ section#intro{
 	-moz-animation-name:slide;
 	animation-name:slide;
 
-	-webkit-animation-duration:4s;
-	-moz-animation-duration:4s;
-	animation-duration:4s;
+	-webkit-animation-duration:2.25s;
+	-moz-animation-duration:2.25s;
+	animation-duration:2.25s;
 
 	-webkit-animation-timing-function:linear;
 	-moz-animation-timing-function:linear;
 	animation-timing-function:linear;
 
 	-webkit-animation-delay:.75s;
-	-moz-animation-delat:.75s;
+	-moz-animation-delay:.75s;
 	animation-delay:.75s;
 
 	-webkit-animation-iteration-count:1;
@@ -82,6 +82,25 @@ section#intro{
     -moz-animation-fill-mode:forwards;
 	animation-fill-mode:forwards;
 	}
+
+#meHelloTwo{
+	opacity:0;
+	-webkit-animation:fadeIn ease-in 1;
+	-moz-animation:fadeIn ease-in 1;
+	animation:fadeIn ease-in 1;
+
+	-webkit-animation-duration:.5s;
+	-moz-animation-duration:.5s;
+	animation-duration:.5s;
+
+	-webkit-animation-delay:3s;
+	-moz-animation-delay:3s;
+	animation-delay:3s;
+
+	-webkit-animation-fill-mode:forwards;  
+    -moz-animation-fill-mode:forwards;
+	animation-fill-mode:forwards;
+}
 
 @-webkit-keyframes fadeIn{
 	from { opacity:0; } to { opacity:1; } 
@@ -188,9 +207,9 @@ section#intro{
     -moz-animation-fill-mode:forwards;
 	animation-fill-mode:forwards;
 
-	-webkit-animation-delay:1s;
-	-moz-animation-delay:1s;
-	animation-delay:1s;
+	-webkit-animation-delay:3.25s;
+	-moz-animation-delay:3.25s;
+	animation-delay:3.25s;
 }
 
 @-webkit-keyframes medBubbleFade{
@@ -217,9 +236,9 @@ section#intro{
     -moz-animation-fill-mode:forwards;
 	animation-fill-mode:forwards;
 
-	-webkit-animation-delay:1.5s;
-	-moz-animation-delat:1.5s;
-	animation-delay:1.5s;
+	-webkit-animation-delay:3.5s;
+	-moz-animation-delat:3.5s;
+	animation-delay:3.5s;
 }
 
 @-webkit-keyframes lgBubbleFade{
@@ -246,7 +265,107 @@ section#intro{
     -moz-animation-fill-mode:forwards;
 	animation-fill-mode:forwards;
 
-	-webkit-animation-delay:2s;
-	-moz-animation-delay:2s;
-	animation-delay:2s;
+	-webkit-animation-delay:3.75s;
+	-moz-animation-delay:3.75s;
+	animation-delay:3.75s;
+}
+
+//media queries
+@media screen and(max-width:1280px){
+	// .unslider {
+	// 	width: 1094px !important;
+	// }
+	p.appInfo {
+		font-size:15px;
+	}
+}
+
+@media screen and(max-width:980px){
+	.smallHello{
+		margin-left:37%;
+	}
+	.medHello{
+		margin-left: 33%;
+	}
+	img#me{
+		margin-right:188px !important;
+	}
+	.workBubble{
+		margin-right:11%;
+	}
+	.medWork{
+		margin-left:64%;
+	}
+	.smallWork{
+		margin-left: 59%;
+	}
+	img.tee{
+		width:358px;
+	}
+	img.park, .marvel, .bob{
+		width:349px;	
+	}
+	.unslider-arrow{
+		margin-left: 58px !important;
+	}
+	.unslider-arrow.next{
+		margin-right: 51px !important;
+	}
+	.appLink h6{
+		font-size: 16px;
+	}
+	li.appSkills h5{
+		font-size: 14px;
+	}
+	@-webkit-keyframes slideLeft {
+	0% {
+		float:right;
+		
+		opacity:1;
+	}
+
+	100% {
+		margin:0 auto;
+		margin-right:43%;
+		opacity:1;
+	}
+}
+
+@-moz-keyframes slideLeft {
+	0% {
+		float:right;
+		opacity:1;
+	}
+	
+	100% {
+		margin-right:43%;
+		margin:0 auto;
+		opacity:1;
+	}
+}
+
+@keyframes slideLeft {
+	0% {
+		float:right;
+		opacity:1;
+	}
+	
+	100% {
+		margin:0 auto;
+		margin-right:43%;
+		opacity:1;
+	}
+}
+}
+
+@media screen and(max-width:800px){
+	.contactBubble{
+		margin-left: 285px;
+	}
+	.medAbout{
+		margin-left: 27%;
+	}
+	.smallAbout{
+		margin-left: 38%;
+	}
 }
