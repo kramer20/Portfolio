@@ -1285,6 +1285,33 @@ section#intro {
   -moz-animation-delay: 3.75s;
   animation-delay: 3.75s; }
 
+@-webkit-keyframes slideLeft {
+  0% {
+    float: right;
+    opacity: 1; }
+  100% {
+    margin: 0 auto;
+    margin-right: 43%;
+    opacity: 1; } }
+
+@-moz-keyframes slideLeft {
+  0% {
+    float: right;
+    opacity: 1; }
+  100% {
+    margin-right: 43%;
+    margin: 0 auto;
+    opacity: 1; } }
+
+@keyframes slideLeft {
+  0% {
+    float: right;
+    opacity: 1; }
+  100% {
+    margin: 0 auto;
+    margin-right: 43%;
+    opacity: 1; } }
+
 @media screen and (max-width: 1280px) {
   p.appInfo {
     font-size: 15px; } }
@@ -1313,31 +1340,7 @@ section#intro {
   .appLink h6 {
     font-size: 16px; }
   li.appSkills h5 {
-    font-size: 14px; }
-  @-webkit-keyframes slideLeft {
-    0% {
-      float: right;
-      opacity: 1; }
-    100% {
-      margin: 0 auto;
-      margin-right: 43%;
-      opacity: 1; } }
-  @-moz-keyframes slideLeft {
-    0% {
-      float: right;
-      opacity: 1; }
-    100% {
-      margin-right: 43%;
-      margin: 0 auto;
-      opacity: 1; } }
-  @keyframes slideLeft {
-    0% {
-      float: right;
-      opacity: 1; }
-    100% {
-      margin: 0 auto;
-      margin-right: 43%;
-      opacity: 1; } } }
+    font-size: 14px; } }
 
 @media screen and (max-width: 800px) {
   .contactBubble {
@@ -1345,4 +1348,83 @@ section#intro {
   .medAbout {
     margin-left: 27%; }
   .smallAbout {
-    margin-left: 38%; } }
+    margin-left: 38%; }
+  img#meHelloTwo {
+    margin-left: 43%; }
+  img#meWorkTwo {
+    margin-left: 309px; }
+  .medWork {
+    margin-left: 58%; }
+  .smallWork {
+    margin-left: 55%; }
+  img.park, .marvel, .bob {
+    width: 255px; }
+  img.tee {
+    width: 260px; }
+  img.view {
+    width: 25px; }
+  h2.appAbout, .appUsed, .viewApp {
+    font-size: 21px; }
+  .appLink h6 {
+    font-size: 13px; }
+  img.usedOne {
+    width: 30px; }
+  section#work {
+    height: 1096px; }
+  .unslider-arrow.next {
+    right: -4px !important; }
+  .appLink h6 {
+    font-size: 15px; }
+  img.aboutOne {
+    width: 49px; } }
+
+@media screen and (max-width: 768px) {
+  img#meWorkTwo {
+    margin-left: 294px; } }
+
+@media screen and (max-width: 360px) {
+  h1.helloIntro {
+    font-size: 24px;
+    margin-top: 25px; }
+  .helloBubble {
+    width: 341px; }
+  .medHello {
+    margin-left: 17%;
+    margin-top: -62px; }
+  .smallHello {
+    margin-left: 29%;
+    margin-top: -3px; }
+  .medWork {
+    margin-top: 224px; }
+  .smallWork {
+    margin-top: 263px; }
+  img#meWorkTwo {
+    margin: 0 auto;
+    display: block;
+    margin-top: -271px; }
+  .unslider {
+    display: none; }
+  .aboutBubble {
+    height: 340px;
+    margin-left: 22px;
+    width: 316px; }
+  h1.aboutIntro {
+    font-size: 17px; }
+  .medAbout {
+    width: 91px;
+    height: 91px;
+    margin-left: 18%; }
+  .smallAbout {
+    margin-left: 26%;
+    margin-top: 9px; }
+  img#me {
+    width: 225px;
+    margin-right: 49px !important; }
+  .contactBubble {
+    margin-left: 40px; }
+  .medContact {
+    margin-left: 24%; }
+  .smallContact {
+    margin-left: 32%; }
+  img#meContact {
+    margin-right: 35% !important; } }
