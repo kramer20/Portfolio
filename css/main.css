@@ -1408,6 +1408,8 @@ h3.mobileTitle {
   h1.helloIntro {
     font-size: 24px;
     margin-top: 25px; }
+  img#meWork {
+    display: none; }
   .helloBubble {
     width: 341px; }
   .medHello {
@@ -1423,7 +1425,9 @@ h3.mobileTitle {
   img#meWorkTwo {
     margin: 0 auto;
     display: block;
-    margin-top: -271px; }
+    margin-top: 0px;
+    padding-top: 10px;
+    width: 105px; }
   .aboutBubble {
     height: 340px;
     margin-left: 22px;
